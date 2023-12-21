@@ -167,13 +167,13 @@ img[src*="dice"] {
   font-size: var(--content-size) !important;
 }
 
-.MuiPaper-elevation1:nth-child(2) > div:nth-child(3) {
-  /** 下の余白 */
-  padding-bottom: var(--content-bottom-space) !important;
+.sc-leeitB{
+	/** 下の余白 */
+  padding-bottom: 50px !important;
   /** 左の余白 */
-  padding-left: var(--content-left-space) !important;
+  padding-left: 50px !important;
   /** 右の余白 */
-  padding-right: var(--content-right-space) !important;
-  /** テキストボックスの縦幅 */
-  height: var(--content-height) !important;
+  padding-right: 50px !important;
+  /** 縦 */
+  height: 800px !important;
 }
