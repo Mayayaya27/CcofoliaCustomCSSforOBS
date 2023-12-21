@@ -26,13 +26,13 @@
   **************************/
   /** ◆◆◆ウィンドウ◆◆◆ */
   /** width */
-  --dice-win-width: 1000px;
+  --dice-win-width: 900px;
   /** 背景色 */
   --dice-win-background: rgba(22, 22, 22, 255);
   /** 枠線 */
   --dice-win-border: solid 0px white;
   /** 角の丸み */
-  --dice-win-radius: 20px;
+  --dice-win-radius: 10px;
 
   /** ◆◆◆ダイス画像◆◆◆ */
   /** display dice*/
@@ -58,7 +58,7 @@
   /** 文字サイズ */
   --midashi-size: 24px;
   /** 上の余白 */
-  --midashi-top-space: 45px;
+  --midashi-top-space: 35px;
   /** 下の余白 */
   --midashi-bottom-space: 5px;
   /** 左の余白 */
@@ -74,7 +74,7 @@
   /** 文字サイズ */
   --dice-result-size: 24px;
   /** 上の余白 */
-  --dice-result-top-space:45px;
+  --dice-result-top-space:35px;
   /** 下の余白 */
   --dice-result-bottom-space: 5px;
   /** 左の余白 */
