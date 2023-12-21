@@ -58,11 +58,11 @@
   /** 文字サイズ */
   --midashi-size: 24px;
   /** 上の余白 */
-  --midashi-top-space: 15px;
+  --midashi-top-space: 45px;
   /** 下の余白 */
   --midashi-bottom-space: 15px;
   /** 左の余白 */
-  --midashi-left-space: 15px;
+  --midashi-left-space: 45px;
 
   /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント */
@@ -74,11 +74,11 @@
   /** 文字サイズ */
   --dice-result-size: 24px;
   /** 上の余白 */
-  --dice-result-top-space:15px;
+  --dice-result-top-space:45px;
   /** 下の余白 */
   --dice-result-bottom-space: 15px;
   /** 左の余白 */
-  --dice-result-left-space: 15px;
+  --dice-result-left-space: 45px;
 
   /** ◆◆◆内容◆◆◆ */
   /** フォント */
@@ -92,9 +92,9 @@
   /** 下の余白 */
   --content-bottom-space: 10px;
   /** 左の余白 */
-  --content-left-space: 15px;
+  --content-left-space: 45px;
   /** 右の余白 */
-  --content-right-space: 15px;
+  --content-right-space: 45px;
   /** テキストボックスの縦幅 */
   --content-height: 110px;
 }
