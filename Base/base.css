@@ -10,6 +10,7 @@
   --screenPanel-display: block;
   --markerPanel-display: block;
   --charaIcon-display: block;
+  
   --background-display: block;
 
   --displayAll-height: 100%;
@@ -62,7 +63,6 @@ div[open] {
 div[tabindex="0"]>div:nth-child(1) {
   display: var(--f-s-m-c-display) !important;
 }
-
 
 
 /*only foreground*/
