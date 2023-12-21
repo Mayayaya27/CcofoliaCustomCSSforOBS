@@ -58,7 +58,7 @@
   /** 文字サイズ */
   --midashi-size: 24px;
   /** 上の余白 */
-  --midashi-top-space: 20px;
+  --midashi-top-space: 30px;
   /** 下の余白 */
   --midashi-bottom-space: 0px;
   /** 左の余白 */
@@ -74,7 +74,7 @@
   /** 文字サイズ */
   --dice-result-size: 24px;
   /** 上の余白 */
-  --dice-result-top-space:20px;
+  --dice-result-top-space:30px;
   /** 下の余白 */
   --dice-result-bottom-space: 0px;
   /** 左の余白 */
