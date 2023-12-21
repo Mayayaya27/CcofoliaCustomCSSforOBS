@@ -146,3 +146,15 @@ p.MuiTypography-root {
     display: block !important;
 }
 
+.MuiList-root>div:nth-child(1) {
+  height: 100% !important;
+}
+
+.MuiList-root>div:nth-child(1)>div {
+  bottom: 0;
+  top: auto !important;
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+8)>div {
+    display: block !important;
+}
