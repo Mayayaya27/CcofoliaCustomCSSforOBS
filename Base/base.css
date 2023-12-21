@@ -10,6 +10,11 @@
   --markerPanel-display: block;
   --charaIcon-display: block;
   --background-display: block;
+
+  --displayAll-height: 100%;
+  --displayAll-width: 100%;
+  --displayAll-top: 0px;
+  --displayAll-left: 0px;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
