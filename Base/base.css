@@ -1,10 +1,13 @@
 :root{
+  --statusWindow-display: block;
+  --messageWindow-display: block
   --cutIn-display: block;
   --foreground-display: block;
   --background-display: block;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
 
 [role="presentation"] {display: none;}/*CM*/
 
@@ -14,18 +17,27 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 div[tabindex="0"]>div+div:nth-child(3) {display: none}/*MusicSlider*/
 div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 .MuiButtonBase-root.MuiFab-root {display: none;}/*PencilMark*/
-
-.MuiDialog-paper {display: none;}/*ChatWindow*/
 .MuiBackdrop-root {display: none;}/*BlackLayer*/
 
-.kTIUpi {display: none;}/*StatusWindow*/
+/*ChatWindow*/
+.MuiDialog-paper {
+  display: none;
+}
+
+/*StatusWindow*/
+.kTIUpi {
+  display: var(--statusWindow-display);
+}
 
 /*CutIn*/
 div[open] {
   display: var(--cutIn-display) !important;
 }
 
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {display: none;}/*MessageWindow*/
+/*MessageWindow*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
+  display: var(--messageWindow-display);
+}
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {display: none;}/*MessageWindowImage*/
 .MuiButtonBase-root.MuiIconButton-root  {display: none;}/*MessageWindowButtons*/
 ::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
