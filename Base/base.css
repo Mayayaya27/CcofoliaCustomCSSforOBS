@@ -55,7 +55,7 @@ div[open] {
 
 /*foreground, screenpanel, markerpanel, charaIcons*/
 div[tabindex="0"]>div:nth-child(1) {
-  display: var(--f-s-m-c-diplay);
+  display: var(--f-s-m-c-diplay) !important;
 }
 
 /*only foreground*/
