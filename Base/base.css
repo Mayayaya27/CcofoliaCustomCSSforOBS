@@ -1,5 +1,7 @@
 :root{
-  --background-display: none;
+  --cutIn-display: block;
+  --foreground-display: block;
+  --background-display: block;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -18,22 +20,31 @@ div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 
 .kTIUpi {display: none;}/*StatusWindow*/
 
+/*CutIn*/
+div[open] {
+  display: var(--cutIn-display) !important;
+}
+
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {display: none;}/*MessageWindow*/
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {display: none;}/*MessageWindowImage*/
 .MuiButtonBase-root.MuiIconButton-root  {display: none;}/*MessageWindowButtons*/
 ::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
 
 div[tabindex="0"]>div:nth-child(1) {display: none;}/*前景・スクリーンパネル・マーカーパネル・キャラ駒全て*/
-div[tabindex="0"]>div>div>div>div>div>div:nth-child(1) {display: none;}/*前景のみ*/
+
+/*only foreground*/
+div[tabindex="0"]>div>div>div>div>div>div:nth-child(1){
+  display: var(foreground-display) !important;
+}
 .sc-dkuFWL {display: none;}/*スクリーンパネル*/
 .sc-iXeHOc {display: none;}/*マーカーパネル*/
 .sc-bUQxUO {display: none;}/*キャラ駒*/
 .sc-jLqQTn {display: none;}/*キャラ駒Name*/
 
+/*BackGround*/
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
   display: var(--background-display) !important;
-}/*背景*/
-div[open] {display: none !important;}/*CutIn*/
+}
 
 /*全体の配置*/
 div[tabindex="0"] {
