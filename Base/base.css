@@ -1,5 +1,5 @@
 :root{
-  --background: display: none;
+  --background: none;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -31,7 +31,7 @@ div[tabindex="0"]>div>div>div>div>div>div:nth-child(1) {display: none;}/*前景�
 .sc-jLqQTn {display: none;}/*キャラ駒Name*/
 
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
-  var(--background-display) !important;
+  display: var(--background-display) !important;
 }/*背景*/
 div[open] {display: none !important;}/*CutIn*/
 
