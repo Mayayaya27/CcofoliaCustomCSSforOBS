@@ -15,6 +15,7 @@
   --displayAll-width: 100%;
   --displayAll-top: 0px;
   --displayAll-left: 0px;
+  --displayAll-scale: scale(1, 1);
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -91,10 +92,11 @@ div[tabindex="0"]>div>div>div>div>div>div:nth-child(1){
 /*全体の配置*/
 div[tabindex="0"] {
 /*％を入力して、描画する範囲の指定。見切れている駒は描画されません*/
-  height: 100% !important;/*画面全体描画する縦幅*/
-  width: 100% !important;/*画面全体描画する横幅*/
+  height: var(--displayAll-height) !important;/*画面全体描画する縦幅*/
+  width: var(--displayAll-width) !important;/*画面全体描画する横幅*/
 
   position: absolute;/*ここは触らない*/
-  top: 0px;/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
-  left: 0px;/*横に何ピクセルずらすか指定。マイナスも入力できます*/
+  top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
+  left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
+  transform: var(--displayAll-scale);
 }
