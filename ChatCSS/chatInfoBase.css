@@ -54,6 +54,10 @@ form > div {
   width: 100%;
 }
 
+.MuiList-root>div:nth-child(1) {
+  height: 100% !important;
+}
+
 hr {
   display: none;
 }
@@ -172,10 +176,6 @@ p.MuiTypography-root {
     to {
         opacity: 0;
     }
-}
-
-.MuiList-root>div:nth-child(1) {
-  height: 100% !important;
 }
 
 .MuiList-root>div:nth-child(1)>div {
