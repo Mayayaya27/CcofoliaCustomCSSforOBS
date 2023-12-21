@@ -60,7 +60,7 @@
   /** 上の余白 */
   --midashi-top-space: 45px;
   /** 下の余白 */
-  --midashi-bottom-space: 15px;
+  --midashi-bottom-space: 5px;
   /** 左の余白 */
   --midashi-left-space: 45px;
 
@@ -76,7 +76,7 @@
   /** 上の余白 */
   --dice-result-top-space:45px;
   /** 下の余白 */
-  --dice-result-bottom-space: 15px;
+  --dice-result-bottom-space: 5px;
   /** 左の余白 */
   --dice-result-left-space: 45px;
 
