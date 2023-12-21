@@ -38,9 +38,9 @@
   /** display dice*/
   --disp-dice-picture: block;
   /** サイズ設定 */
-  --dice-pic-size: 70px;
+  --dice-pic-size: 75px;
   /** 上下位置の調整 */
-  --dice-pic-y: 0%;
+  --dice-pic-y: 100%;
   /** 左側のスペースの幅 */
   --dice-pic-left-space: 200px;
   /** 右側のスペースの幅 */
