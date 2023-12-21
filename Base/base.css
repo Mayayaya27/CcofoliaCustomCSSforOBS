@@ -2,6 +2,7 @@
   --chatWindow-display: block;
   --statusWindow-display: block;
   --messageWindow-display: block;
+  --messageWindowImage-display: none;
   --cutIn-display: block;
 
   --f-s-m-c-display: block;
@@ -52,7 +53,7 @@ div[open] {
 }
 /*MessageWindowImage*/
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
-  display: none;
+  display: var(--messageWindowImage-display);
 }
 /*MessageWindowButtons*/
 .MuiButtonBase-root.MuiIconButton-root  {
