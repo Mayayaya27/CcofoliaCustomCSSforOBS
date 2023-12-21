@@ -32,13 +32,13 @@
   /** 枠線 */
   --dice-win-border: solid 0px white;
   /** 角の丸み */
-  --dice-win-radius: 10px;
+  --dice-win-radius: 20px;
 
   /** ◆◆◆ダイス画像◆◆◆ */
   /** display dice*/
   --disp-dice-picture: block;
   /** サイズ設定 */
-  --dice-pic-size: 75px;
+  --dice-pic-size: 85px;
   /** 上下位置の調整 */
   --dice-pic-y: 100%;
   /** 左側のスペースの幅 */
