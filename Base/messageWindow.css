@@ -20,18 +20,19 @@
   --displayAll-left: 0px;
   --displayAll-scale: scale(1, 1);
 
+  
   /**************************
    ダイスウィンドウの設定
   **************************/
   /** ◆◆◆ウィンドウ◆◆◆ */
   /** 横幅 */
-  --dice-win-width: 750px;
+  --dice-win-width: 1000px;
   /** 背景色 */
   --dice-win-background: rgba(22, 22, 22, 255);
   /** 枠線 */
   --dice-win-border: solid 0px white;
   /** 角の丸み */
-  --dice-win-radius: 20px;
+  --dice-win-radius: 40px;
 
   /** ◆◆◆ダイス画像◆◆◆ */
   /** サイズ設定 */
@@ -55,7 +56,7 @@
   /** 文字サイズ */
   --midashi-size: 22px;
   /** 上の余白 */
-  --midashi-top-space: 50px;
+  --midashi-top-space: 15px;
   /** 下の余白 */
   --midashi-bottom-space: 15px;
   /** 左の余白 */
@@ -71,7 +72,7 @@
   /** 文字サイズ */
   --dice-result-size: 22px;
   /** 上の余白 */
-  --dice-result-top-space:50px;
+  --dice-result-top-space:15px;
   /** 下の余白 */
   --dice-result-bottom-space: 15px;
   /** 左の余白 */
