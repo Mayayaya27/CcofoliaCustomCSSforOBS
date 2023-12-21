@@ -34,7 +34,7 @@
   /** ステータス同士の距離（横） */
   --space-between-status: 10px;
    /** Margin Between Status(Bottom) */
-  --space-between-bottom: 20px;
+  --space-between-bottom: 30px;
   /**************************
     ステータス（個別）
   **************************/
