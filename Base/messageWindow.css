@@ -56,7 +56,7 @@
   /** フォントの太さ(normal or bold) */
   --midashi-font-weight: bold;
   /** 文字サイズ */
-  --midashi-size: 24px;
+  --midashi-size: 20px;
   /** 上の余白 */
   --midashi-top-space: 40px;
   /** 下の余白 */
@@ -72,7 +72,7 @@
   /** フォントの太さ(normal or bold) */
   --dice-result-font-weight: normal;
   /** 文字サイズ */
-  --dice-result-size: 24px;
+  --dice-result-size: 20px;
   /** 上の余白 */
   --dice-result-top-space:40px;
   /** 下の余白 */
