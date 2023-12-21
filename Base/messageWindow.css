@@ -35,6 +35,8 @@
   --dice-win-radius: 40px;
 
   /** ◆◆◆ダイス画像◆◆◆ */
+  /** display dice*/
+  --disp-dice-picture: block;
   /** サイズ設定 */
   --dice-pic-size: 70px;
   /** 上下位置の調整 */
