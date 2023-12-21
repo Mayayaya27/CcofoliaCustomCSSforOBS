@@ -28,11 +28,13 @@
    ステータス（全体）
  **************************/
   /** ステータスの横幅 */
-  --width-status: 800px;
+  --width-status: 130px;
   /** ステータスの行間 */
   --height-status: 25px;
   /** ステータス同士の距離（横） */
   --space-between-status: 10px;
+   /** Margin Between Status(Bottom) */
+  --space-between-bottom: 20px;
   /**************************
     ステータス（個別）
   **************************/
@@ -189,7 +191,7 @@ div[open],
   display: flex !important;
   margin-right: var(--space-between-status) !important;
   margin-left: 0px; !important;
-  margin-bottom: 50px; !important;
+  margin-bottom: var(--space-between-bottom); !important;
   vertical-align: top;
   width: calc(var(--max-width) + 20px) !important;
 }
