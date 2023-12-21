@@ -1,14 +1,20 @@
 :root{
+  --chatWindow-display: block;
   --statusWindow-display: block;
   --messageWindow-display: block
   --cutIn-display: block;
+
+  --f-s-m-c-diplay: block;
   --foreground-display: block;
+  --screenPanel-display: block;
+  --markerPanel-display: block;
+  --charaIcon-display: block;
   --background-display: block;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
-
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
 [role="presentation"] {display: none;}/*CM*/
 
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root {display: none;}/*TopMenu*/
@@ -21,7 +27,7 @@ div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 
 /*ChatWindow*/
 .MuiDialog-paper {
-  display: none;
+  display: var(--chatWindow-display);
 }
 
 /*StatusWindow*/
@@ -38,20 +44,33 @@ div[open] {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
   display: var(--messageWindow-display);
 }
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {display: none;}/*MessageWindowImage*/
-.MuiButtonBase-root.MuiIconButton-root  {display: none;}/*MessageWindowButtons*/
-::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
+/*MessageWindowImage*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
+  display: none;
+}
+/*MessageWindowButtons*/
+.MuiButtonBase-root.MuiIconButton-root  {
+  display: none;
+}
 
-div[tabindex="0"]>div:nth-child(1) {display: none;}/*前景・スクリーンパネル・マーカーパネル・キャラ駒全て*/
+/*foreground, screenpanel, markerpanel, charaIcons*/
+div[tabindex="0"]>div:nth-child(1) {
+  display: none;
+}
 
 /*only foreground*/
 div[tabindex="0"]>div>div>div>div>div>div:nth-child(1){
   display: var(foreground-display) !important;
 }
-.sc-dkuFWL {display: none;}/*スクリーンパネル*/
-.sc-iXeHOc {display: none;}/*マーカーパネル*/
-.sc-bUQxUO {display: none;}/*キャラ駒*/
-.sc-jLqQTn {display: none;}/*キャラ駒Name*/
+
+/*ScreenPanel*/
+.sc-dkuFWL {display: none;}
+/*MarkerPanel*/
+.sc-iXeHOc {display: none;}
+/*CharaIcon*/
+.sc-bUQxUO {display: none;}
+/*CharaIconName*/
+.sc-jLqQTn {display: none;}
 
 /*BackGround*/
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
