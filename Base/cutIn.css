@@ -13,8 +13,9 @@
   --charaIcon-display: none;
   --background-display: none;
   
-  --displayAll-height: 100%;
+  --displayAll-height: 200%;
   --displayAll-width: 100%;
-  --displayAll-top: 0px;
+  --displayAll-top: -600px;
   --displayAll-left: 0px;
+  --displayAll-scale: scale(1.5, 1.5);
 }
