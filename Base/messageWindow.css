@@ -28,7 +28,7 @@
   /** width */
   --dice-win-width: 1000px;
 　/** height */
-  --dice-win-height: 500px;
+  --dice-win-height: 110px;
   /** 背景色 */
   --dice-win-background: rgba(22, 22, 22, 255);
   /** 枠線 */
@@ -179,5 +179,5 @@ img[src*="dice"] {
   /** 右の余白 */
   padding-right: var(--content-right-space) !important;
   /** height */
-  height: var(--dice-win-height) !important;
+  height: var(--dice-win-height);
 }
