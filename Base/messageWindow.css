@@ -135,6 +135,7 @@ img[src*="dice"] {
   /** 左の余白 */
   padding-left: var(--midashi-left-space) !important;
 }
+
 .MuiToolbar-gutters {
   padding-left: 0px !important;
 }
@@ -170,12 +171,12 @@ img[src*="dice"] {
 }
 
 .sc-leeitB{
-	/** 下の余白 */
-  padding-bottom: 50px !important;
+  /** 下の余白 */
+  padding-bottom: var(--content-bottom-space) !important;
   /** 左の余白 */
-  padding-left: 50px !important;
+  padding-left: var(--content-left-space) !important;
   /** 右の余白 */
-  padding-right: 50px !important;
+  padding-right: var(--content-right-space) !important;
   /** 縦 */
   height: var(--dice-win-height) !important;
 }
