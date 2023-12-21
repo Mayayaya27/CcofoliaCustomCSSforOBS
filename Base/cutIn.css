@@ -12,4 +12,9 @@
   --markerPanel-display: none;
   --charaIcon-display: none;
   --background-display: none;
+  
+  --displayAll-height: 100%;
+  --displayAll-width: 100%;
+  --displayAll-top: 0px;
+  --displayAll-left: 0px;
 }
