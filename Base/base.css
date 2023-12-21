@@ -4,7 +4,7 @@
   --messageWindow-display: block;
   --cutIn-display: block;
 
-  --f-s-m-c-diplay: block;
+  --f-s-m-c-display: block;
   --foreground-display: block;
   --screenPanel-display: block;
   --markerPanel-display: block;
@@ -55,12 +55,12 @@ div[open] {
 
 /*foreground, screenpanel, markerpanel, charaIcons*/
 div[tabindex="0"]>div:nth-child(1) {
-  display: var(--f-s-m-c-diplay) !important;
+  display: var(--f-s-m-c-display) !important;
 }
 
 /*only foreground*/
 div[tabindex="0"]>div>div>div>div>div>div:nth-child(1){
-  display: var(foreground-display) !important;
+  display: var(--foreground-display) !important;
 }
 
 /*ScreenPanel*/
