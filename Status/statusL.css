@@ -9,7 +9,7 @@
   /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
   /*--disp-icon: none;*/
   /** アイコンの大きさ */
-  --icon-size: 90px;
+  --icon-size: 85px;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 8px;
   /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
