@@ -177,6 +177,10 @@ img[src*="dice"] {
   padding-left: var(--content-left-space) !important;
   /** 右の余白 */
   padding-right: var(--content-right-space) !important;
-  /** 縦 */
+}
+
+/*Window's*/
+.MuiPaper-root.MuiPaper-elevation{
+  /** height */
   height: var(--dice-win-height) !important;
 }
