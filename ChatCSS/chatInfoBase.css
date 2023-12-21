@@ -141,7 +141,7 @@ p.MuiTypography-root {
 }
 
 .MuiListItemText-primary{
-  display: flex;
+  display: block;
 }
 
 .MuiTypography-caption {
