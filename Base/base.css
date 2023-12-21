@@ -55,7 +55,7 @@ div[open] {
 
 /*foreground, screenpanel, markerpanel, charaIcons*/
 div[tabindex="0"]>div:nth-child(1) {
-  display: none;
+  display: var(--f-s-m-c-diplay);
 }
 
 /*only foreground*/
@@ -64,11 +64,17 @@ div[tabindex="0"]>div>div>div>div>div>div:nth-child(1){
 }
 
 /*ScreenPanel*/
-.sc-dkuFWL {display: none;}
+.sc-dkuFWL {
+  display: var(--screenPanel-display);
+}
 /*MarkerPanel*/
-.sc-iXeHOc {display: none;}
+.sc-iXeHOc {
+  display: var(--markerPanel-display);
+}
 /*CharaIcon*/
-.sc-bUQxUO {display: none;}
+.sc-bUQxUO {
+  display: var(--charaIcon-display);
+}
 /*CharaIconName*/
 .sc-jLqQTn {display: none;}
 
