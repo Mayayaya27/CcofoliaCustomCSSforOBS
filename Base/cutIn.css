@@ -1,0 +1,15 @@
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Base/base.css");
+
+:root{
+  --chatWindow-display: none;
+  --statusWindow-display: none;
+  --messageWindow-display: none;
+  --cutIn-display: block;
+
+  --f-s-m-c-display: none;
+  --foreground-display: none;
+  --screenPanel-display: none;
+  --markerPanel-display: none;
+  --charaIcon-display: none;
+  --background-display: none;
+}
