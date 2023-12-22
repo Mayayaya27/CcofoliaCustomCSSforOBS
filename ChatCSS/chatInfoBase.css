@@ -73,7 +73,7 @@ hr {
   background-size: cover;
   box-sizing: border-box;
   box-shadow: var(--border-shadow);
-  align-items: center;
+  align-items: flex-start;
 }
 
 .MuiPaper-root.MuiPaper-elevation{
@@ -138,6 +138,7 @@ p.MuiTypography-root {
 .MuiTypography-caption {
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
+  font-size: 20px;
 }
 
 .MuiListItemText-primary{
