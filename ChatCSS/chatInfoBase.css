@@ -66,6 +66,7 @@ hr {
 }
 
 .MuiListItem-root {
+  display: flex !important;
   padding: var(--background-padding);
   background: var(--background-color);
   border: solid var(--border-width) var(--border-color);
@@ -76,7 +77,7 @@ hr {
   background-size: cover;
   box-sizing: border-box;
   box-shadow: var(--border-shadow);
-  align-items: center;
+  align-items: center !important;
 }
 
 .MuiPaper-root.MuiPaper-elevation{
@@ -121,8 +122,8 @@ p.MuiTypography-root,
 }
 
 p.MuiTypography-root {
-  display: -webkit-box;
-  -webkit-box-orient: horizontal;
+  display: -webkit-box !important;
+  -webkit-box-pack: vertical !important;
   -webkit-line-clamp: var(--line-clamp);
 }
 
