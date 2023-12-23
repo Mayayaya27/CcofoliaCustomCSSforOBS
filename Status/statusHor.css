@@ -9,7 +9,7 @@
   --placement-icon-status: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-197px, 155px);
+  --initiative-transform: translate(-132px, 155px);
   --initiative-radius: 33px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 22px;
@@ -25,7 +25,7 @@
   --height-status: 25px;
   
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 40px;
+  --space-between-status: 60px;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
   
