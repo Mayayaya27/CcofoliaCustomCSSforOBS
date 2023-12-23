@@ -201,7 +201,7 @@
 }
 
 .fIhGJt > div:nth-child(1) > p:nth-child(1) {
-      top: var(--top-total) !important;
+  top: var(--top-total) !important;
 
   font-family: var(--item-font-family) !important;
   font-size: var(--item-font-size) !important;
@@ -240,12 +240,4 @@
   /** ステータスをひし形にした際に左側の角が見切れないようにする設定 */
   margin-left: 10px !important;
   max-width: var(--max-width) !important;
-}
-
-::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
-
-/*中心に合わせる*/
-div[tabindex="0"] {
-  width: 100% !important;
-  height: 110% !important;
 }
