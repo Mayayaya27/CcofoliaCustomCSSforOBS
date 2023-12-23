@@ -161,6 +161,6 @@ p.MuiTypography-root {
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
-    display: flex !important;
-
+  display: flex !important;
+  vertical-align: top;
 }
