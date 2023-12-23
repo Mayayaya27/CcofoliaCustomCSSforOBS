@@ -66,7 +66,6 @@ hr {
 }
 
 .MuiListItem-root {
-  display: flex !important;
   padding: var(--background-padding);
   background: var(--background-color);
   border: solid var(--border-width) var(--border-color);
@@ -80,6 +79,7 @@ hr {
   align-items: center !important;
 }
 
+/*Drop Shadow*/
 .MuiPaper-root.MuiPaper-elevation{
   box-shadow: none !important;
 }
@@ -108,7 +108,7 @@ hr {
   width: var(--width) !important;
   position: static !important;
   flex-shrink: 0;
-  margin: 5px;
+  margin: 10px;
 }
 
 .MuiListItemText-root {
@@ -122,8 +122,8 @@ p.MuiTypography-root,
 }
 
 p.MuiTypography-root {
-  display: -webkit-box !important;
-  -webkit-box-pack: vertical !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
   -webkit-line-clamp: var(--line-clamp);
 }
 
@@ -139,15 +139,12 @@ p.MuiTypography-root {
   text-shadow: var(--font-color-fail-shadow);
 }
 
-.MuiListItemText-primary,
-.MuiTypography-caption {
+.MuiListItemText-primary {
+  display: none;
+}
+.MuiListItemText-primary {
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
-  font-size: 25px;
-}
-
-.MuiListItemText-primary{
-  display: block;
 }
 
 .MuiTypography-caption {
