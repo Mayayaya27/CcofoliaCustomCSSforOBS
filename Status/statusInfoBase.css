@@ -21,14 +21,9 @@
   --displayAll-scale: scale(1, 1);
 }
 
-/**************************
- 設定変更箇所
-**************************/
-
+/*Set Roots*/
 :root {
-  /**************************
-   アイコン
- **************************/
+  /*****Icons*****/
   /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
   /*--disp-icon: none;*/
   /** アイコンの大きさ */
@@ -134,48 +129,6 @@
   --item-outline-color: rgba(255, 255, 255, 1);
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
-}
-
-/**************************
- OBS用のおまじない
-**************************/
-body {
-  background-color: rgba(0, 0, 0, 0);
-  margin: 0px auto;
-  overflow: hidden;
-}
-
-/**************************
- 非表示要素の設定
-**************************/
-/** もろもろ */
-#root>div>div>div:nth-child(-n+3),
-/** ダイスウィンドウ */
-.MuiPaper-elevation1,
-/** タイマー */
-.MuiPaper-elevation5,
-/** 編集ボタン */
-.MuiFab-root,
-/** ツールバー */
-.MuiToolbar-regular,
-/** チャット欄 */
-.MuiDrawer-paper,
-/** 盤面サイズボタン */
-div[tabindex="0"]>div:nth-child(5),
-/** カットインの削除 */
-div[open],
-/** ダイス結果 */
-.MuiPaper-elevation,
-/** チャット入力欄の削除 */
-.MuiPaper-root > form,
-/** 監視モード注釈の削除 */
-.MuiSnackbar-root {
-  display: none !important;
-}
-
-/** 広告の削除 */
-.MuiDialog-root {
-  display: none !important;
 }
 
 /**************************
@@ -319,10 +272,7 @@ div[open],
   top: 12px !important;
   margin-left: 20px !important;
 }
-
-::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
-
-
+  
 #root {
   width: 1920px !important
 }
