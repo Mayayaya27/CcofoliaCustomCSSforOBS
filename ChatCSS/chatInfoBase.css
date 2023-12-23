@@ -41,7 +41,7 @@
   --image-radius: 0%;
   --width: 500px;
   --line-clamp: 32;/*行数*/
-  --scale-everything: 1.5px;
+  --textbox-right-margin: 20px;
 }
 
 .MuiDrawer-root>.MuiPaper-root {
@@ -105,7 +105,7 @@ hr {
 
 /*Text Box Set Margin Right*/
 .MuiListItemText-root.MuiListItemText-multiline{
-  margin-right: 20px;
+  margin-right: var(--textbox-right-margin);
 }
 
 .MuiList-root>div:nth-child(1)>div>div>div {
