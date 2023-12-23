@@ -57,6 +57,8 @@
   /**************************
    ステータス（全体）
  **************************/
+  /**Status Transform*/
+  --status-transform: translate(0px, 0px);
   /** ステータスの横幅 */
   --width-status: 130px;
   /** ステータスの行間 */
@@ -257,7 +259,7 @@
 }
 
 .fIhGJt > div:nth-child(1) > p:nth-child(1) {
-      top: var(--top-total) !important;
+  top: var(--top-total) !important;
 
   font-family: var(--item-font-family) !important;
   font-size: var(--item-font-size) !important;
@@ -291,6 +293,7 @@
 }
 
 .CBQPq {
+  transform: var(--status-transform);
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
 }
