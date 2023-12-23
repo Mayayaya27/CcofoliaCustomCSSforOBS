@@ -159,15 +159,6 @@
 /**************************
 　デザイン
 **************************/
-/* イニシアティブ */
-.MuiBadge-badge {
-  transform: var(--initiative-transform);
-  height: var(--initiative-radius);
-  min-width: var(--initiative-radius);
-  border-radius: var(--initiative-border-radius);
-  font-size: var(--initiative-font-size);
-}
-
 /* アイコン画像 */
 .MuiBadge-root {
   display: var(--disp-icon) !important;
@@ -175,6 +166,15 @@
   margin-right: var(--icon-position-y1) !important;
   margin-bottom: var(--icon-position-x2) !important;
   margin-left: var(--icon-position-y2) !important;
+}
+
+/* イニシアティブ */
+.MuiBadge-badge {
+  transform: var(--initiative-transform);
+  height: var(--initiative-radius);
+  min-width: var(--initiative-radius);
+  border-radius: var(--initiative-border-radius);
+  font-size: var(--initiative-font-size);
 }
 
 .MuiBadge-root>div {
@@ -299,7 +299,7 @@
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
   margin-left: var(--statusAll-margin) !important;
-  max-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
+  width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
 }
 
 .kTIUpi{
