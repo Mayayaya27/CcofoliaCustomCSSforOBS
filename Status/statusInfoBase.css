@@ -47,6 +47,13 @@
   /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
   --icon-position-y2: 0px;
   /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
+
+  /*****Initiative*****/
+  --initiative-transform: translate(-52px, 52px);
+  --initiative-radius: 33px;
+  --initiative-border-radius: 23px;
+  --initiative-font-size: 22px;
+  
   /**************************
    ステータス（全体）
  **************************/
@@ -150,11 +157,11 @@
 **************************/
 /* イニシアティブ */
 .MuiBadge-badge {
-  transform: translate(-52px, 52px);
-  height: 33px !important;
-  min-width: 33px !important;
-  border-radius: 23px !important;
-  font-size: 22px !important;
+  transform: var(--initiative-transform);
+  height: var(--initiative-radius);
+  min-width: var(--initiative-radius);
+  border-radius: var(--initiative-border-radius);
+  font-size: var(--initiative-font-size);
 }
 
 /* アイコン画像 */
