@@ -174,8 +174,8 @@
 }
 
 .MuiBadge-root>div {
-  border: var(icon-border);
-  background: var(icon-background);
+  border: var(--icon-border);
+  background: var(--icon-background);
 }
 
 .MuiAvatar-root {
