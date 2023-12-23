@@ -2,7 +2,7 @@
 
 .MuiListItem-gutters {
     animation:
-        fadeIn  2s ease 0s,
+        fadeIn  1s ease 0s,
         /* 7sを変えると表示されてる秒数が変わります。最低2s */
         fadeOut 2s ease 15s forwards;
 }
