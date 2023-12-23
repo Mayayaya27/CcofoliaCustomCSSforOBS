@@ -35,8 +35,8 @@
   /*Icon's Border*/
   --icon-border: 0px;
   
-  /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
-  /*--placement-icon-status: inline-flex;/*
+  /** Align Icons and Status: flex=>VerNor inline-flex=>HorNor,none */
+  --placement-icon-status: flex;
   /** アイコンの位置調整(縦) */
   --icon-position-x1: 0px;
   /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
@@ -185,7 +185,7 @@
 }
 
 .cvAzaT {
-  display: flex !important;
+  display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
   margin-left: 0px; !important;
   margin-bottom: var(--space-between-bottom); !important;
