@@ -19,6 +19,8 @@
  **************************/
   /**Status Transform*/
   --status-transform: translate(30px, -10px);
+  /** Status All Margin */
+  --statusAll-margin: -100px;
   /** ステータスの横幅 */
   --width-status: 130px;
   /** ステータスの行間 */
