@@ -90,13 +90,13 @@
   /** 文字サイズ */
   --content-size: 22px;
   /** 下の余白 */
-  --content-bottom-space: 10px;
+  --content-bottom-space: 20px;
   /** 左の余白 */
   --content-left-space: 45px;
   /** 右の余白 */
   --content-right-space: 45px;
   /** テキストボックスの縦幅 */
-  --content-height: 110px;
+  --content-height: 100px;
 }
 
 /** ウィンドウ */
