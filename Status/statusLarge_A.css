@@ -7,7 +7,7 @@
    アイコン
  **************************/
   /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
-  /*--disp-icon: none;*/
+  --disp-icon: flex;
   /** アイコンの大きさ */
   --icon-size: 85px;
   /** アイコンの角の丸み：50%⇒正円 */
@@ -54,6 +54,12 @@
   --left-space-status5: 23px;
   --left-space-status6: 0px;
   */
+  --1stStatus-display: block;
+  --2ndStatus-display: block;
+  --3rdStatus-display: block;
+  --4thStatus-display: block;
+  --5thStatus-display: block;
+  --6thStatus-display: block;
 
   /** ステータスの横幅＋位置調整の最大値以上に設定してください */
   --max-width: 180px;
@@ -214,14 +220,17 @@ div[open],
 }
 
 .fIhGJt:nth-child(4) {
+  display: var(--4thStatus-display);
   margin-left: var(--left-space-status4) !important;
 }
 
 .fIhGJt:nth-child(5) {
+  display: var(--5thStatus-display);
   margin-left: var(--left-space-status5) !important;
 }
 
 .fIhGJt:nth-child(6) {
+  display: var(--6thStatus-display);
   margin-left: var(--left-space-status6) !important;
 }
 
