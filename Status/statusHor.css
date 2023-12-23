@@ -34,7 +34,7 @@
   **************************/
   --1stStatus-display: block;
   --2ndStatus-display: block;
-  --3rdStatus-display: block;
+  --3rdStatus-display: none;
   --4thStatus-display: none;
   --5thStatus-display: none;
   --6thStatus-display: none;
@@ -43,6 +43,6 @@
   --columAmount: 1;
 
   /**** Everything ****/
-  --all-top: 0px;
-  --all-left: 25px;
+  --all-top: -20px;
+  --all-left: 35px;
 }
