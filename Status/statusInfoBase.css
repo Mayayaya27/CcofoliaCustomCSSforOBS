@@ -35,8 +35,8 @@
   /*Icon's Border*/
   --icon-border: 0px;
   
-  /** Align Icons and Status: flex=>VerNor inline-flex=>HorNor,none */
-  --placement-icon-status: flex;
+  /** Align Icons and Status: inline-flex=>HorNor inline-block=>VerNor */
+  --placement-icon-status: inline-flex;
   /** アイコンの位置調整(縦) */
   --icon-position-x1: 0px;
   /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
