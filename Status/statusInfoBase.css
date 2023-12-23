@@ -301,3 +301,9 @@
   margin-left: var(--statusAll-margin) !important;
   width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
 }
+
+/** Transfor All */
+.kTIUpi{
+  top: 25px;
+  overflow: visible;
+}
