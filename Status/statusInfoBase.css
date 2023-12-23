@@ -45,7 +45,7 @@
   /** アイコンの位置調整(横) */
   --icon-position-y1: 0px;
   /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
-  --icon-position-y2: 0px;
+  --icon-position-y2: 30px;
   /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /*****Initiative*****/
@@ -65,9 +65,9 @@
   --width-status: 130px;
   /** ステータスの行間 */
   --height-status: 25px;
+  
   /** Margin Between Status(Horizontal) */
   --space-between-status: 10px;
- 
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
   /**************************
@@ -300,8 +300,4 @@
   overflow-y: visible !important;
   margin-left: var(--statusAll-margin) !important;
   width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
-}
-
-.kTIUpi{
-  padding: 20px 20px 20px 0px !important;
 }
