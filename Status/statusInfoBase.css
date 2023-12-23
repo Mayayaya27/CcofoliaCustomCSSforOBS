@@ -26,7 +26,7 @@
   /*****Icons*****/
   /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
   --disp-icon: flex;
-  /** アイコンの大きさ */
+  /** Icon's Size */
   --icon-size: 85px;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 8px;
