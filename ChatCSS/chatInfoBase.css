@@ -43,18 +43,18 @@
   --line-clamp: 32;/*行数*/
 }
 
-/* 吹き出し */
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6{
-  display: none !important;
+.MuiDrawer-root>.MuiPaper-root {
+  width: 100%;
+}
+
+/* ヘッダー */
+.MuiDrawer-root>.MuiPaper-root>header {
+  display: none;
 }
 
 /* Input Window */
 form > div {
   display: none !important;
-}
-
-.MuiDrawer-root>.MuiPaper-root {
-  width: 100%;
 }
 
 hr {
