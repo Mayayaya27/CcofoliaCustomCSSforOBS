@@ -26,7 +26,7 @@
   /*****Icons*****/
   /** Icon's Size */
   --icon-size: 120px;
-  /** Align Icons and Status: inline-flex=>HorNor inline-block=>VerNor */
+  /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
   --placement-icon-status: inline-block;
 
   /*****Initiative*****/
@@ -39,7 +39,7 @@
    ステータス（全体）
  **************************/
   /**Status Transform*/
-  --status-transform: translate(50px, -25px);
+  --status-transform: translate(40px, -15px);
   /** ステータスの横幅 */
   --width-status: 130px;
   /** ステータスの行間 */
