@@ -59,6 +59,8 @@
  **************************/
   /**Status Transform*/
   --status-transform: translate(0px, 0px);
+  /** Status All Margin */
+  --statusAll-margin: 0px;
   /** ステータスの横幅 */
   --width-status: 130px;
   /** ステータスの行間 */
@@ -291,10 +293,12 @@
   color: var(--futei-font-color) !important;
 }
 
+
 .CBQPq {
   transform: var(--status-transform);
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
+  margin-left: var(--statusAll-margin) !important;
   max-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
 }
 
