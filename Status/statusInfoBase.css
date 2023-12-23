@@ -25,7 +25,7 @@
 :root {
   /*****Icons*****/
   /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
-  /*--disp-icon: none;*/
+  --disp-icon: flex;
   /** アイコンの大きさ */
   --icon-size: 85px;
   /** アイコンの角の丸み：50%⇒正円 */
@@ -49,8 +49,9 @@
   --width-status: 130px;
   /** ステータスの行間 */
   --height-status: 25px;
-  /** ステータス同士の距離（横） */
+  /** Margin Between Status(Horizontal) */
   --space-between-status: 10px;
+ 
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
   /**************************
@@ -72,9 +73,16 @@
   --left-space-status5: 23px;
   --left-space-status6: 0px;
   */
+  --1stStatus-display: block;
+  --2ndStatus-display: block;
+  --3rdStatus-display: block;
+  --4thStatus-display: block;
+  --5thStatus-display: block;
+  --6thStatus-display: block;
 
-  /** ステータスの横幅＋位置調整の最大値以上に設定してください */
-  --max-width: 180px;
+  /** Colum Amount */
+  --columAmount: 1;
+  
   /**************************
     ステータス（最大値）
   **************************/
@@ -131,6 +139,7 @@
   --status-outline-color: rgba(255, 255, 255, 1);
 }
 
+
 /**************************
 　デザイン
 **************************/
@@ -169,7 +178,7 @@
   margin-left: 0px; !important;
   margin-bottom: var(--space-between-bottom); !important;
   vertical-align: top;
-  width: calc(var(--max-width) + 20px) !important;
+  width: calc((var(--width-status) + var(--space-between-status))* var(--columAmount) + var(--icon-size)) !important;
 }
 
 .fIhGJt {
@@ -178,26 +187,32 @@
 }
 
 .fIhGJt:nth-child(1) {
+  display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
 }
 
 .fIhGJt:nth-child(2) {
+  display: var(--2ndStatus-display);
   margin-left: var(--left-space-status2) !important;
 }
 
 .fIhGJt:nth-child(3) {
+  display: var(--3rdStatus-display);
   margin-left: var(--left-space-status3) !important;
 }
 
 .fIhGJt:nth-child(4) {
+  display: var(--4thStatus-display);
   margin-left: var(--left-space-status4) !important;
 }
 
 .fIhGJt:nth-child(5) {
+  display: var(--5thStatus-display);
   margin-left: var(--left-space-status5) !important;
 }
 
 .fIhGJt:nth-child(6) {
+  display: var(--6thStatus-display);
   margin-left: var(--left-space-status6) !important;
 }
 
@@ -272,7 +287,10 @@
   top: 12px !important;
   margin-left: 20px !important;
 }
-  
+
+::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
+
+
 #root {
-  width: 1920px !important
+  width: 1920px !important;
 }
