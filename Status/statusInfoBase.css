@@ -156,7 +156,7 @@
 
   /**** Everything ****/
   --all-top: 25px;
-  --all-right: 30px;
+  --all-left: 30px;
 }
 
 
@@ -309,6 +309,6 @@
 /** Transfor All */
 .kTIUpi{
   top: var(--all-top);
-  right: var(--all-right);
+  left: var(--all-left);
   overflow: visible;
 }
