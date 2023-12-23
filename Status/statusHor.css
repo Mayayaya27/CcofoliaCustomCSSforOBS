@@ -9,7 +9,7 @@
   --placement-icon-status: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-0px, -0px);
+  --initiative-transform: translate(-130px, 130px);
   --initiative-radius: 33px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 22px;
@@ -25,7 +25,7 @@
   --height-status: 25px;
   
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 10px;
+  --space-between-status: 20px;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
   
@@ -35,9 +35,9 @@
   --1stStatus-display: block;
   --2ndStatus-display: block;
   --3rdStatus-display: block;
-  --4thStatus-display: block;
-  --5thStatus-display: block;
-  --6thStatus-display: block;
+  --4thStatus-display: none;
+  --5thStatus-display: none;
+  --6thStatus-display: none;
 
   /** Colum Amount */
   --columAmount: 1;
