@@ -45,7 +45,7 @@
   /** アイコンの位置調整(横) */
   --icon-position-y1: 0px;
   /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
-  --icon-position-y2: 30px;
+  --icon-position-y2: 0px;
   /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /*****Initiative*****/
@@ -153,6 +153,10 @@
   --item-outline-color: rgba(255, 255, 255, 1);
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
+
+  /**** Everything ****/
+  --all-top: 25px;
+  --all-right: 30px;
 }
 
 
@@ -304,6 +308,7 @@
 
 /** Transfor All */
 .kTIUpi{
-  top: 25px;
+  top: var(--all-top);
+  right: var(--all-right);
   overflow: visible;
 }
