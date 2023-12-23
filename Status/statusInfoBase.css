@@ -30,6 +30,11 @@
   --icon-size: 85px;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 8px;
+  /*Icon's BackGround*/
+  --icon-background: rgb(0, 0, 0, 0);
+  /*Icon's Border*/
+  --icon-border: 0px;
+  
   /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
   /*--placement-icon-status: inline-flex;/*
   /** アイコンの位置調整(縦) */
@@ -162,8 +167,8 @@
 }
 
 .MuiBadge-root>div {
-  border: 0px !important;
-  background: rgb(0, 0, 0, 0) !important;
+  border: var(icon-border);
+  background: var(icon-background);
 }
 
 .MuiAvatar-root {
