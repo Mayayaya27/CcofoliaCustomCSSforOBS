@@ -25,9 +25,9 @@
 :root {
   /*****Icons*****/
   /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
-  --disp-icon: flex;
+  --disp-icon: inline-flex;
   /** アイコンの大きさ */
-  --icon-size: 150px;
+  --icon-size: 120px;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 8px;
   /*Icon's BackGround*/
@@ -35,8 +35,8 @@
   /*Icon's Border*/
   --icon-border: 0px;
   
-  /** Align Icons and Status: flex=>VerNor inline-flex=>HorNor,none */
-  --placement-icon-status: inline-flex;
+  /** Align Icons and Status: inline-flex=>HorNor inline-block=>VerNor */
+  --placement-icon-status: inline-block;
   /** アイコンの位置調整(縦) */
   --icon-position-x1: 0px;
   /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
@@ -49,7 +49,7 @@
   /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /*****Initiative*****/
-  --initiative-transform: translate(-52px, 52px);
+  --initiative-transform: translate(-87px, 87px);
   --initiative-radius: 33px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 22px;
@@ -57,6 +57,8 @@
   /**************************
    ステータス（全体）
  **************************/
+  /**Status Transform*/
+  --status-transform: translate(50px, -50px);
   /** ステータスの横幅 */
   --width-status: 130px;
   /** ステータスの行間 */
