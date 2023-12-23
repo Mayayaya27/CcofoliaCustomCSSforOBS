@@ -120,14 +120,6 @@
   --status-outline-color: rgba(255, 255, 255, 1);
 }
 
-/**************************
- OBS用のおまじない
-**************************/
-body {
-  background-color: rgba(0, 0, 0, 0);
-  margin: 0px auto;
-  overflow: hidden;
-}
 
 /**************************
  非表示要素の設定
