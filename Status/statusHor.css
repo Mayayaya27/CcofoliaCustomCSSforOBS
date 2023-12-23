@@ -1,6 +1,4 @@
-/**************************
- 設定変更箇所
-**************************/
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Status/statusInfoBase.css");
 
 :root {
   /**************************
@@ -109,48 +107,6 @@
   --item-outline-color: rgba(255, 255, 255, 1);
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
-}
-
-/**************************
- OBS用のおまじない
-**************************/
-body {
-  background-color: rgba(0, 0, 0, 0);
-  margin: 0px auto;
-  overflow: hidden;
-}
-
-/**************************
- 非表示要素の設定
-**************************/
-/** もろもろ */
-#root>div>div>div:nth-child(-n+3),
-/** ダイスウィンドウ */
-.MuiPaper-elevation1,
-/** タイマー */
-.MuiPaper-elevation5,
-/** 編集ボタン */
-.MuiFab-root,
-/** ツールバー */
-.MuiToolbar-regular,
-/** チャット欄 */
-.MuiDrawer-paper,
-/** 盤面サイズボタン */
-div[tabindex="0"]>div:nth-child(5),
-/** カットインの削除 */
-.iKpVKW,
-/** ダイス結果 */
-.MuiPaper-elevation,
-/** チャット入力欄の削除 */
-.MuiPaper-root > form,
-/** 監視モード注釈の削除 */
-.MuiSnackbar-root {
-  display: none !important;
-}
-
-/** 広告の削除 */
-.MuiDialog-root {
-  display: none !important;
 }
 
 /**************************
