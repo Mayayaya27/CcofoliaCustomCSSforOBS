@@ -208,14 +208,17 @@ div[open],
 }
 
 .fIhGJt:nth-child(1) {
+  display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
 }
 
 .fIhGJt:nth-child(2) {
+  display: var(--2ndStatus-display);
   margin-left: var(--left-space-status2) !important;
 }
 
 .fIhGJt:nth-child(3) {
+  display: var(--3rdStatus-display);
   margin-left: var(--left-space-status3) !important;
 }
 
