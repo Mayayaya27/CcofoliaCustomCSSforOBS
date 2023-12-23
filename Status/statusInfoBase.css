@@ -295,7 +295,7 @@
   transform: var(--status-transform);
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
-  max-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount) + 20px);
+  max-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
 }
 
 .kTIUpi{
