@@ -67,7 +67,7 @@ hr {
 }
 
 .MuiListItem-root {
-  padding: calc(var(--background-padding) * var(--scale-everything));
+  padding: var(--background-padding);
   background: var(--background-color);
   border: solid var(--border-width) var(--border-color);
   border-radius: var(--border-radius);
