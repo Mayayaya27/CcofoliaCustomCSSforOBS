@@ -95,7 +95,7 @@
   --6thStatus-display: block;
 
   /** Colum Amount */
-  --columAmount: 2;
+  --columAmount: 1;
   
   /**************************
     ステータス（最大値）
@@ -184,10 +184,6 @@
   width: var(--icon-size) !important;
   height: var(--icon-size) !important;
   border-radius: var(--icon-radius) !important;
-}
-
-[variant="bar"] {
-  max-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount) + var(--icon-size) + 20px);
 }
 
 .cvAzaT {
@@ -299,6 +295,7 @@
   transform: var(--status-transform);
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
+  max-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount) + var(--icon-size) + 20px);
 }
 
 .kTIUpi{
