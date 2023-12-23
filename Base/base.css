@@ -71,9 +71,10 @@ div[tabindex="0"]>div:nth-child(1) {
 }
 
 /*ScreenPanel*/
-.sc-dkuFWL {
+.gUTVFx {
   display: var(--screenPanel-display);
 }
+
 /*MarkerPanel*/
 .sc-iXeHOc {
   display: var(--markerPanel-display);
