@@ -1,1 +1,22 @@
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Base/base.css");
 
+:root {
+/*base.css*/
+  --chatWindow-display: none;
+  --statusWindow-display: block;
+  --messageWindow-display: none;
+  --cutIn-display: none;
+
+  --f-s-m-c-display: none !important;
+  --foreground-display: none !important;
+  --screenPanel-display: none !important!;
+  --markerPanel-display: none !important;
+  --charaIcon-display: none !important;
+  --background-display: none !important;
+
+  --displayAll-height: 100%;
+  --displayAll-width: 100%;
+  --displayAll-top: 0px;
+  --displayAll-left: 0px;
+  --displayAll-scale: scale(1, 1);
+}
