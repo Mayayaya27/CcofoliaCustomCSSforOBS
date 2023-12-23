@@ -25,7 +25,7 @@
 :root {
   /*****Icons*****/
   /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
-  --disp-icon: flex;
+  --disp-icon: inline-flex;
   /** Icon's Size */
   --icon-size: 85px;
   /** アイコンの角の丸み：50%⇒正円 */
@@ -35,8 +35,8 @@
   /*Icon's Border*/
   --icon-border: 0px;
   
-  /** Align Icons and Status: inline-flex=>HorNor inline-block=>VerNor */
-  --placement-icon-status: inline-flex;
+  /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
+  --placement-icon-status: flex;
   /** アイコンの位置調整(縦) */
   --icon-position-x1: 0px;
   /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
