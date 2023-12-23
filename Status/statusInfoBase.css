@@ -24,7 +24,7 @@
 /*Set Roots*/
 :root {
   /*****Icons*****/
-  /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
+  /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
   --disp-icon: flex;
   /** アイコンの大きさ */
   --icon-size: 85px;
@@ -298,11 +298,4 @@
 .kTIUpi{
   top: 12px !important;
   margin-left: 20px !important;
-}
-
-::-webkit-scrollbar {display: none !important;}/*MessageWindowScrollBar*/
-
-
-#root {
-  width: 1920px !important;
 }
