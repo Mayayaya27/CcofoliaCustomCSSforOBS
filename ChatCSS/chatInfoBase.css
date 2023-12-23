@@ -76,7 +76,6 @@ hr {
   background-size: cover;
   box-sizing: border-box;
   box-shadow: var(--border-shadow);
-  align-items: center !important;
 }
 
 /*Drop Shadow*/
@@ -86,6 +85,8 @@ hr {
 
 .MuiListItemAvatar-alignItemsFlexStart {
   margin: 0px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .MuiListItemAvatar-root>div {
@@ -101,6 +102,11 @@ hr {
   font-size: var(--font-size)
 }
 
+/*Text Box Set Margin Right*/
+.MuiListItemText-root.MuiListItemText-multiline{
+  margin-right: 15px;
+}
+
 .MuiList-root>div:nth-child(1)>div>div>div {
   display: none;
   height: auto !important;
@@ -108,7 +114,8 @@ hr {
   width: var(--width) !important;
   position: static !important;
   flex-shrink: 0;
-  margin: 10px;
+  margin: 5px;
+  margin-left: 20px;
 }
 
 .MuiListItemText-root {
@@ -140,7 +147,8 @@ p.MuiTypography-root {
 }
 
 .MuiListItemText-primary {
-  display: none;
+  display: block;
+  font-size: 20px;
 }
 .MuiListItemText-primary {
   color: var(--font-color);
@@ -162,6 +170,4 @@ p.MuiTypography-root {
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
   display: flex !important;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
