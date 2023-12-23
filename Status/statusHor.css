@@ -9,7 +9,7 @@
   --placement-icon-status: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-130px, 130px);
+  --initiative-transform: translate(-117px, 85px);
   --initiative-radius: 33px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 22px;
@@ -18,7 +18,7 @@
    ステータス（全体）
  **************************/
   /**Status Transform*/
-  --status-transform: translate(30px, -10px);
+  --status-transform: translate(40px, -10px);
   /** ステータスの横幅 */
   --width-status: 130px;
   /** ステータスの行間 */
@@ -41,4 +41,8 @@
 
   /** Colum Amount */
   --columAmount: 1;
+
+  /**** Everything ****/
+  --all-top: 0px;
+  --all-left: 25px;
 }
