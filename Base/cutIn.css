@@ -19,3 +19,7 @@
   --displayAll-left: 0px;
   --displayAll-scale: scale(1.5, 1.5);
 }
+
+div[open] {
+  background: rgba(0, 0, 0, 0.8);
+}
