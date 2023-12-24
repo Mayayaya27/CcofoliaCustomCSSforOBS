@@ -21,16 +21,16 @@
   --icon-position-y2: 0px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /* Initiative */
- --initiative-size: 30px;
- --initiative-font-size: 20px;
- --initiative-transform: translate(40px, 0px);
- --initiative-border-radius: 15px;
+ --initiative-size: 35px;
+ --initiative-font-size: 25px;
+ --initiative-transform: translate(50px, -15px);
+ --initiative-border-radius: 20px;
  
   /**************************
    ステータス（全体）
  **************************/
   /** ステータスの横幅 */
-  --width-status: 200px;
+  --width-status: 170px;
   /** ステータスの行間 */
   --height-status: 40px;
   /** ステータス同士の距離 */
@@ -48,7 +48,7 @@
   --image-total: url(https://gazounoURL); /** ステータス背景を画像にしたい場合 */
   --opacity-total: 0.6; /** 不透明度 */
   --degree-total: 0deg; /** 角の角度 */
-  --radius-total: 3px; /** 角の丸み */
+  --radius-total: 6px; /** 角の丸み */
   --statusAll-transform: translate(30px, 0px);
 
   /**************************
@@ -59,14 +59,14 @@
   --color-remain: rgb(255, 255, 255); /** 色 */
   --opacity-remain: 1; /** 不透明度 */
   --degree-remain: 0deg; /** 角の角度 */
-  --radius-remain: 3px; /** 角の丸み */
+  --radius-remain: 6px; /** 角の丸み */
 
   /**************************
    文字
  **************************/
   /** ステータス文字の周りの余白(上,下,左,右) */
-  --status-padding-top: 3px;
-  --status-padding-bottom: 3px;
+  --status-padding-top: 5px;
+  --status-padding-bottom: 5px;
   --status-padding-left: 10px;
   --status-padding-right: 10px;
   /** HPなど、見出し側のフォント、サイズ、色 */
