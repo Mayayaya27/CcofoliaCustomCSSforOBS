@@ -1,0 +1,27 @@
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Status/statusInfoBase.css");
+
+:root{
+  --icon-size: 60px;
+
+  --initiative-transform: translate(-32px, 37px);
+  --initiative-radius: 28px;
+  --initiative-border-radius: 23px;
+  --initiative-font-size: 17px;
+
+  --5thStatus-display: none;
+  --6thStatus-display: none;
+
+  /** Colum Amount */
+  --columAmount: 2;
+
+  --width-status: 100px;
+  --space-between-status: 20px;
+  --space-between-bottom: 20px;
+
+  --status-padding-top: 5px;
+  --status-padding-bottom: 5px;
+  --status-padding-left: 5px;
+  --status-padding-right: 5px;
+  --item-font-size: 17px;
+  --status-font-size: 17px;
+}
