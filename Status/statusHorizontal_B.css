@@ -20,7 +20,7 @@
   /**Status Transform*/
   --status-transform: translate(40px, -10px);
   /** ステータスの横幅 */
-  --width-status: 130px;
+  --width-status: 115px;
   /** ステータスの行間 */
   --height-status: 25px;
   
@@ -32,15 +32,13 @@
   /**************************
     ステータス（個別）
   **************************/
-  --1stStatus-display: block;
-  --2ndStatus-display: block;
-  --3rdStatus-display: none;
-  --4thStatus-display: none;
+  --3rdStatus-display: block;
+  --4thStatus-display: block;
   --5thStatus-display: none;
   --6thStatus-display: none;
 
   /** Colum Amount */
-  --columAmount: 1;
+  --columAmount: 2;
 
   /**** Everything ****/
   --all-top: 0px;
