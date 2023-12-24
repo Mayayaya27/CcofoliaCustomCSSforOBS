@@ -1,0 +1,34 @@
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Base/base.css");
+
+:root{
+  /*表示する項目には「block」、非表示にする項目には「none」と記述ください！*/
+  
+  /*↓↓チャットウィンドウ表示・非表示↓↓*/
+  --chatWindow-display: none;
+  /*↓↓ステータスウィンドウ表示・非表示↓↓*/
+  --statusWindow-display: none;
+  /*↓↓メッセージウィンドウ表示・非表示↓↓*/
+  --messageWindow-display: none;
+  /*↓↓カットイン表示・非表示↓↓*/
+  --cutIn-display: none;
+
+  /*↓↓前景・スクリーンパネル・マーカーパネル・キャラ駒一括表示・非表示↓↓*/
+  --f-s-m-c-display: none !important;
+  /*↓↓前景表示・非表示↓↓*/
+  --foreground-display: none !important;
+  /*↓↓スクリーンパネル表示・非表示↓↓*/
+  --screenPanel-display: none !important!;
+  /*↓↓マーカーパネル表示・非表示↓↓*/
+  --markerPanel-display: none !important;
+  /*↓↓キャラ駒表示・非表示↓↓*/
+  --charaIcon-display: none !important;
+  /*↓↓背景表示・非表示↓↓*/
+  --background-display: blcok !important;
+
+　/*↓↓中心合わせ用（分からなければ触らない方が良し）↓↓*/
+--displayAll-height: 100%;
+  --displayAll-width: 100%;
+  --displayAll-top: 0px;
+  --displayAll-left: 0px;
+  --displayAll-scale: scale(1, 1);
+}
