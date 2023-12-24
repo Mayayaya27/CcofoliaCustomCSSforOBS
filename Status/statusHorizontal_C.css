@@ -7,6 +7,6 @@
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
   --placement-icon-status: inline-flex;
 
-    /** ステータスの行間 */
-  --height-status: 25px;
+  /** Margin Between Status(Horizontal) */
+  --space-between-status: 30px;
 }
