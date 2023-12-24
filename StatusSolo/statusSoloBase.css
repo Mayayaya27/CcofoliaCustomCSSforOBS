@@ -12,6 +12,8 @@
   --icon-size: 0px;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 7px;
+  --icon-border: 0px;
+  --icon-background: transparent;
   /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
   --placement-icon-status: inline-block;
   /** アイコンの位置調整(縦) */
@@ -173,6 +175,8 @@ body {
   background: var(--color-remain) !important;
   transform: skewX(var(--degree-remain)) !important;
   opacity: var(--opacity-remain) !important;
+  border: var(--icon-border);
+  background: var(--icon-background);
   border-radius: var(--radius-remain) !important;
   content: var(--image-total) !important;
 }
