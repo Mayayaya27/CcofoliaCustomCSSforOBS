@@ -1,6 +1,8 @@
 @import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Status/statusInfoBase.css");
 
 :root{
+  /** Icon's Size */
+  --icon-size: 115px;
   /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
   --disp-icon: inline-flex;
   
