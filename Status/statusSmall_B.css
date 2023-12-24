@@ -8,18 +8,13 @@
   --initiative-border-radius: 23px;
   --initiative-font-size: 17px;
 
-  --3rdStatus-display: none;
-  --4thStatus-display: none;
   --5thStatus-display: none;
   --6thStatus-display: none;
-  --7thStatus-display: none;
-  --8thStatus-display: none;
 
   /** Colum Amount */
-  --columAmount: 1;
+  --columAmount: 2;
 
   --width-status: 100px;
-  --space-between-status: 20px;
   --space-between-bottom: 20px;
 
   --status-padding-top: 5px;
