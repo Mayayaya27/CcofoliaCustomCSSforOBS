@@ -32,10 +32,8 @@
   /**************************
     ステータス（個別）
   **************************/
-  --1stStatus-display: block;
-  --2ndStatus-display: block;
-  --3rdStatus-display: none;
-  --4thStatus-display: none;
+  --3rdStatus-display: block;
+  --4thStatus-display: block;
   --5thStatus-display: none;
   --6thStatus-display: none;
 
