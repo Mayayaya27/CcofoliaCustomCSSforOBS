@@ -1,1 +1,86 @@
 @import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/StatusSolo/statusSoloBase.css");
+:root {
+  /**************************
+   アイコン
+ **************************/
+  /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
+  --disp-icon: inline-flex;
+  /** アイコンの大きさ */
+  --icon-size: 0px;
+  /** アイコンの角の丸み：50%⇒正円 */
+  --icon-radius: 7px;
+  --icon-border: 0px;
+  --icon-background: transparent;
+  /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
+  --placement-icon-status: inline-block;
+  /** アイコンの位置調整(縦) */
+  --icon-position-x1: 0px; /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
+  --icon-position-x2: 0px; /** 縦並びの時の縦位置の設定。横並びの場合は0に設定する */
+  /** アイコンの位置調整(横) */
+  --icon-position-y1: 0px; /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
+  --icon-position-y2: 0px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
+
+  /* Initiative */
+ --initiative-size: 30px;
+ --initiative-font-size: 20px;
+ --initiative-transform: translate(40px, 0px);
+ --initiative-border-radius: 15px;
+ 
+  /**************************
+   ステータス（全体）
+ **************************/
+  /** ステータスの横幅 */
+  --width-status: 200px;
+  /** ステータスの行間 */
+  --height-status: 40px;
+  /** ステータス同士の距離 */
+  --space-between-status: 160px;
+
+ /* Column Amount*/
+ --column-amount: 2;
+
+  /**************************
+    ステータス（最大値）
+  **************************/
+  --height-total: 35px; /** 高さ */
+  --top-total: 0px; /** 位置 */
+  --color-total: rgb(255, 255, 255); /** 色 */
+  --image-total: url(https://gazounoURL); /** ステータス背景を画像にしたい場合 */
+  --opacity-total: 0.6; /** 不透明度 */
+  --degree-total: 0deg; /** 角の角度 */
+  --radius-total: 3px; /** 角の丸み */
+  --statusAll-transform: translate(30px, 0px);
+
+  /**************************
+    ステータス（現在値）
+  **************************/
+  --height-remain: 35px; /** 高さ */
+  --top-remain: 0px; /** 位置 */
+  --color-remain: rgb(255, 255, 255); /** 色 */
+  --opacity-remain: 1; /** 不透明度 */
+  --degree-remain: 0deg; /** 角の角度 */
+  --radius-remain: 3px; /** 角の丸み */
+
+  /**************************
+   文字
+ **************************/
+  /** ステータス文字の周りの余白(上,下,左,右) */
+  --status-padding-top: 3px;
+  --status-padding-bottom: 3px;
+  --status-padding-left: 10px;
+  --status-padding-right: 10px;
+  /** HPなど、見出し側のフォント、サイズ、色 */
+  --item-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --item-font-size: 25px;
+  --item-font-color: rgb(66, 66, 66);
+  /** 12/15など、ステータス側のフォント、サイズ、色 */
+  --status-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --status-font-size: 25px;
+  --status-font-color: rgb(66, 66, 66);
+  /* 不定時の赤字の色 */
+  --futei-font-color: rgb(197, 17, 98);
+  /** HPなど、見出しの周りに白縁を設定する */
+  --item-outline-color: rgba(255, 255, 255, 1);
+  /** 12/15など、ステータスの周りに白縁を設定する */
+  --status-outline-color: rgba(255, 255, 255, 1);
+}
