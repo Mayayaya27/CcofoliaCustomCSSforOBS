@@ -1,7 +1,6 @@
 @import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Status/statusInfoBase.css");
 
-/*Set Roots*/
-:root {
+:root{
   /*****Icons*****/
   /** Icon's Size */
   --icon-size: 180px;
@@ -9,7 +8,7 @@
   --placement-icon-status: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-142px, 155px);
+  --initiative-transform: translate(-142px, 125px);
   --initiative-radius: 33px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 22px;
@@ -18,29 +17,27 @@
    ステータス（全体）
  **************************/
   /**Status Transform*/
-  --status-transform: translate(40px, -10px);
+  --status-transform: translate(30px, -20px);
   /** ステータスの横幅 */
-  --width-status: 115px;
+  --width-status: 125px;
   /** ステータスの行間 */
   --height-status: 25px;
   
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 60px;
+  --space-between-status: 40px;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
-  
-  /**************************
-    ステータス（個別）
-  **************************/
-  --3rdStatus-display: block;
-  --4thStatus-display: block;
-  --5thStatus-display: none;
-  --6thStatus-display: none;
 
   /** Colum Amount */
   --columAmount: 2;
 
-  /**** Everything ****/
-  --all-top: 0px;
-  --all-left: 35px;
+  --width-status: 100px;
+  --space-between-bottom: 20px;
+
+  --status-padding-top: 5px;
+  --status-padding-bottom: 5px;
+  --status-padding-left: 5px;
+  --status-padding-right: 5px;
+  --item-font-size: 17px;
+  --status-font-size: 17px;
 }
