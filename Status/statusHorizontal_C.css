@@ -1,5 +1,9 @@
 @import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Status/statusInfoBase.css");
 
 :root{
-
+  /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
+  --disp-icon: inline-flex;
+  
+  /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
+  --placement-icon-status: inline-flex;
 }
