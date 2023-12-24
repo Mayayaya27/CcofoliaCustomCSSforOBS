@@ -1,15 +1,32 @@
 @import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/Status/statusInfoBase.css");
 
 :root{
-  --icon-size: 60px;
+  /*****Icons*****/
+  /** Icon's Size */
+  --icon-size: 180px;
+  /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
+  --placement-icon-status: inline-block;
 
-  --initiative-transform: translate(-32px, 37px);
-  --initiative-radius: 28px;
+  /*****Initiative*****/
+  --initiative-transform: translate(-142px, 125px);
+  --initiative-radius: 33px;
   --initiative-border-radius: 23px;
-  --initiative-font-size: 17px;
-
-  --5thStatus-display: none;
-  --6thStatus-display: none;
+  --initiative-font-size: 22px;
+  
+  /**************************
+   ステータス（全体）
+ **************************/
+  /**Status Transform*/
+  --status-transform: translate(30px, -20px);
+  /** ステータスの横幅 */
+  --width-status: 125px;
+  /** ステータスの行間 */
+  --height-status: 25px;
+  
+  /** Margin Between Status(Horizontal) */
+  --space-between-status: 60px;
+   /** Margin Between Status(Bottom) */
+  --space-between-bottom: 30px;
 
   /** Colum Amount */
   --columAmount: 2;
