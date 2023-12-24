@@ -31,6 +31,9 @@
   /** ステータス同士の距離 */
   --space-between-status: 160px;
 
+ /* Column Amount*/
+ --column-amount: 2;
+
   /**************************
     ステータス（個別）
   **************************/
@@ -209,5 +212,5 @@ body {
   overflow-y: visible !important;
   /** ステータスをひし形にした際に左側の角が見切れないようにする設定 */
   margin-left: 0px !important;
-  max-width: var(--max-width) !important;
+  max-width: calc(var(--width-status) + var(--height-status)) * var(--column-amount) !important;
 }
