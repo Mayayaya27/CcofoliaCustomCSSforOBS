@@ -1,0 +1,7 @@
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/StatusSolo/statusSoloLarge_A.css");
+
+:root{
+  --height-status: 35px;
+ /* Column Amount*/
+ --column-amount: 1;
+}
