@@ -7,9 +7,9 @@
    アイコン
  **************************/
   /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
-  --disp-icon: none;
+  --disp-icon: inline-flex;
   /** アイコンの大きさ */
-  --icon-size: 60px;
+  --icon-size: 0px;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 7px;
   /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
@@ -25,7 +25,7 @@
    ステータス（全体）
  **************************/
   /** ステータスの横幅 */
-  --width-status: 170px;
+  --width-status: 130px;
   /** ステータスの行間 */
   --height-status: 33px;
   /** ステータス同士の距離 */
@@ -35,9 +35,9 @@
     ステータス（個別）
   **************************/
   /** ステータス1～6行目の位置調整 */
-  --left-space-status1: 46px;
+  --left-space-status1: 0px;
   --left-space-status2: 0px;
-  --left-space-status3: 23px;
+  --left-space-status3: 0px;
   --left-space-status4: 0px;
   --left-space-status5: 0px;
   --left-space-status6: 0px;
@@ -47,7 +47,7 @@
   /**************************
     ステータス（最大値）
   **************************/
-  --height-total: 30px; /** 高さ */
+  --height-total: 20px; /** 高さ */
   --top-total: 0px; /** 位置 */
   --color-total: rgb(255, 255, 255); /** 色 */
   --image-total: url(https://gazounoURL); /** ステータス背景を画像にしたい場合 */
@@ -58,7 +58,7 @@
   /**************************
     ステータス（現在値）
   **************************/
-  --height-remain: 30px; /** 高さ */
+  --height-remain: 20px; /** 高さ */
   --top-remain: 0px; /** 位置 */
   --color-remain: rgb(255, 255, 255); /** 色 */
   --opacity-remain: 1; /** 不透明度 */
