@@ -233,12 +233,12 @@
 
 .fIhGJt:nth-child(7) {
   display: var(--7thStatus-display);
-  margin-left: var(--left-space-status7) !important;
+  margin-left: var(--left-space-status7);
 }
 
 .fIhGJt:nth-child(8) {
   display: var(--8thStatus-display);
-  margin-left: var(--left-space-status8) !important;
+  margin-left: var(--left-space-status8);
 }
 
 .fIhGJt > div:nth-child(2) > div:nth-child(1) {
