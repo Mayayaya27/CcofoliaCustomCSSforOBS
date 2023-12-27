@@ -1,30 +1,46 @@
 :root{
-  --chatWindow-display: block;
+  --font-color: black !important;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 ::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
 
+html{
+  background-color: transparent !important;
+}
+
 /*Header*/
 .header_header____5Dq{
+  background-color: transparent !important;
   display: none !important;
+  height: 0px;
 }
 
 /*BackGround*/
 .Box_box__rGwZa{
-  margin-top: 30px !important;
-  background-color: transparent !important;
+  margin-top: 0px !important;
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /*Container*/
 .utility_border5__nJBG5{
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0) !important;
   border: transparent !important;
+  color: var(--font-color) !important;
 }
 
 /*閲覧モード*/
 .utility_border5__nJBG5>div:nth-child(1){
+  display: none !important;
+}
+
+.utility_border5__nJBG5>div:nth-child(2){
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*Illustration*/
+.MuiBox-root.css-11vq85{
   display: none !important;
 }
 
@@ -33,16 +49,29 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
   margin-bottom: 0rem !important;
 }
 
+.Container_desktop__v8oRx>div:nth-child(1){
+  width: 0px !important;
+}
+
+.Container_desktop__v8oRx>div{
+  color: var(--font-color) !important;
+}
+
 /*Basic Data*/
 .Container_desktop__v8oRx>div:nth-child(2){
   margin: 0rem !important;
 }
 
-/*Arrow*/
-.EditFooter_closeOpenButton__vmouP EditFooter_mobileSquareButton__TQQK0{
+/*Skill Points*/
+.Container_desktop__v8oRx>div:nth-child(4)>div>div{
+  background-color: transparent !important;
+}
+
+/*Bottom Arrow*/
+.EditFooter_closeOpenButton__vmouP.EditFooter_mobileSquareButton__TQQK0{
   display: none !important;
 }
 
-.MuiBox-root css-15y1c4f{
+.MuiBox-root.css-15y1c4f{
   display: none !important;
 }
