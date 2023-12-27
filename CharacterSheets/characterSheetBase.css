@@ -5,9 +5,44 @@
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 ::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
-[role="presentation"] {display: none;}/*CM*/
+
+/*Header*/
+.header_header____5Dq{
+  display: none !important;
+}
 
 /*BackGround*/
-div[class="Box_box__rGwZa"]{
-  background: transparent;
+.Box_box__rGwZa{
+  margin-top: 30px !important;
+  background-color: transparent !important;
+}
+
+/*Container*/
+.utility_border5__nJBG5{
+  background-color: transparent !important;
+  border: transparent !important;
+}
+
+/*閲覧モード*/
+.utility_border5__nJBG5>div:nth-child(1){
+  display: none !important;
+}
+
+/*Personal Data*/
+.Container_desktop__v8oRx>div:nth-child(1){
+  margin-bottom: 0rem !important;
+}
+
+/*Basic Data*/
+.Container_desktop__v8oRx>div:nth-child(2){
+  margin: 0rem !important;
+}
+
+/*Arrow*/
+.EditFooter_closeOpenButton__vmouP EditFooter_mobileSquareButton__TQQK0{
+  display: none !important;
+}
+
+.MuiBox-root css-15y1c4f{
+  display: none !important;
 }
