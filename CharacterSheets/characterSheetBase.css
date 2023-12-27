@@ -1,5 +1,5 @@
 :root{
-  --font-color: black !important;
+  --font-color: white !important;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -19,7 +19,7 @@ html{
 
 /*BackGround*/
 .Box_box__rGwZa{
-  margin-top: 0px !important;
+  margin-top: -40px !important;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -35,13 +35,18 @@ html{
   display: none !important;
 }
 
+/*Delete arrow if there is multiple images*/
+.MuiBox-root.css-1ikp9kq img{
+  display: none !important;
+}
+  
 .utility_border5__nJBG5>div:nth-child(2){
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-/*Illustration*/
-.MuiBox-root.css-11vq85{
-  display: none !important;
+.Container_desktop__v8oRx{
+  color: var(--font-color) !important;
+  /*border-bottom: 1px solid var(--font-color) !important;*/
 }
 
 /*Personal Data*/
@@ -49,22 +54,42 @@ html{
   margin-bottom: 0rem !important;
 }
 
-.Container_desktop__v8oRx>div:nth-child(1){
-  width: 0px !important;
+/*Name Color*/
+.Container_desktop__v8oRx>div>div:nth-child(2)>div>div{
+  color: var(--font-color) !important;
+  border-bottom: 0px solid var(--font-color) !important;
 }
 
-.Container_desktop__v8oRx>div{
+/*SANITY Color*/
+.Container_desktop__v8oRx>div:nth-child(3)>div>div{
   color: var(--font-color) !important;
+  border: 1px solid var(--font-color) !important;
 }
 
 /*Basic Data*/
 .Container_desktop__v8oRx>div:nth-child(2){
-  margin: 0rem !important;
+  margin: 1rem !important;
+}
+
+
+.Container_desktop__v8oRx:nth-child(3)>div:nth-child(1)>div{
+  background-color: transparent !important;
 }
 
 /*Skill Points*/
-.Container_desktop__v8oRx>div:nth-child(4)>div>div{
-  background-color: transparent !important;
+.AbilityTable_tableLeftHeaderSkill__Lu9Zp,
+.AbilityTable_tableLeftHeaderSkill__Lu9Zp>div,
+.AbilityTable_abilityTableData__7S4lQ>div>div> input,
+.MuiBox-root.css-10klw3m>div>div,/*運転・制作など*/
+.MuiBox-root.css-10klw3m>div>div:nth-child(2) input,
+.AbilityTable_abilityTableData__7S4lQ{
+  border: 0px solid transparent !important;
+  background-color: rgba(39, 43, 48, 0) !important;
+}
+
+/*Footer Policy*/
+footer{
+  display: none !important;
 }
 
 /*Bottom Arrow*/
@@ -72,6 +97,7 @@ html{
   display: none !important;
 }
 
+/*Bottom Menu*/
 .MuiBox-root.css-15y1c4f{
   display: none !important;
 }
