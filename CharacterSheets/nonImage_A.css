@@ -3,14 +3,14 @@
 :root{
   --image-size: 0px;
   --display-image: none;
-  --window-padding-left: 150px;
+  --centering-window-right: 150px;
 }
 
 /*Align Window*/
 .Container_desktop__v8oRx{
   width: 1344px !important;
   margin: 0px !important;
-  padding-right: var(--window-padding-left) !important;
+  padding-right: var(--centering-window) !important;
 }
 
 /*Image Size*/
