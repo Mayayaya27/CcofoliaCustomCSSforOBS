@@ -111,7 +111,7 @@ html{
 /*Skill Points Color*/
 .AbilityTable_abilityTableData__7S4lQ>div>div input{
   color: var(--font-color) !important;
-  -web-text-fill-color: var(--font-color) !important;
+  -webkit-text-fill-color: var(--font-color) !important;
 }
 
 /*Footer Policy*/
