@@ -1,6 +1,6 @@
 :root{
   --top-margin: -30px;
-  --font-color: white;
+  --font-color: black;
   --image-size: 300px;
   --display-image: block;
   --window-padding-left: 0px;
@@ -111,7 +111,9 @@ html{
 }
 
 /*Skill Points Color*/
-.AbilityTable_abilityTableData__7S4lQ>div>div input{
+.AbilityTable_abilityTableData__7S4lQ>div>div input,
+.MuiBox-root.css-10klw3m>div>div,
+.MuiBox-root.css-10klw3m>div>div input{
   color: var(--font-color) !important;
   -webkit-text-fill-color: var(--font-color) !important;
 }
