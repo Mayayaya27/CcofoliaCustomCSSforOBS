@@ -1,5 +1,7 @@
 :root{
   --font-color: black !important;
+  --image-size: 0px !important;
+  --display-image: block !important;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -35,93 +37,9 @@ html{
   display: none !important;
 }
 
-/*Delete arrow if there is multiple images*/
-.MuiBox-root.css-1ikp9kq img{
-  display: none !important;
-}
-  
-.utility_border5__nJBG5>div:nth-child(2){
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
-.Container_desktop__v8oRx{
-  color: var(--font-color) !important;
-  /*border-bottom: 1px solid var(--font-color) !important;*/
-}
-
-/*Personal Data*/
-.Container_desktop__v8oRx>div:nth-child(1){
-  margin-bottom: 0rem !important;
-}
-
-/*Name Color*/
-.Container_desktop__v8oRx>div>div:nth-child(2)>div>div{
-  color: var(--font-color) !important;
-  border-bottom: 0px solid var(--font-color) !important;
-}
-
-/*Sanity Color*/
-.Container_desktop__v8oRx>div:nth-child(3)>div>div{
-  color: var(--font-color) !important;
-  border: 1px solid var(--font-color) !important;
-}
-
-/*Basic Data*/
-.Container_desktop__v8oRx>div:nth-child(2){
-  margin: 1.3rem !important;
-}
-
-/*Skill Points Basic Amount*/
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(2){
-  display: none !important;
-}
-
-/*Skill Points*/
-.AbilityTable_tableLeftHeaderSkill__Lu9Zp,
-.AbilityTable_tableLeftHeaderSkill__Lu9Zp>div,
-.AbilityTable_abilityTableData__7S4lQ>div>div> input,
-.MuiBox-root.css-10klw3m>div>div,/*運転・制作など*/
-.MuiBox-root.css-10klw3m>div>div:nth-child(2) input,
-.AbilityTable_abilityTableData__7S4lQ{
-  border: 0px solid transparent !important;
-  background-color: rgba(39, 43, 48, 0) !important;
-}
-
-:root{
-  --font-color: white !important;
-}
-
-body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
-
-::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
-
-html{
-  background-color: transparent !important;
-}
-
-/*Header*/
-.header_header____5Dq{
-  background-color: transparent !important;
-  display: none !important;
-  height: 0px;
-}
-
-/*BackGround*/
-.Box_box__rGwZa{
-  margin-top: -30px !important;
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
-/*Container*/
-.utility_border5__nJBG5{
-  background-color: rgba(0, 0, 0, 0) !important;
-  border: transparent !important;
-  color: var(--font-color) !important;
-}
-
-/*閲覧モード*/
-.utility_border5__nJBG5>div:nth-child(1){
-  display: none !important;
+/*Display Image*/
+.MuiBox-root.css-11vq85{
+  display: var(--display-image) !important;
 }
 
 /*Delete arrow if there is multiple images*/
@@ -143,15 +61,29 @@ html{
   margin-bottom: 0rem !important;
 }
 
+/*Name Border Color*/
+.Container_desktop__v8oRx>div:nth-child(1)>div:nth-child(2)>div:not(first-child){
+  border-bottom: 1px solid var(--font-color) !important;
+}
+
 /*Name Color*/
 .Container_desktop__v8oRx>div>div:nth-child(2)>div>div{
   color: var(--font-color) !important;
-  border-bottom: 0px solid var(--font-color) !important;
+}
+
+/*Status Border Color*/
+.Container_desktop__v8oRx>div:nth-child(2)>div{
+  border-bottom: 1px solid var(--font-color) !important;
 }
 
 /*Sanity Color*/
 .Container_desktop__v8oRx>div:nth-child(3)>div>div{
   color: var(--font-color) !important;
+}
+
+/*Sanity Border Color*/
+.Container_desktop__v8oRx>div:nth-child(3)>div:not(:last-child),
+.MuiBox-root.css-0>div{
   border: 1px solid var(--font-color) !important;
 }
 
@@ -174,6 +106,12 @@ html{
 .AbilityTable_abilityTableData__7S4lQ{
   border: 0px solid transparent !important;
   background-color: rgba(39, 43, 48, 0) !important;
+}
+
+/*Skill Points Color*/
+.AbilityTable_abilityTableData__7S4lQ>div>div input{
+  color: var(--font-color) !important;
+  -web-text-fill-color: var(--font-color) !important;
 }
 
 /*Footer Policy*/
