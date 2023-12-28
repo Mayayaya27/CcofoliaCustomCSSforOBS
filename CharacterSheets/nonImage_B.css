@@ -1,0 +1,8 @@
+@import url("https://mayayaya27.github.io/CcofoliaCostumCSSforOBS/CharacterSheets/characterSheetBase.css");
+
+:root{
+  --image-size: 0px;
+  --display-image: none;
+  --window-padding-left: 600px;/*max 600px*/
+  --window-padding-right: 0px;/*max 600px*/
+}
