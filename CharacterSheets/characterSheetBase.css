@@ -1,4 +1,5 @@
 :root{
+  --top-margin: -30px;
   --font-color: white;
   --image-size: 300px;
   --display-image: block;
@@ -22,7 +23,7 @@ html{
 
 /*BackGround*/
 .Box_box__rGwZa{
-  margin-top: -30px !important;
+  margin-top: var(--top-margin) !important;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
