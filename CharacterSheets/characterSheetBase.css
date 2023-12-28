@@ -2,9 +2,9 @@
   --top-margin: -30px;
   --font-color: black;
   --image-size: 300px;
-  --display-image: block;
-  --window-padding-left: 0px;
-  --window-padding-right: 0px;
+  --display-image: white;
+  --window-padding-left: 0px;/*max 600px*/
+  --window-padding-right: 0px;/*max 600px*/
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -26,6 +26,8 @@ html{
 .Box_box__rGwZa{
   margin-top: var(--top-margin) !important;
   background-color: rgba(0, 0, 0, 0) !important;
+    padding-left: var(--window-padding-left);
+    padding-right: var(--window-padding-right);
 }
 
 /*Container*/
@@ -33,6 +35,10 @@ html{
   background-color: rgba(0, 0, 0, 0) !important;
   border: transparent !important;
   color: var(--font-color) !important;
+}
+
+.Container_desktop__v8oRx>div display{
+  justify-content: left !important;
 }
 
 /*閲覧モード*/
