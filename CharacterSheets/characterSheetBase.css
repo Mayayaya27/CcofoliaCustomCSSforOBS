@@ -1,8 +1,8 @@
 :root{
   --font-color: black;
-  --image-size: 0px;
-  --display-image: none;
-  --window-padding-left: 250px;
+  --image-size: 300px;
+  --display-image: block;
+  --window-padding-left: 0px;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -36,18 +36,6 @@ html{
 /*閲覧モード*/
 .utility_border5__nJBG5>div:nth-child(1){
   display: none !important;
-}
-
-/*Align Window*/
-.Container_desktop__v8oRx{
-  width: 1344px !important;
-  margin: 0px !important;
-  padding-right: var(--window-padding-left) !important;
-}
-
-/*Image Size*/
-.Container_desktop__v8oRx>div:nth-child(1)>div:nth-child(1){
-  width: var(--image-size) !important;
 }
 
 /*Display Image*/
