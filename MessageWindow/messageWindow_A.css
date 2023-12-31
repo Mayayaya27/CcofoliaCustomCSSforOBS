@@ -28,7 +28,7 @@
   /** width */
   --dice-win-width: 900px;
   /** 背景色 */
-  --dice-win-background: rgba(22, 22, 22, 255);
+  --dice-win-background: rgba(22, 22, 22, 1);
   /** 枠線 */
   --dice-win-border: solid 0px white;
   /** 角の丸み */
