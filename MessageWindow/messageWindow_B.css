@@ -3,10 +3,6 @@
 :root{
   --dice-win-background: rgba(60, 60, 60, 150) !important;
   --disp-dice-picture: none;
-
-  /** ◆◆◆ウィンドウ◆◆◆ */
-  /** width */
-  --dice-win-width: 1100px;
   
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** 文字サイズ */
