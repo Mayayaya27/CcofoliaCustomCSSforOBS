@@ -33,4 +33,7 @@
   --content-right-space: 60px;
   /** テキストボックスの縦幅 */
   --content-height: 800px;
+
+  /** Bottom */
+  --window-bottom: 40px;
 }
