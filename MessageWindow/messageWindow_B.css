@@ -1,7 +1,7 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/MessageWindow/messageWindow_A.css");
 
 :root{
-  --dice-win-background: rgba(20, 20, 20, 0.95) !important;
+  --dice-win-background: rgba(20, 20, 20, 0.98) !important;
   --disp-dice-picture: none;
   
   /** ◆◆◆見出し、キャラ名◆◆◆ */
