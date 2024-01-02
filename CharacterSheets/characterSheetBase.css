@@ -2,7 +2,7 @@
   --top-margin: -30px;
   --font-color: black;
   --image-size: 300px;
-  --display-image: white;
+  --display-image: block;
   --under-image-margin-bottom: -2rem;
   --window-padding-left: 0px;/*max 600px*/
   --window-padding-right: 0px;/*max 600px*/
