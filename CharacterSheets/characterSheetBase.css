@@ -3,6 +3,7 @@
   --font-color: black;
   --image-size: 300px;
   --display-image: white;
+  --under-image-margin-bottom: -2rem;
   --window-padding-left: 0px;/*max 600px*/
   --window-padding-right: 0px;/*max 600px*/
 }
@@ -26,8 +27,8 @@ html{
 .Box_box__rGwZa{
   margin-top: var(--top-margin) !important;
   background-color: rgba(0, 0, 0, 0) !important;
-    padding-left: var(--window-padding-left);
-    padding-right: var(--window-padding-right);
+  padding-left: var(--window-padding-left);
+  padding-right: var(--window-padding-right);
 }
 
 /*Container*/
@@ -67,7 +68,7 @@ html{
 
 /*Personal Data*/
 .Container_desktop__v8oRx>div:nth-child(1){
-  margin-bottom: 0rem !important;
+  margin-bottom: var(--under-image-margin-bottom) !important;
 }
 
 /*Name Border Color*/
