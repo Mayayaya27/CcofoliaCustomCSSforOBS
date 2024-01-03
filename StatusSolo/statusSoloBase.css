@@ -127,6 +127,7 @@ body {
   border-radius: var(--icon-radius) !important;
   border: var(--icon-border);
   background: var(--icon-background);
+  align-items: start;
 }
 #root > div > div {
   display: var(--placement-icon-status) !important;
