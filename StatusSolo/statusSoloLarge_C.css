@@ -15,16 +15,16 @@
   --placement-icon-status: inline-block;
   /** アイコンの位置調整(縦) */
   --icon-position-x1: 0px; /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
-  --icon-position-x2: -30px; /** 縦並びの時の縦位置の設定。横並びの場合は0に設定する */
+  --icon-position-x2: -27px; /** 縦並びの時の縦位置の設定。横並びの場合は0に設定する */
   /** アイコンの位置調整(横) */
   --icon-position-y1: 0px; /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
-  --icon-position-y2: 0px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
+  --icon-position-y2: 30px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /* Initiative */
- --initiative-size: 35px;
- --initiative-font-size: 25px;
- --initiative-transform: translate(0px, 0px);
- --initiative-border-radius: 20px;
+ --initiative-size: 33px;
+ --initiative-font-size: 19px;
+ --initiative-transform: translate(-210px, 175px);
+ --initiative-border-radius: 18px;
  
   /**************************
    ステータス（全体）
