@@ -1,8 +1,26 @@
-@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloLarge_C.css");
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloBase.css");
+:root {
+  /**************************
+   アイコン
+ **************************/
+  /** アイコンを表示するか：inline-flex⇒通常、none：非表示 */
+  --disp-icon: inline-flex;
+  /** アイコンの大きさ */
+  --icon-size: 400px;
+  /** アイコンの角の丸み：50%⇒正円 */
+  --icon-radius: 0px;
+  --icon-border: 0px;
+  --icon-background: transparent;
+  /** アイコンとステータスの配置：inline-flex⇒横並び、inline-block⇒縦並び */
+  --placement-icon-status: inline-block;
+  /** アイコンの位置調整(縦) */
+  --icon-position-x1: 0px; /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
+  --icon-position-x2: -27px; /** 縦並びの時の縦位置の設定。横並びの場合は0に設定する */
+  /** アイコンの位置調整(横) */
+  --icon-position-y1: 0px; /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
+  --icon-position-y2: 30px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
-:root{
- --icon-size: 400px;
-
+  /* Initiative */
  --initiative-size: 45px;
  --initiative-font-size: 30px;
  --initiative-transform: translate(-375px, 335px);
