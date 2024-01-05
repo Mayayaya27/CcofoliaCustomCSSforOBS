@@ -1,0 +1,69 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloLarge_C.css");
+
+:root{
+ --icon-size: 400px;
+
+ --initiative-size: 45px;
+ --initiative-font-size: 30px;
+ --initiative-transform: translate(-375px, 335px);
+ --initiative-border-radius: 30px;
+
+  /**************************
+   ステータス（全体）
+ **************************/
+  /** ステータスの横幅 */
+  --width-status: 180px;
+  /** ステータスの行間 */
+  --height-status: 45px;
+  /** ステータス同士の距離 */
+  --space-between-status: 140px;
+
+ /* Column Amount*/
+ --column-amount: 2;
+
+  /**************************
+    ステータス（最大値）
+  **************************/
+  --height-total: 45px; /** 高さ */
+  --top-total: 0px; /** 位置 */
+  --color-total: rgb(255, 255, 255); /** 色 */
+  --image-total: url(https://gazounoURL); /** ステータス背景を画像にしたい場合 */
+  --opacity-total: 0.6; /** 不透明度 */
+  --degree-total: 0deg; /** 角の角度 */
+  --radius-total: 6px; /** 角の丸み */
+  --statusAll-transform: translate(30px, 0px);
+
+  /**************************
+    ステータス（現在値）
+  **************************/
+  --height-remain: 45px; /** 高さ */
+  --top-remain: 0px; /** 位置 */
+  --color-remain: rgb(255, 255, 255); /** 色 */
+  --opacity-remain: 1; /** 不透明度 */
+  --degree-remain: 0deg; /** 角の角度 */
+  --radius-remain: 6px; /** 角の丸み */
+
+  /**************************
+   文字
+ **************************/
+  /** ステータス文字の周りの余白(上,下,左,右) */
+  --status-padding-top: 9px;
+  --status-padding-bottom: 9px;
+  --status-padding-left: 8px;
+  --status-padding-right: 8px;
+  /** HPなど、見出し側のフォント、サイズ、色 */
+  --item-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --item-font-size: 27px;
+  --item-font-color: rgb(66, 66, 66);
+  /** 12/15など、ステータス側のフォント、サイズ、色 */
+  --status-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --status-font-size: 27px;
+  --status-font-color: rgb(66, 66, 66);
+  /* 不定時の赤字の色 */
+  --futei-font-color: rgb(197, 17, 98);
+  /** HPなど、見出しの周りに白縁を設定する */
+  --item-outline-color: rgba(255, 255, 255, 1);
+  /** 12/15など、ステータスの周りに白縁を設定する */
+  --status-outline-color: rgba(255, 255, 255, 1);
+}
+}
