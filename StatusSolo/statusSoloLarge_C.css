@@ -84,7 +84,3 @@
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
 }
-
-.MuiAvatar-root {
-    align-items: start;
-}
