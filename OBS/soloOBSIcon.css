@@ -1,5 +1,6 @@
 :root{
   --icon-size: 70px;
+  --user-ID: 788402063881142312;
 }
 
 "body, #root {
@@ -38,6 +39,18 @@ display: none;
 text-align: center;
 top: -8px;
 position: relative;
+}
+
+li.voice-state:[data-reactid*=var(--user-ID)] {
+display: block;
+width: var(--icon-size);
+height: var(--icon-size);
+max-width: var(--icon-size);
+border-radius: 50;
+}
+
+li.voice-state:not([data-reactid*=var(--user-ID)]), img:not([data-reactid*=var(--user-ID)]) + [class*="Voice_user__"] {
+display: none;
 }
 
 img {
