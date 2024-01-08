@@ -1,4 +1,19 @@
+@import{""}
+
 :root{
   /* アイコンサイズ */
   --icon-size: 70px;
+}
+
+
+img[src*="avatars/788402063881142312"] {
+display: block;
+width: var(--icon-size);
+height: var(--icon-size);
+max-width: var(--icon-size);
+border-radius: 50;
+}
+
+img:not([src*="avatars/788402063881142312"]), img:not([src*="avatars/788402063881142312"]) + [class*="Voice_user__"] {
+display: none;
 }
