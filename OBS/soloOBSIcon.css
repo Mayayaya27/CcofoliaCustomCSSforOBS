@@ -2,9 +2,6 @@
   --icon-size: 70px;
 }
 
-$userId: 788402063881142312;
-
-
 "body, #root {
 overflow: hidden !important;
 }
@@ -43,18 +40,6 @@ top: -8px;
 position: relative;
 }
 img {
-display: none;
-}
-
-img[src*="avatars/788402063881142312"] {
-display: block;
-width: var(--icon-size);
-height: var(--icon-size);
-max-width: var(--icon-size);
-border-radius: 50;
-}
-
-img:not([src*="avatars/788402063881142312"]), img:not([src*="avatars/788402063881142312"]) + [class*="Voice_user__"] {
 display: none;
 }
 
