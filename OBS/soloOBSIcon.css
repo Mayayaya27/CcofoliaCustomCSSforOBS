@@ -45,6 +45,10 @@ position: relative;
 
 img{
   display: none;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  max-width: var(--icon-size);
+  border-radius: 50;
 }
 
 ::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
