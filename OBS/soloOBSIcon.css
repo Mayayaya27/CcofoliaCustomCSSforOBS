@@ -1,7 +1,9 @@
 :root{
   --icon-size: 70px;
-  --user-ID: 788402063881142312;
 }
+
+/* OBS */
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 "body, #root {
 overflow: hidden !important;
@@ -41,20 +43,8 @@ top: -8px;
 position: relative;
 }
 
-li.voice-state:[data-reactid*=var(--user-ID)] {
-display: block;
-width: var(--icon-size);
-height: var(--icon-size);
-max-width: var(--icon-size);
-border-radius: 50;
-}
-
-li.voice-state:not([data-reactid*=var(--user-ID)]), img:not([data-reactid*=var(--user-ID)]) + [class*="Voice_user__"] {
-display: none;
-}
-
-img {
-display: none;
+img{
+  display: none;
 }
 
 ::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
