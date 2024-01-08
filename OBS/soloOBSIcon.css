@@ -1,3 +1,8 @@
+:root{
+  --icon-size: 70px;
+  --user-ID: "avatars/788402063881142312";
+}
+
 "body, #root {
 overflow: hidden !important;
 }
@@ -33,14 +38,14 @@ position: relative;
 img {
 display: none;
 }
-img[src*="avatars/788402063881142312"] {
+img[src*=var(--user-ID)] {
 display: block;
-width: 70px;
-height: 70px;
+width: var(--icon-size);
+height: var(--icon-size);
 max-width: 400px;
 border-radius: 50;
 }
-img:not([src*="avatars/788402063881142312"]), img:not([src*="avatars/788402063881142312"]) + [class*="Voice_user__"] {
+img:not([src*=var(--user-ID)]), img:not([src*=var(--user-ID)]) + [class*="Voice_user__"] {
 display: none;
 }
 @keyframes speak-light {
