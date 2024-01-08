@@ -44,6 +44,8 @@ img {
 display: none;
 }
 
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+
 @keyframes speak-light {
 0% {
 filter: drop-shadow(0 0 2px rgb(0, 255, 0));
