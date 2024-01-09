@@ -17,14 +17,14 @@
   /*↓↓前景表示・非表示↓↓*/
   --foreground-display: none !important;
   /*↓↓スクリーンパネル表示・非表示↓↓*/
-  --screenPanel-display: none !important!;
+  --screenPanel-display: none !important;
   /*↓↓マーカーパネル表示・非表示↓↓*/
   --markerPanel-display: none !important;
   /*↓↓キャラ駒表示・非表示↓↓*/
   --charaIcon-display: none !important;
   
   /*↓↓背景表示・非表示↓↓*/
-  --background-display: blcok !important;
+  --background-display: block !important;
 
 　/*↓↓中心合わせ用（分からなければ触らない方が良し）↓↓*/
 --displayAll-height: 100%;
