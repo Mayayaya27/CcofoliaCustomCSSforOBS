@@ -11,6 +11,7 @@ overflow: hidden !important;
 display: flex;
 align-items: flex-end;
 padding: 16px;
+  
 }
 
 [class*="Voice_voiceState__"] {
