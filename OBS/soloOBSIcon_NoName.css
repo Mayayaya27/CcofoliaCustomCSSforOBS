@@ -1,5 +1,6 @@
 :root{
-  --icon-size: 70px;
+--icon-size: 70px;
+--name-display: none;
 }
 
 "body, #root {
@@ -29,18 +30,34 @@ animation-duration: 750ms;
 }
 
 [class*="Voice_name__"] {
-max-width: 100px;
+max-width: var(--icon-size);
 box-sizing: border-box;
 text-overflow: clip;
 white-space: nowrap;
 overflow: hidden;
-display: none;
+display: var(--name-display);
 text-align: center;
 top: -8px;
 position: relative;
 }
 
+[class*="Voice_user_"]{
+display: var(--name-display);
+}
+
 img {
+display: none;
+}
+
+img[src*="avatars/788402063881142312"] {
+display: block;
+width: var(--icon-size);
+height: var(--icon-size);
+max-width: 400px;
+border-radius: 50;
+}
+
+img:not([src*="avatars/788402063881142312"]), img:not([src*="avatars/788402063881142312"]) + [class*="Voice_user__"] {
 display: none;
 }
 
@@ -69,3 +86,4 @@ filter: drop-shadow(0 0 2px rgb(0, 255, 0));
     filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
   }
 }
+
