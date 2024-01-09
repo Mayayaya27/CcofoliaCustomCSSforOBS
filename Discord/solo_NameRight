@@ -1,0 +1,87 @@
+:root{
+--icon-size: 70px;
+--name-display: block;
+}
+
+"body, #root {
+overflow: hidden !important;
+}
+
+[class*="Voice_voiceStates__"] {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 32px;
+}
+
+[class*="Voice_voiceState__"] {
+  height: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*="Voice_avatar__"] {
+  margin-right: 0;
+  filter: brightness(70%);
+}
+
+[class*="Voice_avatarSpeaking__"] {
+  position: relative;
+  filter: brightness(100%);
+  animation: 750ms infinite alternate ease-in-out speak-light;
+  animation-duration: 750ms;
+}
+
+[class*="Voice_name__"] {
+  max-width: calc(var(--icon-size) + 6px);
+  box-sizing: border-box;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  display: var(--name-display);
+  text-align: center;
+  top: -8px;
+  position: relative;
+}
+
+[class*="Voice_user_"]{
+  padding-top: 0px;
+}
+
+img[src*="avatars/788402063881142312"] {
+display: block;
+width: var(--icon-size);
+height: var(--icon-size);
+max-width: 400px;
+border-radius: 50;
+}
+
+img:not([src*="avatars/788402063881142312"]), img:not([src*="avatars/788402063881142312"]) + [class*="Voice_user__"] {
+display: none;
+}
+
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+
+@keyframes speak-light {
+0% {
+filter: drop-shadow(0 0 2px rgb(0, 255, 0));
+}
+50% {
+filter: drop-shadow(0 0 8px rgb(0, 255, 0));
+}
+100% {
+filter: drop-shadow(0 0 2px rgb(0, 255, 0));
+}
+}
+
+@keyframes speak-light {
+  0% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+}
