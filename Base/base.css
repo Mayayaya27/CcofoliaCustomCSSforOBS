@@ -46,6 +46,11 @@ div[open] {
   display: var(--cutIn-display) !important;
 }
 
+/* Dinamic Dice */
+.sc-gErihQ{
+  display: none;
+}
+
 /*MessageWindow*/
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
   display: var(--messageWindow-display);
