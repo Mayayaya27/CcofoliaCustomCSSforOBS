@@ -10,18 +10,20 @@ overflow: hidden !important;
 [class*="Voice_voiceStates__"] {
   flex-wrap: wrap;
   display: flex;
-  margin: 32px;
+  flex-direction: column;
 }
 
 [class*="Voice_voiceState__"] {
-  height: auto;
+  height: initial;
   margin-bottom: 0;
   display: flex;
-  flex-direction: column;
 }
 
 [class*="Voice_avatar__"] {
   margin-right: 0;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 8px;
   filter: brightness(70%);
 }
 
@@ -34,18 +36,7 @@ overflow: hidden !important;
 
 [class*="Voice_name__"] {
   max-width: calc(var(--icon-size) + 6px);
-  box-sizing: border-box;
-  text-overflow: clip;
-  white-space: nowrap;
-  overflow: hidden;
   display: var(--name-display);
-  text-align: center;
-  top: -8px;
-  position: relative;
-}
-
-[class*="Voice_user_"]{
-  padding-top: 0px;
 }
 
 img[src*="avatars/788402063881142312"] {
