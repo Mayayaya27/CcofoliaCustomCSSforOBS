@@ -1,6 +1,6 @@
 :root{
 --icon-size: 70px;
---name-display: none;
+--name-display: block;
 }
 
 "body, #root {
@@ -8,46 +8,44 @@ overflow: hidden !important;
 }
 
 [class*="Voice_voiceStates__"] {
-display: flex;
-align-items: flex-end;
-padding: 16px;
-  
+  flex-wrap: wrap;
+  display: flex;
+  margin: 32px;
 }
 
 [class*="Voice_voiceState__"] {
-height: auto;
-margin-bottom: 0px;
+  height: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 [class*="Voice_avatar__"] {
-filter: brightness(70%);
+  margin-right: 0;
+  filter: brightness(70%);
 }
 
 [class*="Voice_avatarSpeaking__"] {
-position: relative;
-filter: brightness(100%);
-animation: 750ms infinite alternate ease-in-out speak-light;
-animation-duration: 750ms;
+  position: relative;
+  filter: brightness(100%);
+  animation: 750ms infinite alternate ease-in-out speak-light;
+  animation-duration: 750ms;
 }
 
 [class*="Voice_name__"] {
-max-width: var(--icon-size);
-box-sizing: border-box;
-text-overflow: clip;
-white-space: nowrap;
-overflow: hidden;
-display: var(--name-display);
-text-align: center;
-top: -8px;
-position: relative;
+  max-width: calc(var(--icon-size) + 6px);
+  box-sizing: border-box;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  display: var(--name-display);
+  text-align: center;
+  top: -8px;
+  position: relative;
 }
 
 [class*="Voice_user_"]{
-display: var(--name-display);
-}
-
-img {
-display: none;
+  padding-top: 0px;
 }
 
 img[src*="avatars/788402063881142312"] {
