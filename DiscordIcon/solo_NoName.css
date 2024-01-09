@@ -1,5 +1,5 @@
 :root{
---icon-size: 70px;
+--icon-size: 70px;/*アイコンの大きさ（自由に変えてください）*/
 --name-display: none;/*名前を表示したい場合は「none」の部分を「block」と記述してください*/
 }
 
