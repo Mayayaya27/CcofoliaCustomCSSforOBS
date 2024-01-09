@@ -1,0 +1,90 @@
+:root{
+--icon-size: 70px;
+--name-display: none;/*名前を表示したい場合は「none」の部分を「block」と記述してください*/
+}
+
+"body, #root {
+overflow: hidden !important;
+}
+
+[class*="Voice_voiceStates__"] {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 32px;
+}
+
+[class*="Voice_voiceState__"] {
+  height: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*="Voice_avatar__"] {
+  margin-right: 0;
+  filter: brightness(70%);
+}
+
+[class*="Voice_avatarSpeaking__"] {
+  position: relative;
+  filter: brightness(100%);
+  animation: 750ms infinite alternate ease-in-out speak-light;
+  animation-duration: 750ms;
+}
+
+[class*="Voice_name__"] {
+  max-width: calc(var(--icon-size) + 6px);
+  box-sizing: border-box;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  display: var(--name-display);
+  text-align: center;
+  top: -8px;
+  position: relative;
+}
+
+[class*="Voice_user_"]{
+  padding-top: 0px;
+}
+
+/*　計3か所「#USERID」の部分を表示したいDiscordのユーザーIDに置き換えてください！！　*/
+/*　1か所目　*/
+img[src*="avatars/#USERID"] {
+display: block;
+width: var(--icon-size);
+height: var(--icon-size);
+max-width: 400px;
+border-radius: 50;
+}
+
+/*　2、3か所目　*/
+img:not([src*="avatars/#USERID"]), img:not([src*="avatars/#USERID"]) + [class*="Voice_user__"] {
+display: none;
+}
+
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+
+@keyframes speak-light {
+0% {
+filter: drop-shadow(0 0 2px rgb(0, 255, 0));
+}
+50% {
+filter: drop-shadow(0 0 8px rgb(0, 255, 0));
+}
+100% {
+filter: drop-shadow(0 0 2px rgb(0, 255, 0));
+}
+}
+
+@keyframes speak-light {
+  0% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+}
