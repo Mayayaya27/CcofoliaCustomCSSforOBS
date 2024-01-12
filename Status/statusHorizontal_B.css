@@ -19,20 +19,17 @@
   /**Status Transform*/
   --status-transform: translate(30px, -20px);
   /** ステータスの横幅 */
-  --width-status: 125px;
+  --width-status: 100px;
   /** ステータスの行間 */
   --height-status: 25px;
   
   /** Margin Between Status(Horizontal) */
   --space-between-status: 40px;
    /** Margin Between Status(Bottom) */
-  --space-between-bottom: 30px;
+  --space-between-bottom: 20px;
 
   /** Colum Amount */
   --columAmount: 2;
-
-  --width-status: 100px;
-  --space-between-bottom: 20px;
 
   --status-padding-top: 5px;
   --status-padding-bottom: 5px;
