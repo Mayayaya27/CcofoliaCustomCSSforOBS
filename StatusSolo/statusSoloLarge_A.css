@@ -32,7 +32,7 @@
   /** ステータスの横幅 */
   --width-status: 170px;
   /** ステータスの行間 */
-  --height-status: 40px;
+  --height-status: 35px;
   /** ステータス同士の距離 */
   --space-between-status: 160px;
 
