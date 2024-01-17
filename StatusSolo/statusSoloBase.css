@@ -10,6 +10,8 @@
   --disp-icon: inline-flex;
   /** アイコンの大きさ */
   --icon-size: 0px;
+  --icon-max-width: 100%;
+  --icon-max-height: 100%;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 7px;
   --icon-border: 0px;
@@ -24,6 +26,7 @@
   --icon-position-y2: 0px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /* Initiative */
+ --initiative-display: flex;
  --initiative-size: 30px;
  --initiative-font-size: 20px;
  --initiative-transform: translate(40px, 0px);
@@ -129,13 +132,19 @@ body {
   background: var(--icon-background);
   align-items: start;
 }
+
+.MuiButtonBase-root>img{
+    max-width: var(--icon-max-width) !important;
+    max-height: var(--icon-max-height) !important;
+}
+
 #root > div > div {
   display: var(--placement-icon-status) !important;
   margin-right: var(--space-between-status) !important;
   vertical-align: middle;
 }
 .MuiBadge-badge {
- display: flex !important;
+ display: var(--initiative-display) !important;
  transform: var(--initiative-transform);
  height: var(--initiative-size);
  min-width: var(--initiative-size);
