@@ -1,0 +1,10 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloLarge_C.css");
+
+:root{
+  --icon-size: 0px !important;
+  --initiative-transform: translate(20px, -33px);
+  --width-status: 100px;
+  --status-padding-top: 5px;
+  --status-padding-bottom: 5px;
+  --column-amount: 1;
+}
