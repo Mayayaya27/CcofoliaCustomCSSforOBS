@@ -10,6 +10,7 @@
   --disp-icon: inline-flex;
   /** アイコンの大きさ */
   --icon-size: 0px;
+  --icon-size-width-correction: 0px;/*補正用*/ 
   --icon-max-width: 100%;
   --icon-max-height: 100%;
   /** アイコンの角の丸み：50%⇒正円 */
@@ -126,7 +127,7 @@ body {
 }
 .MuiAvatar-root {
   width: var(--icon-size) !important;
-  height: var(--icon-size) !important;
+  height: calc(var(--icon-size) - var(--icon-size-width-correction)) !important;
   border-radius: var(--icon-radius) !important;
   border: var(--icon-border);
   background: var(--icon-background);
