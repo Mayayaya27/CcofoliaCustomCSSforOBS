@@ -1,0 +1,22 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
+
+:root{
+  --background-color: rgba(25, 25, 25, 0);
+  --border-radius: 0px;
+  --border-width: 2px;
+  --width: 600px;
+}
+
+hr {
+  display: block;
+  border-color: rgba(255, 255, 255, 0.7) !important;
+  border-width: 0px 0px thin !important;
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+11)>div {
+  display: flex !important;
+}
+
+.MuiPaper-root {
+  background-color: rgba(25, 25, 25, 0.99);
+}
