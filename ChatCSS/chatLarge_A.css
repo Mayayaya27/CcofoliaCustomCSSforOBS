@@ -24,7 +24,7 @@
 :root{
 /*Chat*/
   --background-color: rgba(200, 200, 200, 0.99);
-  --background-padding: 20px 20px 20px 20px;
+  --background-padding: 30px 30px;
   --border-color: rgba(250, 250, 250, 0);
   --border-image: url();
   --border-width: 0px;
@@ -94,6 +94,7 @@ hr {
 .MuiListItemAvatar-root>div {
   background: transparent;
   border-radius: var(--image-radius);
+  display: none;
 }
 
 .MuiPaper-root {
@@ -102,7 +103,7 @@ hr {
 
 .MuiTypography-body2 {
   font-size: var(--font-size);
-  animation: scrollUp  800s ease 20s;
+  animation: scrollUp  800s ease 0s, fadeOut 1s ease 805s;
 }
 
 @keyframes scrollUp {
@@ -111,6 +112,15 @@ hr {
     }
     to {
         transform: translateY(-10000px);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
     }
 }
 
@@ -127,7 +137,7 @@ hr {
   position: static !important;
   flex-shrink: 0;
   margin: 5px;
-  margin-left: 20px;
+  margin-left: 0px;/*Koko*/
 }
 
 .MuiListItemText-root {
