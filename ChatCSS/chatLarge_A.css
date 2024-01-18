@@ -23,25 +23,25 @@
 
 :root{
 /*Chat*/
-  --background-color: rgba(15, 15, 15, 0.99);
-  --background-padding: 10px 10px 10px 10px;
+  --background-color: rgba(200, 200, 200, 0.99);
+  --background-padding: 20px 20px 20px 20px;
   --border-color: rgba(250, 250, 250, 0);
   --border-image: url();
   --border-width: 0px;
-  --border-radius: 10px;
-  --border-shadow: 0;
-  --font-color: rgb(255, 255, 255);
+  --border-radius: 30px;
+  --border-shadow: 10;
+  --font-color: rgb(5, 5, 5);
   --font-color-shadow: 0;
   --font-color-fail: rgb(245, 0, 87);
   --font-color-fail-shadow: 0;
   --font-color-success: rgb(33, 150, 243);
   --font-color-success-shadow: 0;
-  --font-size: 1.5rem;
+  --font-size: 1.7rem;
   --font-shadow: 0;
   --image-radius: 0%;
   --width: 1000px;
-  --line-clamp: 32;/*行数*/
-  --textbox-right-margin: 20px;
+  --line-clamp: 500;/*行数*/
+  --textbox-right-margin: 0px;
 }
 
 .MuiDrawer-root>.MuiPaper-root {
@@ -101,7 +101,16 @@ hr {
 
 .MuiTypography-body2 {
   font-size: var(--font-size);
-  animation: scroll  2s ease 0s;
+  animation: scrollUp  800s ease 20s;
+}
+
+@keyframes scrollUp {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-10000px);
+    }
 }
 
 /*Text Box Set Margin Right*/
@@ -111,8 +120,8 @@ hr {
 
 .MuiList-root>div:nth-child(1)>div>div>div {
   display: none;
-  height: auto !important;
-  min-height: auto !important;
+  height: 1000px !important;
+  min-height: 1000px !important;
   width: var(--width) !important;
   position: static !important;
   flex-shrink: 0;
@@ -134,15 +143,6 @@ p.MuiTypography-root {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: var(--line-clamp);
-}
-
-@keyframes scroll {
-    from {
-        transform: transformY(500px);
-    }
-    to {
-        transfrom: transformY(0);
-    }
 }
 
 .css-1l6qhgm,
