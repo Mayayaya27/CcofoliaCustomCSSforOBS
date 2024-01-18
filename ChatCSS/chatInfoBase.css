@@ -30,6 +30,9 @@
   --border-width: 0px;
   --border-radius: 10px;
   --border-shadow: 0;
+    
+  --icon-display: block;
+    
   --title-font-size: 1.2rem;
   --font-color: rgb(255, 255, 255);
   --font-color-shadow: 0;
@@ -89,6 +92,7 @@ hr {
   margin: 0px;
   margin-top: 15px;
   margin-left: 15px;
+  display: var(--icon-display);
 }
 
 .MuiListItemAvatar-root>div {
