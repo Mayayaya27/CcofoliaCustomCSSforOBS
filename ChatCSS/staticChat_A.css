@@ -5,7 +5,7 @@
   --border-radius: 0px;
   --border-width: 2px;
   --width: 600px;
-  --line-clamp: 1000;/*行数*/
+  --line-clamp: none;/*行数*/
   
   --item-top: 0;
   --item-bottom: 0;
