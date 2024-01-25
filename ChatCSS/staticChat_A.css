@@ -5,6 +5,9 @@
   --border-radius: 0px;
   --border-width: 2px;
   --width: 600px;
+
+  --item-top: 0;
+  --item-bottom: 0;
 }
 
 hr {
