@@ -44,7 +44,7 @@
   --font-shadow: 0;
   --image-radius: 0%;
   --width: 500px;
-  --line-clamp: 32;/*行数*/
+  --line-clamp: none;/*行数*/
   --textbox-right-margin: 20px;
 
   --item-top: auto;
