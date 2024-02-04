@@ -43,12 +43,14 @@
     ステータス（個別）
   **************************/
   /** ステータス1～6行目の位置調整 */
-  --left-space-status1: 46px;
+  --left-space-status1: 69px;
   --left-space-status2: 0px;
-  --left-space-status3: 23px;
+  --left-space-status3: 46px;
   --left-space-status4: 0px;
-  --left-space-status5: 0px;
+  --left-space-status5: 23px;
   --left-space-status6: 0px;
+  --left-space-status7: 0px;
+  --left-space-status8: 0px;
   /** ステータスの横幅＋位置調整の最大値以上に設定してください */
   --max-width: 450px;
 
