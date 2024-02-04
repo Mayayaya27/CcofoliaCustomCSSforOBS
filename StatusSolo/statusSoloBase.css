@@ -56,6 +56,8 @@
   --left-space-status4: 0px;
   --left-space-status5: 0px;
   --left-space-status6: 0px;
+  --left-space-status7: 0px;
+  --left-space-status8: 0px;
   /** ステータスの横幅＋位置調整の最大値以上に設定してください */
   --max-width: 450px;
 
@@ -174,6 +176,12 @@ body {
 }
 #root > div > div > div > div > div:nth-child(6) {
   margin-left: var(--left-space-status6) !important;
+}
+#root > div > div > div > div > div:nth-child(7) {
+  margin-left: var(--left-space-status7) !important;
+}
+#root > div > div > div > div > div:nth-child(8) {
+  margin-left: var(--left-space-status8) !important;
 }
 #root > div > div > div > div > div > div:nth-child(2) > div:nth-child(1) {
   height: var(--height-total) !important;
