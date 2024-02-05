@@ -21,7 +21,7 @@
   --icon-position-y2: 0px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /* Initiative */
- --initiative-size: 35px;
+ --initiative-size: 38px;
  --initiative-font-size: 25px;
  --initiative-transform: translate(133px, -20px);
  --initiative-border-radius: 20px;
