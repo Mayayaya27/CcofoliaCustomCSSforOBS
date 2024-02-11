@@ -192,7 +192,7 @@
   display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
   margin-left: 0px; !important;
-  margin-bottom: var(--space-between-bottom); !important;
+  margin-bottom: var(--space-between-bottom) !important;
   vertical-align: top;
 }
 
