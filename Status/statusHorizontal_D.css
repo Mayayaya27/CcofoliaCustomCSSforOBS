@@ -6,10 +6,12 @@
   /** Icon's Size */
   --icon-size: 80px;
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
-  --placement-icon-status: inline-block;
+  --placement-icon-status: inline-table;
+
+    --disp-icon: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-105px, 55px);
+  --initiative-transform: translate(-55px, 55px);
   --initiative-radius: 30px;
   --initiative-border-radius: 20px;
   --initiative-font-size: 18px;
