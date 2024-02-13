@@ -8,7 +8,7 @@
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
   --placement-icon-status: inline-table;
 
-    --disp-icon: inline-block;
+  --disp-icon: inline-block;
 
   /*****Initiative*****/
   --initiative-transform: translate(-55px, 55px);
