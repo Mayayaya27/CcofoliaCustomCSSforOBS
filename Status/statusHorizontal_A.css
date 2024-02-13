@@ -6,7 +6,9 @@
   /** Icon's Size */
   --icon-size: 180px;
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
-  --placement-icon-status: inline-block;
+  --placement-icon-status: inline-table;
+
+  --disp-icon: inline-block !important;
 
   /*****Initiative*****/
   --initiative-transform: translate(-142px, 155px);
