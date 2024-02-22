@@ -63,7 +63,9 @@
   --midashi-bottom-space: 10px;
   /** 左の余白 */
   --midashi-left-space: 45px;
-  --text-shadow:0px;
+  /** テキスト影 */
+  --text-shadow: 0px;
+　/** テキストの太さ */
   --font-weight: normal;
 
   /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
