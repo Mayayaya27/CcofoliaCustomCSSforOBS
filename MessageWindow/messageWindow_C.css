@@ -3,25 +3,5 @@
 :root{
   --dice-win-background: rgba(200, 200, 200, 0.6);
   --text-shadow: 2px 2px 2px black;
-  --font-weight: bold !important;
-}
-
-/** ドロップシャドウ */
-.MuiPaper-rounded .MuiTypography-subtitle2 {
-  text-shadow: 2px 2px 2px black;
-  font-weight: bold !important;
-}
-
-/** ダイス結果(□＞58) */
-.MuiPaper-rounded .MuiTypography-body2 {
-  text-shadow: 2px 2px 2px black;
-  font-weight: bold;
-  font-weight: bold !important;
-}
-
-/** 内容 */
-.MuiTypography-body1 {
-  text-shadow: 2px 2px 2px black;
-  font-weight: bold;
-  font-weight: bold !important;
+  --font-weight: bold;
 }
