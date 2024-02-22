@@ -1,0 +1,21 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromLeft_A.css");
+
+
+:root{
+  --width: 590px;
+  --background-color: rgba(200, 200, 200, 0.8);
+  --font-color-shadow: 0.2px 0.5px 1px rgba(10, 10, 10, 0.98);
+  --border-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+  --font-color-fail: rgb(245, 50, 150);
+  --font-color-success: rgb(30, 180, 250);
+}
+
+p.MuiTypography-root,
+.MuiTypography-colorTextSecondary {
+
+}
+
+.css-1l6qhgm,
+.MuiTypography-colorPrimary {
+
+}
