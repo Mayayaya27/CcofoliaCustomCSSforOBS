@@ -63,6 +63,8 @@
   --midashi-bottom-space: 10px;
   /** 左の余白 */
   --midashi-left-space: 45px;
+  --text-shadow:0px;
+  --font-weight: normal;
 
   /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント */
@@ -169,6 +171,8 @@ img[src*="dice"] {
   margin-bottom: var(--midashi-bottom-space) !important;
   /** 左の余白 */
   padding-left: var(--midashi-left-space) !important;
+  text-shadow: var(--text-shadow);
+  font-weight: var(font-weight) !important;
 }
 
 .MuiToolbar-gutters {
@@ -191,6 +195,8 @@ img[src*="dice"] {
   margin-bottom: var(--dice-result-bottom-space) !important;
   /** 左の余白 */
   margin-left: var(--dice-result-left-space) !important;
+  text-shadow: var(--text-shadow);
+  font-weight: var(font-weight) !important;
 }
 
 /** 内容 */
@@ -203,6 +209,8 @@ img[src*="dice"] {
   font-weight: var(--content-font-weight) !important;
   /** 文字サイズ */
   font-size: var(--content-size) !important;
+  text-shadow: var(--text-shadow);
+  font-weight: var(--font-weight) !important;
 }
 
 /*Contents*/
