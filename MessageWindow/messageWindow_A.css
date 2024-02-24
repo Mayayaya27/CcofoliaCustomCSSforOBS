@@ -90,7 +90,7 @@
   /** フォント色 */
   --content-color: inherit;
   /** フォントの太さ(normal or bold) */
-  --content-font-weight: normal;
+  --content-font-weight: bold;
   /** 文字サイズ */
   --content-size: 22px;
   /** 下の余白 */
