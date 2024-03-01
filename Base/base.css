@@ -26,7 +26,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 [role="presentation"] {display: none;}/*CM*/
 
 header>.MuiToolbar-gutters {display: none;}/*TopMenu*/
-.MuiSnackbar-root {display: none;}/*SE,Viewer Mode, Popup*/
+.MuiSnackbarContent-root {display: none;}/*SE,Viewer Mode, Popup*/
 div[tabindex="0"]>div+div:nth-child(3) {display: none}/*MusicSlider*/
 div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 .MuiButtonBase-root.MuiFab-root {display: none;}/*PencilMark*/
