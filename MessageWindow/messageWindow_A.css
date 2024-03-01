@@ -65,8 +65,6 @@
   --midashi-left-space: 45px;
   /** テキスト影 */
   --text-shadow: 0px;
-　/** テキストの太さ */
-  --font-weight: bold;
 
   /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント */
@@ -174,7 +172,6 @@ img[src*="dice"] {
   /** 左の余白 */
   padding-left: var(--midashi-left-space) !important;
   text-shadow: var(--text-shadow);
-  font-weight: var(--font-weight) !important;
 }
 
 .MuiToolbar-gutters {
