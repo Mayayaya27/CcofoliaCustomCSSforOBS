@@ -3,7 +3,7 @@
 
 :root{
   --width: 590px;
-  --background-color: rgba(200, 200, 200, 0.9);
+  --background-color: rgba(255, 255, 255, 0.75);
   --font-color: rgb(50, 50, 50);
   --font-color-fail: #DF0025;
   --font-color-success: #0095DF;
