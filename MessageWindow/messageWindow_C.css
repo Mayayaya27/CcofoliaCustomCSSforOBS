@@ -4,4 +4,5 @@
   --dice-win-background: rgba(200, 200, 200, 0.6);
   --text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.2), 1px 1px 1px rgba(10, 10, 10, 0.2), 1px 1px 1px rgba(10, 10, 10, 0.2), 1px 1px 1px rgba(10, 10, 10, 0.2);
   --font-weight: normal;
+  --dice-result-font-weight: bold;
 }
