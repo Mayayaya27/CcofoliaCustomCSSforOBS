@@ -34,7 +34,7 @@
   /** フォント */
   --content-font: "游ゴシック";
   /** フォント色 */
-  --content-color: black;
+  --content-color: #3A3A3A;
   /** フォントの太さ(normal or bold) */
   --content-font-weight: bold;
   /** 文字サイズ */
