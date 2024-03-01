@@ -66,7 +66,7 @@
   /** テキスト影 */
   --text-shadow: 0px;
 　/** テキストの太さ */
-  --font-weight: normal;
+  --font-weight: bold;
 
   /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント */
@@ -74,7 +74,7 @@
   /** フォント色 */
 /*  --dice-result-color: inherit; */
   /** フォントの太さ(normal or bold) */
-  --dice-result-font-weight: normal;
+  --dice-result-font-weight: bold;
   /** 文字サイズ */
   --dice-result-size: 20px;
   /** 上の余白 */
@@ -90,7 +90,7 @@
   /** フォント色 */
   --content-color: inherit;
   /** フォントの太さ(normal or bold) */
-  --content-font-weight: bold;
+  --content-font-weight: normal;
   /** 文字サイズ */
   --content-size: 22px;
   /** 下の余白 */
