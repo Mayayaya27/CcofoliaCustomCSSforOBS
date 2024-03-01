@@ -162,8 +162,6 @@ p.MuiTypography-root {
 .MuiListItemText-primary {
   display: block;
   font-size: var(--title-font-size);
-}
-.MuiListItemText-primary {
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
 }
