@@ -48,7 +48,7 @@ div[open] {
 
 /* Dynamic Dice */
 .sc-gyQHC{
-  display: none;
+  display: none !important;
 }
 
 /*MessageWindow*/
