@@ -198,7 +198,6 @@ img[src*="dice"] {
   /** 左の余白 */
   margin-left: var(--dice-result-left-space) !important;
   text-shadow: var(--text-shadow);
-  font-weight: var(--font-weight) !important;
 }
 
 /** 内容 */
@@ -212,7 +211,6 @@ img[src*="dice"] {
   /** 文字サイズ */
   font-size: var(--content-size) !important;
   text-shadow: var(--text-shadow);
-  font-weight: var(--font-weight) !important;
 }
 
 /*Contents*/
