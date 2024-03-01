@@ -32,7 +32,8 @@
   --border-shadow: 0;
     
   --icon-display: block;
-    
+
+  --font-family: Yu Gothic UI Semibold;
   --title-font-size: 1.2rem;
   --font-color: rgb(255, 255, 255);
   --font-color-shadow: 0;
@@ -135,6 +136,7 @@ p.MuiTypography-root,
 .MuiTypography-colorTextSecondary {
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
+  font-family: var(--font-family);
 }
 
 p.MuiTypography-root {
@@ -147,12 +149,14 @@ p.MuiTypography-root {
 .MuiTypography-colorPrimary {
   color: var(--font-color-success);
   text-shadow: var(--font-color-success-shadow);
+  font-family: var(--font-family);
 }
 
 .css-1j13mke,
 .MuiTypography-colorSecondary {
   color: var(--font-color-fail);
   text-shadow: var(--font-color-fail-shadow);
+  font-family: var(--font-family);
 }
 
 .MuiListItemText-primary {
