@@ -174,7 +174,7 @@ img[src*="dice"] {
   /** 左の余白 */
   padding-left: var(--midashi-left-space) !important;
   text-shadow: var(--text-shadow);
-  font-weight: var(font-weight) !important;
+  font-weight: var(--font-weight) !important;
 }
 
 .MuiToolbar-gutters {
@@ -198,7 +198,7 @@ img[src*="dice"] {
   /** 左の余白 */
   margin-left: var(--dice-result-left-space) !important;
   text-shadow: var(--text-shadow);
-  font-weight: var(font-weight) !important;
+  font-weight: var(--font-weight) !important;
 }
 
 /** 内容 */
