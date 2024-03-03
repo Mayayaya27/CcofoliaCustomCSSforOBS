@@ -1,7 +1,6 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Status/statusInfoBase.css");
 
 :root{
-:root{
   --icon-size: 60px;
 
   --initiative-transform: translate(-32px, 37px);
@@ -27,5 +26,4 @@
   --status-padding-right: 5px;
   --item-font-size: 17px;
   --status-font-size: 17px;
-}
 }
