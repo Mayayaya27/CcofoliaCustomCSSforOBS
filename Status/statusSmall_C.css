@@ -1,0 +1,8 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Status/statusInfoBase.css");
+
+:root{
+  --5thStatus-display: block;
+  --6thStatus-display: block;
+  --7thStatus-display: block;
+  --8thStatus-display: block;
+}
