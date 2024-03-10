@@ -1,0 +1,12 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromLeft_A.css");
+
+:root{
+  --textbox-right-margin: 10px;
+  --font-size: 0.95rem;
+  --width: 325px;
+  --icon-size: 25px;
+}
+
+.MuiListItemAvatar-alignItemsFlexStart{
+  min-width: 0px;
+}
