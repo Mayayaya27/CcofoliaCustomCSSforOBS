@@ -1,4 +1,4 @@
-@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromLeft_A.css");
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
   --textbox-right-margin: 10px;
@@ -7,6 +7,37 @@
   --icon-size: 25px;
 }
 
-.MuiListItemAvatar-alignItemsFlexStart{
-  min-width: 0px;
+.MuiListItem-gutters {
+    animation:
+        fadeIn  1s ease 0s,
+        /* 7sを変えると表示されてる秒数が変わります。最低2s */
+        fadeOut 2s ease 15s forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* -150pxにすると左から右にフェードイン */
+        transform: translateX(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.MuiList-root>div:nth-child(1) {
+  height: 100% !important;
+}
+
+.MuiList-root>div:nth-child(1)>div {
+  bottom: 0;
+  top: auto !important;
 }
