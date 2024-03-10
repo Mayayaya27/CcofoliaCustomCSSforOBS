@@ -32,6 +32,10 @@
   --border-shadow: 0;
     
   --icon-display: block;
+  --icon-size: 40px;
+  --icon-margin-top: 15px;
+  --icon-margin-left: 15px;
+  --icon-min-width: 56px;
 
   --font-family: Yu Gothic UI Semibold;
   --title-font-size: 1.2rem;
@@ -94,9 +98,14 @@ hr {
 
 .MuiListItemAvatar-alignItemsFlexStart {
   margin: 0px;
-  margin-top: 15px;
-  margin-left: 15px;
+  margin-top: var(--icon-margin-top);
+  margin-left: var(--icon-margin-left);
+  min-width: var(--icon-min-width);
   display: var(--icon-display);
+}
+
+.sc-kizEcT img{
+  width: var(--icon-size);
 }
 
 .MuiListItemAvatar-root>div {
