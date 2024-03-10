@@ -30,6 +30,7 @@
   --border-width: 0px;
   --border-radius: 10px;
   --border-shadow: 0;
+  --all-margin-left: 20px;
     
   --icon-display: block;
   --icon-size: 40px;
@@ -134,7 +135,7 @@ hr {
   position: static !important;
   flex-shrink: 0;
   margin: 5px;
-  margin-left: 20px;
+  margin-left: var(--all-margin-left);
 }
 
 .MuiListItemText-root {
