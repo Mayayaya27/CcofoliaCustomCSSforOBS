@@ -5,6 +5,7 @@
   --font-size: 0.95rem;
   --width: 325px;
   --icon-size: 25px;
+  --icon-min-width: 0px;
 }
 
 .MuiListItem-gutters {
