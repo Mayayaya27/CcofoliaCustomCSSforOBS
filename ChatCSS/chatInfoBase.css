@@ -149,7 +149,8 @@ p.MuiTypography-root,
   font-family: var(--font-family);
 }
 
-.MuiTypography-root.MuiTypography-body2{
+p.MuiTypography-root,
+.MuiTypography-body2{
   color: var(--font-color);
 }
 
