@@ -85,11 +85,11 @@ div[tabindex="0"]>div:nth-child(1) {
   display: var(--markerPanel-display);
 }
 /*CharaIcon*/
-.sc-bUQxUO {
+.sc-eWnSBu {
   display: var(--charaIcon-display);
 }
 /*CharaIconName*/
-.sc-jLqQTn {display: none;}
+.sc-irKCZC {display: none;}
 
 /*BackGround*/
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
