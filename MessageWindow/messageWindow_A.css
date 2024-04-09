@@ -108,7 +108,7 @@
 .MuiPaper-elevation6/*,.MuiPaper-rounded:nth-child(2)*/ {
   /** 横幅 */
   width: var(--dice-win-width) !important;
-  max-width: 1920px;
+  max-width: none;
   /** 背景色 */
   background: var(--dice-win-background) !important;
   /** 枠線 */
