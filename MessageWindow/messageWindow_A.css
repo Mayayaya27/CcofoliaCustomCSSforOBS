@@ -60,7 +60,7 @@
   /** 上の余白 */
   --midashi-top-space: 30px;
   /** 下の余白 */
-  --midashi-bottom-space: 10px;
+  --midashi-bottom-space: 5px;
   /** 左の余白 */
   --midashi-left-space: 45px;
   /** テキスト影 */
@@ -78,7 +78,7 @@
   /** 上の余白 */
   --dice-result-top-space:30px;
   /** 下の余白 */
-  --dice-result-bottom-space: 10px;
+  --dice-result-bottom-space: 5px;
   /** 左の余白 */
   --dice-result-left-space: 45px;
 
@@ -92,7 +92,7 @@
   /** 文字サイズ */
   --content-size: 22px;
   /** 下の余白 */
-  --content-bottom-space: 20px;
+  --content-bottom-space: 27px;
   /** 左の余白 */
   --content-left-space: 45px;
   /** 右の余白 */
