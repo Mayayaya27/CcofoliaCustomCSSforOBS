@@ -80,7 +80,7 @@
   /** 下の余白 */
   --dice-result-bottom-space: 5px;
   /** 左の余白 */
-  --dice-result-left-space: 45px;
+  --dice-result-left-space: 15px;
 
   /** ◆◆◆内容◆◆◆ */
   /** フォント */
