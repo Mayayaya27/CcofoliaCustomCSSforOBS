@@ -1,0 +1,44 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/MessageWindow/messageWindow_A.css");
+
+:root{
+  /** ◆◆◆ウィンドウ◆◆◆ */
+  /** width */
+  --dice-win-width: 1000px;
+  /** 背景色 */
+  --dice-win-background: rgba(255, 255, 255, 0.9);
+  /** 枠線 */
+  --dice-win-border: solid 0px white;
+  /** 角の丸み */
+  --dice-win-radius: 100px;
+
+  /** ◆◆◆見出し、キャラ名◆◆◆ */
+  /** フォント色 */
+  --midashi-color: grey;
+  --font-weight: bold;
+
+ /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
+  /** フォント色 */
+  --dice-result-color: black;
+  --dice-result-font-weight: bold;
+  --dice-result-font: "游ゴシック";
+
+  /** 右側のスペースの幅 */
+  --dice-pic-right-space: 100px;
+
+  /** 左の余白 */
+  --midashi-left-space: 150px;
+
+  /** ◆◆◆内容◆◆◆ */
+  /** フォント色 */
+  --content-color: #3A3A3A;
+  --content-font: "游ゴシック";
+  /** フォントの太さ(normal or bold) */
+  --content-font-weight: bold;
+  /** 左の余白 */
+  --content-left-space: 150px;
+  /** 右の余白 */
+  --content-right-space: 150px;
+
+  /** Bottom */
+  --window-bottom: 3px;
+}
