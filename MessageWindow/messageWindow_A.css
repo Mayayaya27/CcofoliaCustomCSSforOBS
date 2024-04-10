@@ -111,8 +111,6 @@
   max-width: none;
   /** 背景色 */
   background: var(--dice-win-background) !important;
-  /** 枠線 */
-  border: var(--dice-win-border) !important;
   /** 角の丸み */
   border-radius: var(--dice-win-radius) !important;
   /** 背景色の見切れ解消 */
@@ -120,6 +118,11 @@
   bottom: var(--window-bottom) !important;
   left: 0px;
   right: 0px;
+}
+
+/* 枠線 */
+.jxZbER{
+  border: var(--dice-win-border) !important;
 }
 
 
