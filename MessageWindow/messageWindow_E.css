@@ -38,7 +38,4 @@
   --content-left-space: 150px;
   /** 右の余白 */
   --content-right-space: 150px;
-
-  /** Bottom */
-  --window-bottom: 3px;
 }
