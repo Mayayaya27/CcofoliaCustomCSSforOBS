@@ -1,0 +1,23 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/MessageWindow/messageWindow_A.css");
+
+:root{
+  /** ◆◆◆ウィンドウ◆◆◆ */
+  /** width */
+  --dice-win-width: 1000px;
+  /** 枠線 */
+  --dice-win-border: solid 0px white;
+  /** 角の丸み */
+  --dice-win-radius: 100px;
+
+ /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
+ /** 右側のスペースの幅 */
+  --dice-pic-right-space: 100px;
+  /** 左の余白 */
+  --midashi-left-space: 150px;
+
+  /** ◆◆◆内容◆◆◆ */
+  /** 左の余白 */
+  --content-left-space: 150px;
+  /** 右の余白 */
+  --content-right-space: 150px;
+}
