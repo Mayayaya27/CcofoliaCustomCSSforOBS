@@ -21,10 +21,8 @@
   --dice-result-color: black;
   --dice-result-font-weight: bold;
   --dice-result-font: "游ゴシック";
-
   /** 右側のスペースの幅 */
   --dice-pic-right-space: 100px;
-
   /** 左の余白 */
   --midashi-left-space: 150px;
 
