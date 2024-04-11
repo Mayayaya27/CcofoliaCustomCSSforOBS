@@ -155,7 +155,6 @@
   --all-left: 25px;
 }
 
-
 /**************************
 　デザイン
 **************************/
@@ -201,42 +200,42 @@
   height: var(--height-status) !important;
 }
 
-.eyQguk :nth-child(1) {
+.eTqEcT >div:nth-child(1) {
   display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
 }
 
-.eyQguk :nth-child(2) {
+.eTqEcT >div:nth-child(2) {
   display: var(--2ndStatus-display);
   margin-left: var(--left-space-status2) !important;
 }
 
-.eyQguk :nth-child(3) {
+.eTqEcT >div:nth-child(3) {
   display: var(--3rdStatus-display);
   margin-left: var(--left-space-status3) !important;
 }
 
-.eyQguk :nth-child(4) {
+.eTqEcT >div:nth-child(4) {
   display: var(--4thStatus-display);
   margin-left: var(--left-space-status4) !important;
 }
 
-.eyQguk :nth-child(5) {
+.eTqEcT >div:nth-child(5) {
   display: var(--5thStatus-display);
   margin-left: var(--left-space-status5) !important;
 }
 
-.eyQguk :nth-child(6) {
+.eTqEcT >div:nth-child(6) {
   display: var(--6thStatus-display);
   margin-left: var(--left-space-status6) !important;
 }
 
-.eyQguk :nth-child(7) {
+.eTqEcT >div:nth-child(7) {
   display: var(--7thStatus-display);
   margin-left: var(--left-space-status7);
 }
 
-.eyQguk :nth-child(8) {
+.eTqEcT >div:nth-child(8) {
   display: var(--8thStatus-display);
   margin-left: var(--left-space-status8);
 }
@@ -315,6 +314,9 @@
 /** Transfor All */
 .sc-fkmgoA{
   top: var(--all-top);
+  left: var(--all-left);
+  overflow: visible;
+}
   left: var(--all-left);
   overflow: visible;
 }
