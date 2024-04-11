@@ -188,8 +188,6 @@ img[src*="dice"] {
 .MuiPaper-root .MuiTypography-body2 {
   /** フォント */
   font-family: var(--dice-result-font) !important;
-  /** フォント色 */
-/*  color: var(--dice-result-color) !important; */
   /** フォントの太さ(normal or bold) */
   font-weight: var(--dice-result-font-weight) !important;
   /** 文字サイズ */
@@ -201,6 +199,13 @@ img[src*="dice"] {
   /** 左の余白 */
   margin-left: var(--dice-result-left-space) !important;
   text-shadow: var(--text-shadow);
+}
+
+
+/** ダイス結果(□＞58) 成功・失敗無し用 */
+.css-ucj12 {
+  /** フォント色 */
+  color: var(--dice-result-color) !important;
 }
 
 /** 内容 */
