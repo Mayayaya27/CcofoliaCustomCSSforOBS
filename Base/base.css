@@ -47,7 +47,7 @@ div[open] {
 }
 
 /* Dynamic Dice */
-.sc-gyQHC{
+.dIumNU{
   display: none !important;
 }
 
@@ -71,7 +71,7 @@ div[tabindex="0"]>div:nth-child(1) {
 
 
 /*only foreground*/
-#root>div>div>div>div>div>div>div>div>img {
+div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
   display: var(--foreground-display);
 }
 
