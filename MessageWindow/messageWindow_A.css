@@ -121,7 +121,7 @@
 }
 
 /* 枠線 */
-.jxZbER{
+.gGhEJz{
   border: var(--dice-win-border) !important;
 }
 
@@ -184,7 +184,7 @@ img[src*="dice"] {
 }
 
 /** ダイス結果(□＞58) */
-.MuiPaper-rounded .MuiTypography-body2 {
+.MuiPaper-root .MuiTypography-body2 {
   /** フォント */
   font-family: var(--dice-result-font) !important;
   /** フォント色 */
@@ -216,13 +216,16 @@ img[src*="dice"] {
 }
 
 /*Contents*/
-.sc-dYYaKM{
+.iKUBvp{
   /** 下の余白 */
   padding-bottom: var(--content-bottom-space) !important;
   /** 左の余白 */
   padding-left: var(--content-left-space) !important;
   /** 右の余白 */
   padding-right: var(--content-right-space) !important;
+  /** height */
+  height: var(--content-height);
+}
   /** height */
   height: var(--content-height);
 }
