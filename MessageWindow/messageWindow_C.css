@@ -10,7 +10,7 @@
 
  /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント色 */
-  --dice-result-color: black;
+  --dice-result-color: grey;
   --dice-result-font-weight: bold;
   --dice-result-font: "游ゴシック";
 
