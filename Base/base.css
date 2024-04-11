@@ -1,18 +1,17 @@
-@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Base/base.css");
-
-:root {
-/*base.css*/
-  --chatWindow-display: none;
+:root{
+  --chatWindow-display: block;
   --statusWindow-display: block;
-  --messageWindow-display: none;
-  --cutIn-display: none;
+  --messageWindow-display: block;
+  --messageWindowImage-display: none;
+  --cutIn-display: block;
 
-  --f-s-m-c-display: none !important;
-  --foreground-display: none !important;
-  --screenPanel-display: none !important!;
-  --markerPanel-display: none !important;
-  --charaIcon-display: none !important;
-  --background-display: none !important;
+  --f-s-m-c-display: block;
+  --foreground-display: block;
+  --screenPanel-display: block;
+  --markerPanel-display: block;
+  --charaIcon-display: block;
+  
+  --background-display: block;
 
   --displayAll-height: 100%;
   --displayAll-width: 100%;
@@ -21,300 +20,91 @@
   --displayAll-scale: scale(1, 1);
 }
 
-/*Set Roots*/
-:root {
-  /*****Icons*****/
-  /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
-  --disp-icon: flex;
-  /** Icon's Size */
-  --icon-size: 85px;
-  /** アイコンの角の丸み：50%⇒正円 */
-  --icon-radius: 8px;
-  /*Icon's BackGround*/
-  --icon-background: rgb(0, 0, 0, 0);
-  /*Icon's Border*/
-  --icon-border: 0px;
-  
-  /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
-  --placement-icon-status: flex;
-  /** アイコンの位置調整(縦) */
-  --icon-position-x1: 0px;
-  /** 横並びの時の縦位置の設定。縦並びの場合は0に設定する */
-  --icon-position-x2: 0px;
-  /** 縦並びの時の縦位置の設定。横並びの場合は0に設定する */
-  /** アイコンの位置調整(横) */
-  --icon-position-y1: 0px;
-  /** 横並びの時の横位置の設定。縦並びの場合は0に設定する */
-  --icon-position-y2: 0px;
-  /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
-  /*****Initiative*****/
-  --initiative-transform: translate(-52px, 52px);
-  --initiative-radius: 33px;
-  --initiative-border-radius: 23px;
-  --initiative-font-size: 22px;
-  
-  /**************************
-   ステータス（全体）
- **************************/
-  /**Status Transform*/
-  --status-transform: translate(0px, 0px);
-  /** Status All Margin */
-  --statusAll-margin: 0px;
-  /** ステータスの横幅 */
-  --width-status: 130px;
-  /** ステータスの行間 */
-  --height-status: 25px;
-  
-  /** Margin Between Status(Horizontal) */
-  --space-between-status: 10px;
-   /** Margin Between Status(Bottom) */
-  --space-between-bottom: 30px;
-  /**************************
-    ステータス（個別）
-  **************************/
-  /** ステータス1～6行目の位置調整 */
-  --left-space-status1: 0px;
-  --left-space-status2: 0px;
-  --left-space-status3: 0px;
-  --left-space-status4: 0px;
-  --left-space-status5: 0px;
-  --left-space-status6: 0px;
-  --left-space-status7: 0px;
-  --left-space-status8: 0px;
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+[role="presentation"] {display: none;}/*CM*/
 
-  --1stStatus-display: block;
-  --2ndStatus-display: block;
-  --3rdStatus-display: block;
-  --4thStatus-display: block;
-  --5thStatus-display: block;
-  --6thStatus-display: block;
-  --7thStatus-display: block;
-  --8thStatus-display: block;
+header>.MuiToolbar-gutters {display: none;}/*TopMenu*/
+.MuiSnackbarContent-root {display: none;}/*SE,Viewer Mode, Popup*/
+div[tabindex="0"]>div+div:nth-child(3) {display: none}/*MusicSlider*/
+div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
+.MuiButtonBase-root.MuiFab-root {display: none;}/*PencilMark*/
 
-  /** Colum Amount */
-  --columAmount: 1;
-  
-  /**************************
-    ステータス（最大値）
-  **************************/
-  --height-total: 25px;
-  /** 高さ */
-  --top-total: 0px;
-  /** 位置 */
-  --color-total: rgb(255, 255, 255);
-  /** 色 */
-  --image-total: url(https://gazounoURL);
-  /** ステータス背景を画像にしたい場合 */
-  --opacity-total: 0.6;
-  /** 不透明度 */
-  --degree-total: 0deg;/*-30deg*/
-  /** 角の角度 */
-  --radius-total: 5px;
-  /** 角の丸み */
-  /**************************
-    ステータス（現在値）
-  **************************/
-  --height-remain: 25px;
-  /** 高さ */
-  --top-remain: 0px;
-  /** 位置 */
-  --color-remain: rgb(255, 255, 255);
-  /** 色 */
-  --opacity-remain: 1;
-  /** 不透明度 */
-  --degree-remain: 0deg;/*-30deg*/
-  /** 角の角度 */
-  --radius-remain: 5px;
-  /** 角の丸み */
-  /**************************
-   文字
- **************************/
-  /** ステータス文字の周りの余白(上,下,左,右) */
-  --status-padding-top: 3px;
-  --status-padding-bottom: 3px;
-  --status-padding-left: 5px;
-  --status-padding-right: 5px;
-  /** HPなど、見出し側のフォント、サイズ、色 */
-  --item-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  --item-font-size: 20px;
-  --item-font-color: rgb(66, 66, 66);
-  /** 12/15など、ステータス側のフォント、サイズ、色 */
-  --status-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  --status-font-size: 20px;
-  --status-font-color: rgb(66, 66, 66);
-  /* 不定時の赤字の色 */
-  --futei-font-color: rgb(197, 17, 98);
-  /** HPなど、見出しの周りに白縁を設定する */
-  --item-outline-color: rgba(255, 255, 255, 1);
-  /** 12/15など、ステータスの周りに白縁を設定する */
-  --status-outline-color: rgba(255, 255, 255, 1);
+/*ChatWindow*/
+.MuiDrawer-root.MuiDrawer-docked {
+  display: var(--chatWindow-display);
+}
 
-  /**** Everything ****/
-  --all-top: 25px;
-  --all-left: 25px;
+/*StatusWindow*/
+.sc-fkmgoA {
+  display: var(--statusWindow-display);
+}
+
+/*CutIn*/
+div[open] {
+  display: var(--cutIn-display) !important;
+}
+
+/* Dynamic Dice */
+.dIumNU{
+  display: none !important;
+}
+
+/*MessageWindow*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
+  display: var(--messageWindow-display);
+}
+/*MessageWindowImage*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
+  display: var(--messageWindowImage-display);
+}
+/*MessageWindowButtons*/
+.MuiButtonBase-root.MuiIconButton-root  {
+  display: none;
+}
+
+/*foreground, screenpanel, markerpanel, charaIcons*/
+div[tabindex="0"]>div:nth-child(1) {
+  display: var(--f-s-m-c-display) !important;
 }
 
 
-/**************************
-　デザイン
-**************************/
-/* アイコン画像 */
-.css-1b47e06 {
-  display: var(--disp-icon) !important;
-  top: var(--icon-position-x1) !important;
-  margin-right: var(--icon-position-y1) !important;
-  margin-bottom: var(--icon-position-x2) !important;
-  margin-left: var(--icon-position-y2) !important;
+/*only foreground*/
+div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
+  display: var(--foreground-display);
 }
 
-/* イニシアティブ */
-.MuiBadge-badge {
-  transform: var(--initiative-transform);
-  height: var(--initiative-radius);
-  min-width: var(--initiative-radius);
-  border-radius: var(--initiative-border-radius);
-  font-size: var(--initiative-font-size);
+/*ScreenPanel*/
+.sc-gkCnZi {
+  display: var(--screenPanel-display);
 }
 
-.MuiBadge-root>div {
-  border: var(--icon-border);
-  background: var(--icon-background);
+/*MarkerPanel*/
+.sc-irKCZC {
+  display: var(--markerPanel-display);
 }
 
-.MuiAvatar-root {
-  width: var(--icon-size) !important;
-  height: var(--icon-size) !important;
-  border-radius: var(--icon-radius) !important;
+/*CharaIcon*/
+.sc-kTCrLD {
+  display: var(--charaIcon-display);
+}
+/*CharaIconName*/
+.sc-eWnSBu {display: none;}
+
+/*BackGround*/
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
+  display: var(--background-display) !important;
 }
 
-.sc-bTJQTw {
-  display: var(--placement-icon-status);
-  margin-right: var(--space-between-status) !important;
-  margin-left: 0px; !important;
-  margin-bottom: var(--space-between-bottom) !important;
-  vertical-align: top !important;
-}
+/*全体の配置*/
+div[tabindex="0"] {
+/*％を入力して、描画する範囲の指定。見切れている駒は描画されません*/
+  height: var(--displayAll-height) !important;/*画面全体描画する縦幅*/
+  width: var(--displayAll-width) !important;/*画面全体描画する横幅*/
 
-.sc-bTJQTw  {
-  width: var(--width-status) !important;
-  height: var(--height-status) !important;
-}
-
-.sc-hfVCuV :nth-child(1) {
-  display: var(--1stStatus-display);
-  margin-left: var(--left-space-status1) !important;
-}
-
-.sc-hfVCuV :nth-child(2) {
-  display: var(--2ndStatus-display);
-  margin-left: var(--left-space-status2) !important;
-}
-
-.sc-hfVCuV :nth-child(3) {
-  display: var(--3rdStatus-display);
-  margin-left: var(--left-space-status3) !important;
-}
-
-.sc-hfVCuV :nth-child(4) {
-  display: var(--4thStatus-display);
-  margin-left: var(--left-space-status4) !important;
-}
-
-.sc-hfVCuV :nth-child(5) {
-  display: var(--5thStatus-display);
-  margin-left: var(--left-space-status5) !important;
-}
-
-.sc-hfVCuV :nth-child(6) {
-  display: var(--6thStatus-display);
-  margin-left: var(--left-space-status6) !important;
-}
-
-.sc-hfVCuV :nth-child(7) {
-  display: var(--7thStatus-display);
-  margin-left: var(--left-space-status7);
-}
-
-.sc-hfVCuV :nth-child(8) {
-  display: var(--8thStatus-display);
-  margin-left: var(--left-space-status8);
-}
-
-.sc-hfVCuV  > div:nth-child(2) > div:nth-child(1) {
-  height: var(--height-total) !important;
-  top: var(--top-total) !important;
-  background: var(--color-total) !important;
-  transform: skewX(var(--degree-total)) !important;
-  opacity: var(--opacity-total) !important;
-  border-radius: var(--radius-total) !important;
-}
-
-.sc-hfVCuV  > div:nth-child(2) > div:nth-child(2) {
-  height: var(--height-remain) !important;
-  top: var(--top-remain) !important;
-  background: var(--color-remain) !important;
-  transform: skewX(var(--degree-remain)) !important;
-  opacity: var(--opacity-remain) !important;
-  border-radius: var(--radius-remain) !important;
-  content: var(--image-total) !important;
-}
-
-.sc-hfVCuV  > div:nth-child(1) {
-  top: var(--top-total) !important;
-
-  padding-top: var(--status-padding-top) !important;
-  padding-bottom: var(--status-padding-bottom) !important;
-  padding-left: var(--status-padding-left) !important;
-  padding-right: var(--status-padding-right) !important;
-}
-
-.sc-hfVCuV  > div:nth-child(1) > p:nth-child(1) {
-  top: var(--top-total) !important;
-
-  font-family: var(--item-font-family) !important;
-  font-size: var(--item-font-size) !important;
-  color: var(--item-font-color) !important;
-  text-shadow: var(--item-outline-color) 1px 1px 0px,
-    var(--item-outline-color) -1px -1px 0px,
-    var(--item-outline-color) -1px 1px 0px,
-    var(--item-outline-color) 1px -1px 0px,
-    var(--item-outline-color) 0px 1px 0px,
-    var(--item-outline-color) 0px -1px 0px,
-    var(--item-outline-color) -1px 0px 0px,
-    var(--item-outline-color) 1px 0px 0px !important;
-}
-
-.sc-hfVCuV  > div:nth-child(1) > p:nth-child(2) {
-  font-family: var(--status-font-family) !important;
-  font-size: var(--status-font-size) !important;
-  color: var(--status-font-color) !important;
-  text-shadow: var(--status-outline-color) 1px 1px 0px,
-    var(--status-outline-color) -1px -1px 0px,
-    var(--status-outline-color) -1px 1px 0px,
-    var(--status-outline-color) 1px -1px 0px,
-    var(--status-outline-color) 0px 1px 0px,
-    var(--status-outline-color) 0px -1px 0px,
-    var(--status-outline-color) -1px 0px 0px,
-    var(--status-outline-color) 1px 0px 0px !important;
-}
-
-.sc-hfVCuV > div:nth-child(1) > p:nth-child(2) > span[color="secondary"] {
-  color: var(--futei-font-color) !important;
-}
-
-/* Middle Status */
-.eTqEcT {
-  transform: var(--status-transform);
-  /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
-  overflow-y: visible !important;
-  margin-left: var(--statusAll-margin) !important;
-  width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
-}
-
-/** Transfor All */
-.sc-fkmgoA{
-  top: var(--all-top);
-  left: var(--all-left);
-  overflow: visible;
+  position: absolute;/*ここは触らない*/
+  top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
+  left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
+  transform: var(--displayAll-scale);
 }
