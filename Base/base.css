@@ -81,15 +81,16 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
 }
 
 /*MarkerPanel*/
-.sc-iGkpzv {
+.sc-irKCZC {
   display: var(--markerPanel-display);
 }
+
 /*CharaIcon*/
-.sc-eWnSBu {
+.sc-kTCrLD {
   display: var(--charaIcon-display);
 }
 /*CharaIconName*/
-.sc-irKCZC {display: none;}
+.sc-eWnSBu {display: none;}
 
 /*BackGround*/
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
