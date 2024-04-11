@@ -75,8 +75,8 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
   display: var(--foreground-display);
 }
 
-/*ScreenPanel*/
-.sc-gkCnZi {
+/*ScreenPanel((Don't use sc-XXXXX)*/
+.doYRbp {
   display: var(--screenPanel-display);
 }
 
