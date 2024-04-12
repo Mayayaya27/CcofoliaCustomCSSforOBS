@@ -11,9 +11,13 @@
   --icon-bottom: -10px;
   --icon-left: -335px;
   --icon-transform-origin: center top;
-  --icon-z-index: 10;
+  --icon-z-index: 2;
   --icon-opacity: 1;
+  --icon-border-top-right-radius: 0px;
+  --icon-border-bottom-right-radius: 0px;
+
   --cutIn-display: block;
+  
 
   --f-s-m-c-display: block;
   --foreground-display: block;
@@ -77,6 +81,9 @@ div[open] {
   transform-origin: var(--icon-transform-origin);
   z-index: var(--icon-z-index);
 　opacity: var(--icon-opacity);
+  border-top-right-radius: var(--icon-border-top-right-radius);
+  border-bottom-right-radius: var(--icon-border-bottom-right-radius);
+
 }
 /*MessageWindowButtons*/
 .MuiButtonBase-root.MuiIconButton-root  {
