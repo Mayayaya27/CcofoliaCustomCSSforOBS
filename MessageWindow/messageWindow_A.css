@@ -34,6 +34,16 @@
   /** 角の丸み */
   --dice-win-radius: 20px;
 
+  /*◆◆◆MessageWindowImage◆◆◆*/
+  --icon-width: 350px;
+  --icon-height: 350px;
+  --icon-object-position: 50% 0%;
+  --icon-object-fit: cover;
+  --icon-bottom: -10px;
+  --icon-left: -335px;
+  --icon-transform-origin: center top;
+  --icon-z-index: 10;
+
   /** ◆◆◆ダイス画像◆◆◆ */
   /** display dice*/
   --disp-dice-picture: block;
