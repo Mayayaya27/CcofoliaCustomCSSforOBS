@@ -68,6 +68,7 @@ div[open] {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
   display: var(--messageWindow-display);
 }
+
 /*MessageWindowImage*/
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
   display: var(--messageWindowImage-display);
@@ -79,10 +80,11 @@ div[open] {
   left: var(--icon-left);
   transform-origin: var(--icon-transform-origin);
   z-index: var(--icon-z-index);
-　opacity: var(--icon-opacity);
+  opacity: var(--icon-opacity);
   border-top-right-radius: var(--icon-border-top-right-radius);
   border-bottom-right-radius: var(--icon-border-bottom-right-radius);
 }
+
 /*MessageWindowButtons*/
 .MuiButtonBase-root.MuiIconButton-root  {
   display: none;
