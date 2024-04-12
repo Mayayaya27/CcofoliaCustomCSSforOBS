@@ -1,0 +1,14 @@
+:root{
+  /*◆◆◆MessageWindowImage◆◆◆*/
+  --icon-width: 350px;
+  --icon-height: 350px;
+  --icon-object-position: 50% 0%;
+  --icon-object-fit: cover;
+  --icon-bottom: -10px;
+  --icon-left: -335px;
+  --icon-transform-origin: center top;
+  --icon-z-index: 10;
+  --icon-opacity: 1;
+  --icon-border-top-right-radius: 0px;
+  --icon-border-bottom-right-radius: 0px;
+}
