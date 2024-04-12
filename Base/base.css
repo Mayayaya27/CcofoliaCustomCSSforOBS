@@ -58,6 +58,14 @@ div[open] {
 /*MessageWindowImage*/
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
   display: var(--messageWindowImage-display);
+  width: var(--icon-width);
+  height: var(--icon-height);
+  object-position: var(--icon-object-position);
+  object-fit: var(--icon-object-fit);
+  bottom: var(--icon-bottom);
+  left: var(--icon-left);
+  transform-origin: var(--icon-transform-origin);
+  z-index: var(--icon-z-index);
 }
 /*MessageWindowButtons*/
 .MuiButtonBase-root.MuiIconButton-root  {
