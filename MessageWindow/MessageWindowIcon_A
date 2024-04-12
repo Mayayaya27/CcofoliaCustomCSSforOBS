@@ -1,4 +1,6 @@
 :root{
+  --messageWindowImage-display: block;
+
   /*◆◆◆MessageWindowImage◆◆◆*/
   --icon-width: 350px;
   --icon-height: 350px;
