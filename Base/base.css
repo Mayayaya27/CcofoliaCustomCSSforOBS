@@ -82,7 +82,6 @@ div[open] {
 　opacity: var(--icon-opacity);
   border-top-right-radius: var(--icon-border-top-right-radius);
   border-bottom-right-radius: var(--icon-border-bottom-right-radius);
-
 }
 /*MessageWindowButtons*/
 .MuiButtonBase-root.MuiIconButton-root  {
