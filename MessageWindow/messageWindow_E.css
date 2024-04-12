@@ -11,6 +11,19 @@
   /** 角の丸み */
   --dice-win-radius: 100px;
 
+  /*◆◆◆MessageWindowImage◆◆◆*/
+  --icon-width: 200px;
+  --icon-height: 192px;
+  --icon-object-position: 50% 2%;
+  --icon-object-fit: cover;
+  --icon-bottom: 10px;
+  --icon-left: 800px;
+  --icon-transform-origin: center left;
+  --icon-z-index: 2;
+  --icon-opacity: 0.3;
+  --icon-border-top-right-radius: 100px;
+  --icon-border-bottom-right-radius: 100px;
+
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** フォント色 */
   --midashi-color: grey;
