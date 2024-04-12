@@ -3,6 +3,15 @@
   --statusWindow-display: block;
   --messageWindow-display: block;
   --messageWindowImage-display: none;
+  --icon-width: 350px;
+  --icon-height: 350px;
+  --icon-object-position: 50% 0%;
+  --icon-object-fit: cover;
+  --icon-bottom: -10px;
+  --icon-left: -335px;
+  --icon-transform-origin: center top;
+  --icon-z-index: 10;
+  --icon-opacity: 1;
   --cutIn-display: block;
 
   --f-s-m-c-display: block;
@@ -66,6 +75,7 @@ div[open] {
   left: var(--icon-left);
   transform-origin: var(--icon-transform-origin);
   z-index: var(--icon-z-index);
+　opacity: var(--icon-opacity);
 }
 /*MessageWindowButtons*/
 .MuiButtonBase-root.MuiIconButton-root  {
