@@ -35,15 +35,18 @@
   --dice-win-radius: 20px;
 
   /*◆◆◆MessageWindowImage◆◆◆*/
-  --icon-width: 350px;
-  --icon-height: 350px;
-  --icon-object-position: 50% 0%;
+  /*MessageWindowImage*/
+  --icon-width: 200px;
+  --icon-height: 192px;
+  --icon-object-position: 50% 2%;
   --icon-object-fit: cover;
-  --icon-bottom: -10px;
-  --icon-left: -335px;
-  --icon-transform-origin: center top;
-  --icon-z-index: 10;
-  --icon-opacity: 1;
+  --icon-bottom: 10px;
+  --icon-left: 700px;
+  --icon-transform-origin: center left;
+  --icon-z-index: 2;
+  --icon-opacity: 0.3;
+  --icon-border-top-right-radius: 20px;
+  --icon-border-bottom-right-radius: 20px;
 
   /** ◆◆◆ダイス画像◆◆◆ */
   /** display dice*/
