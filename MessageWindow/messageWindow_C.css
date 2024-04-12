@@ -8,6 +8,8 @@
   --midashi-color: grey;
   --font-weight: bold;
 
+  --icon-opacity: 0.5;
+
  /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント色 */
   --dice-result-color: grey;
