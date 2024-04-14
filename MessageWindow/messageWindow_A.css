@@ -40,7 +40,7 @@
   --icon-height: 193px;
   --icon-object-position: 50% 2%;
   --icon-object-fit: cover;
-  --icon-bottom: 10px;
+  --icon-bottom: 0px;
   --icon-left: 700px;
   --icon-transform-origin: center left;
   --icon-z-index: 2;
@@ -62,6 +62,10 @@
   /** 画像が表示される範囲 */
   --dice-pic-disp-range: 600px;
 
+  --window-position: static;
+  --font-position: relative;
+  --font-z-index: 3;
+  
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** フォント */
   --midashi-font: inherit;
@@ -115,7 +119,11 @@
   --content-height: 100px;
 
   /** Bottom */
-  --window-bottom: 10px;
+  --window-bottom: 21px;
+}
+
+.MuiPaper-rounded .MuiPaper-elevation6 {
+  position: var(--window-position);
 }
 
 /** ウィンドウ */
@@ -192,6 +200,8 @@ img[src*="dice"] {
   /** 左の余白 */
   padding-left: var(--midashi-left-space) !important;
   text-shadow: var(--text-shadow);
+  position: var(--font-position);
+  z-index: var(--font-z-index);
 }
 
 .MuiToolbar-gutters {
@@ -213,6 +223,8 @@ img[src*="dice"] {
   /** 左の余白 */
   margin-left: var(--dice-result-left-space) !important;
   text-shadow: var(--text-shadow);
+  position: var(--font-position);
+  z-index: var(--font-z-index);
 }
 
 
@@ -233,6 +245,8 @@ img[src*="dice"] {
   /** 文字サイズ */
   font-size: var(--content-size) !important;
   text-shadow: var(--text-shadow);
+  position: var(--font-position);
+  z-index: var(--font-z-index);
 }
 
 /*Contents*/
