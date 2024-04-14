@@ -123,7 +123,7 @@
 }
 
 .MuiPaper-rounded .MuiPaper-elevation6 {
-  position: var(--window-position);
+  position: var(--window-position) !important;
 }
 
 /** ウィンドウ */
