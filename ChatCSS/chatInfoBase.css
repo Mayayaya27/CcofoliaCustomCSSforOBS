@@ -105,7 +105,7 @@ hr {
   display: var(--icon-display);
 }
 
-.sc-kizEcT img{
+.MuiListItemAvatar-root >div img{
   width: var(--icon-size);
 }
 
