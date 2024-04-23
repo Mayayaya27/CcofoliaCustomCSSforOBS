@@ -110,13 +110,13 @@
   /**************************
    全体の大きさ、位置
  **************************/
-  height: var(--displayAll-height) !important;/*画面全体描画する縦幅*/
-  width: var(--displayAll-width) !important;/*画面全体描画する横幅*/
+  --displayAll-height: 100%/*画面全体描画する縦幅*/
+  --displayAll-width: 100%;/*画面全体描画する横幅*/
 
-  position: absolute;/*ここは触らない*/
-  top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
-  left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
-  transform: var(--displayAll-scale);/*大きさ。中央寄せになる*/
+  --displayAll-top: 0px;/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
+  --displayAll-left: 0px;/*横に何ピクセルずらすか指定。マイナスも入力できます*/
+  --displayAll-scale: scale(1, 1) ;/* デフォルト1倍。中央寄せになる*/
+  --displayAll-translate: translate(100%, 100%);
 }
 
 /**************************
@@ -275,5 +275,5 @@ div[id="root"] {
   position: absolute;/*ここは触らない*/
   top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
   left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
-  transform: var(--displayAll-scale);/*大きさ。中央寄せになる*/
+  transform: var(--displayAll-scale) var(--displayAll-translate);
 }
