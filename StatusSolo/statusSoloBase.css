@@ -106,6 +106,17 @@
   --item-outline-color: rgba(255, 255, 255, 1);
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
+
+  /**************************
+   全体の大きさ、位置
+ **************************/
+  height: var(--displayAll-height) !important;/*画面全体描画する縦幅*/
+  width: var(--displayAll-width) !important;/*画面全体描画する横幅*/
+
+  position: absolute;/*ここは触らない*/
+  top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
+  left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
+  transform: var(--displayAll-scale);/*大きさ。中央寄せになる*/
 }
 
 /**************************
@@ -253,4 +264,16 @@ body {
   margin-left: 0px !important;
   max-width: calc((var(--width-status) + var(--height-status)) * var(--column-amount)) !important;
   transform: var(--statusAll-transform);
+}
+
+/*全体の配置*/
+div[id="root"] {
+/*％を入力して、描画する範囲の指定。見切れている駒は描画されません*/
+  height: var(--displayAll-height) !important;/*画面全体描画する縦幅*/
+  width: var(--displayAll-width) !important;/*画面全体描画する横幅*/
+
+  position: absolute;/*ここは触らない*/
+  top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
+  left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
+  transform: var(--displayAll-scale);/*大きさ。中央寄せになる*/
 }
