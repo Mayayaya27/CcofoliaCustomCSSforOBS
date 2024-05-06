@@ -101,8 +101,8 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
   display: var(--foreground-display);
 }
 
-/*ScreenPanel((Don't use sc-XXXXX)*/
-.doYRbp {
+/*ScreenPanel(Don't use sc-XXXXX)*/
+.sc-flUmcV, .doYRbp{
   display: var(--screenPanel-display);
 }
 
