@@ -128,7 +128,7 @@ hr {
 }
 
 .MuiList-root>div:nth-child(1)>div>div>div {
-  display: none;
+  /*display: none;*/
   height: auto !important;
   min-height: auto !important;
   width: var(--width) !important;
@@ -194,6 +194,8 @@ p.MuiTypography-root {
   top: var(--item-top) !important;
 }
 
+/*
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
   display: flex !important;
 }
+*/
