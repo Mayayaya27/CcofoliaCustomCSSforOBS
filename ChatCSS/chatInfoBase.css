@@ -31,6 +31,8 @@
   --border-radius: 10px;
   --border-shadow: 0;
   --all-margin-left: 20px;
+
+  --display-all: none;
     
   --icon-display: block;
   --icon-size: 40px;
@@ -127,10 +129,10 @@ hr {
   margin-right: var(--textbox-right-margin);
 }
 
-.MuiList-root>div:nth-child(1)>div>div>div {
-  /*display: none;*/
+.MuiList-root>div:nt-child(1)>div>div>div {
+  display: var(--display-all);
   height: auto !important;
-  min-height: auto !important;
+  min-height: auto !important;https://github.com/Mayayaya27/CcofoliaCustomCSSforOBS/tree/main/ChatCSS
   width: var(--width) !important;
   position: static !important;
   flex-shrink: 0;
@@ -194,8 +196,6 @@ p.MuiTypography-root {
   top: var(--item-top) !important;
 }
 
-/*
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
   display: flex !important;
 }
-*/
