@@ -132,7 +132,7 @@ hr {
 .MuiList-root>div:nt-child(1)>div>div>div {
   display: var(--display-all);
   height: auto !important;
-  min-height: auto !important;https://github.com/Mayayaya27/CcofoliaCustomCSSforOBS/tree/main/ChatCSS
+  min-height: auto !important;
   width: var(--width) !important;
   position: static !important;
   flex-shrink: 0;
