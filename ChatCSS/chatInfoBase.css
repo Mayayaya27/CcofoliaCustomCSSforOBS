@@ -129,7 +129,7 @@ hr {
   margin-right: var(--textbox-right-margin);
 }
 
-.MuiList-root>div:nt-child(1)>div>div>div {
+.MuiList-root>div:nth-child(1)>div>div>div {
   display: var(--display-all);
   height: auto !important;
   min-height: auto !important;
