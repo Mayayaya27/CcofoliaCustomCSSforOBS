@@ -8,6 +8,9 @@
   --all-margin-left: 0px;
   --icon-size: 25px;
   --icon-min-width: 0px;
+  
+　--item-top: auto;
+  --item-bottom: 0;
 }
 
 .MuiListItem-gutters {
