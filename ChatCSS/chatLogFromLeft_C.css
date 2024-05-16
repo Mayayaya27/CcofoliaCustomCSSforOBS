@@ -9,7 +9,7 @@
   --icon-size: 25px;
   --icon-min-width: 0px;
   
-　--item-top: 0;
+　--item-top: auto;
   --item-bottom: 0;
 }
 
