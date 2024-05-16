@@ -1,5 +1,10 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
+:root{
+　--item-top: auto;
+  --item-bottom: 0;
+}
+
 .MuiListItem-gutters {
     animation:
         fadeIn  1s ease 0s,
@@ -28,9 +33,4 @@
 
 .MuiList-root>div:nth-child(1) {
   height: 100% !important;
-}
-
-.MuiList-root>div:nth-child(1)>div {
-  bottom: 0;
-  top: auto !important;
 }
