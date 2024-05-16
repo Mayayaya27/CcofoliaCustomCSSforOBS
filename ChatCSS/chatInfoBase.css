@@ -193,7 +193,7 @@ p.MuiTypography-root {
 
 .MuiList-root>div:nth-child(1)>div {
   bottom: var(--item-bottom);
-  top: var(--item-top);
+  top: var(--item-top) !important;
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
