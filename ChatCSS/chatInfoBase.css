@@ -55,7 +55,7 @@
   --line-clamp: none;/*行数*/
   --textbox-right-margin: 20px;
 
-  --item-top: 0;
+  --item-top: auto;
   --item-bottom: 0;
 }
 
@@ -193,7 +193,7 @@ p.MuiTypography-root {
 
 .MuiList-root>div:nth-child(1)>div {
   bottom: var(--item-bottom);
-  top: var(--item-top) !important;
+  top: var(--item-top);
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
