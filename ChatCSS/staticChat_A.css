@@ -6,7 +6,9 @@
   --border-width: 2px;
   --width: 600px;
   --line-clamp: none;/*行数*/
-  
+
+  --display-all: block;
+
   --item-top: 0px;
   --item-bottom: 0;
 }
