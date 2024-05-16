@@ -10,6 +10,9 @@
 /*--font-color-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1), -1px 1px 3px rgba(255, 255, 255, 0.1), -1px -1px 3px rgba(255, 255, 255, 0.1), 1px -1px 3px rgba(255, 255, 255, 0.1);*/
   --font-family: Yu Gothic UI Semibold;
   --border-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+
+　--item-top: auto;
+  --item-bottom: 0;
 }
 
 .MuiListItem-gutters {
@@ -36,13 +39,4 @@
     to {
         opacity: 0;
     }
-}
-
-.MuiList-root>div:nth-child(1) {
-  height: 100% !important;
-}
-
-.MuiList-root>div:nth-child(1)>div {
-  bottom: 0;
-  top: auto !important;
 }
