@@ -11,7 +11,7 @@
   --width: 600px;
   --line-clamp: none;/*行数*/
 
-  --display-all: block;
+  --display-all: flex;
 
   --item-top: 0%;
   --item-bottom: 0%;
