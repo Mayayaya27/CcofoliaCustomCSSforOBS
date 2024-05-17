@@ -32,7 +32,7 @@
   --border-shadow: 0;
   --all-margin-left: 20px;
 
-  --display-all: block;
+  --display-all: flex;
     
   --icon-display: block;
   --icon-size: 40px;
