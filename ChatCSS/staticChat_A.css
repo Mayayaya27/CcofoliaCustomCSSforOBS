@@ -9,8 +9,8 @@
 
   --display-all: block;
 
-  --item-top: 0px;
-  --item-bottom: 0;
+  --item-top: 0%;
+  --item-bottom: 0%;
 }
 
 hr {
