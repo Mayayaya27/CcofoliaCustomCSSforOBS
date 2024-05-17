@@ -19,10 +19,6 @@ hr {
   border-width: 0px 0px thin !important;
 }
 
-.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+11)>div {
-  display: flex !important;
-}
-
 .MuiPaper-root {
   background-color: rgba(25, 25, 25, 0.95);
 }
