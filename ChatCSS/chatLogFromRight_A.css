@@ -3,6 +3,11 @@
 :root{
 　--item-top: auto;
   --item-bottom: 0;
+  --display-all: none;
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+15)>div {
+  display: flex !important;
 }
 
 .MuiListItem-gutters {
