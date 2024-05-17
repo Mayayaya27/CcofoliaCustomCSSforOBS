@@ -116,12 +116,12 @@ hr {
 }
 
 .MuiListItemAvatar-root>div {
-  background: var(--window-background-color);
+  background: transparent;
   border-radius: var(--image-radius);
 }
 
 .MuiPaper-root {
-  background-color: transparent;
+  background-color: var(--window-background-color);
 }
 
 .MuiTypography-body2 {
