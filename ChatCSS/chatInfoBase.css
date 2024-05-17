@@ -195,7 +195,3 @@ p.MuiTypography-root {
   bottom: var(--item-bottom);
   top: var(--item-top) !important;
 }
-
-.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+10)>div {
-  display: flex !important;
-}
