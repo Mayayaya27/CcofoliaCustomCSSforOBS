@@ -22,6 +22,10 @@
 }
 
 :root{
+  /*Window All*/
+  --window-background-color: transparent;
+  --window-margin: 5px;
+  
 /*Chat*/
   --background-color: rgba(15, 15, 15, 0.99);
   --background-padding: 10px 10px 10px 10px;
@@ -112,7 +116,7 @@ hr {
 }
 
 .MuiListItemAvatar-root>div {
-  background: transparent;
+  background: var(--window-background-color);
   border-radius: var(--image-radius);
 }
 
@@ -136,7 +140,7 @@ hr {
   width: var(--width) !important;
   position: static !important;
   flex-shrink: 0;
-  margin: 5px;
+  margin: var(--window-margin);
   margin-left: var(--all-margin-left);
 }
 
