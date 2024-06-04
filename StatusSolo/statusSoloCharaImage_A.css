@@ -108,3 +108,18 @@
 
    --all-padding: 0px;
 }
+
+
+#root {
+  position: static;
+  height: 100% !important;
+}
+
+.MuiBadge-root {
+ position: static;
+}
+
+.MuiAvatar-root, button{
+ position: absolute !important;
+ bottom: 0px;
+}
