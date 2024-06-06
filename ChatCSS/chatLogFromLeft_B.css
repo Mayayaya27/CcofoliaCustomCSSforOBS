@@ -1,7 +1,7 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromLeft_A.css");
 
 :root{
-  --background-color: rgba(255, 255, 255, 0.9);
+  --background-color: rgba(255, 255, 255, 0.99);
   --font-color: rgb(50, 50, 50);
   --font-color-fail: #DF0025;
   --font-color-success: #0095DF;
