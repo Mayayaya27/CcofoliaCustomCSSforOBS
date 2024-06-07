@@ -9,4 +9,7 @@
 /*--font-color-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1), -1px 1px 3px rgba(255, 255, 255, 0.1), -1px -1px 3px rgba(255, 255, 255, 0.1), 1px -1px 3px rgba(255, 255, 255, 0.1);*/
   --font-family: Yu Gothic UI Semibold;
   --border-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+
+  --title-stroke-width: 0.8px;
+  --title-stroke-color: rgb(20, 20, 20);
 }
