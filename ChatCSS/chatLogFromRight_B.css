@@ -11,6 +11,9 @@
   --font-family: Yu Gothic UI Semibold;
   --border-shadow: 5px 5px 10px rgba(0,0,0,0.7);
 
+  --title-stroke-width: 0.8px;
+  --title-stroke-color: rgb(20, 20, 20);
+  
 　--item-top: auto;
   --item-bottom: 0;
   --display-all: none;
