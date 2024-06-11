@@ -1,6 +1,6 @@
 :root{
   --chatWindow-display: none;
-  --statusWindow-display: block;
+  --statusWindow-display: none;
   
   --messageWindow-display: none;
   --messageWindowImage-display: none;
@@ -45,54 +45,23 @@ div[tabindex="0"]>div+div:nth-child(3) {display: none}/*MusicSlider*/
 div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 .MuiButtonBase-root.MuiFab-root {display: none;}/*PencilMark*/
 
-/*ChatWindow*/
-.MuiDrawer-root.MuiDrawer-docked {
-  display: var(--chatWindow-display);
-}
-
-/*StatusWindow*/
-div[tabindex="0"] >div:nth-child(6)  {
-  display: var(--statusWindow-display);
-}
-
 /*CutIn*/
 div[open] {
   display: var(--cutIn-display) !important;
 }
 
-/* Dynamic Dice */
-div[tabindex="0"]>div:last-child{
-  display: none !important;
+div[tabindex="0"]{
+  right: 0px !important;
+  position: absolute !important;
 }
 
-/*MessageWindow*/
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
-  display: var(--messageWindow-display);
-}
-
-/*MessageWindowImage*/
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
-  display: var(--messageWindowImage-display);
-  width: var(--icon-width);
-  height: var(--icon-height);
-  object-position: var(--icon-object-position);
-  object-fit: var(--icon-object-fit);
-  bottom: var(--icon-bottom);
-  left: var(--icon-left);
-  transform-origin: var(--icon-transform-origin);
-  z-index: var(--icon-z-index);
-  opacity: var(--icon-opacity);
-  border-top-right-radius: var(--icon-border-top-right-radius);
-  border-bottom-right-radius: var(--icon-border-bottom-right-radius);
-}
-
-/*MessageWindowButtons*/
-.MuiButtonBase-root.MuiIconButton-root  {
-  display: none;
-}
-
-.css-wga6ab {
-	position: fixed;
+/*全体の配置*/
+div[tabindex="0"] >div >div >div >div >div {
+  height: var(--displayAll-height) !important;
+  width: var(--displayAll-width) !important;
+  top: var(--displayAll-top) !important;
+  left: var(--displayAll-left) !important;
+  transform: var(--displayAll-scale) var(--displayAll-translate) !important;
 }
 
 /*foreground, screenpanel, markerpanel, charaIcons*/
@@ -131,18 +100,43 @@ figure[tabindex="-1"] >span {
   display: var(--background-display) !important;
 }
 
-div[tabindex="0"]{
-  right: 0px !important;
+/*MessageWindow*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
+  display: var(--messageWindow-display);
 }
 
-
-/*全体の配置*/
-div[tabindex="0"] >div >div >div >div >div {
-  height: var(--displayAll-height) !important;
-  width: var(--displayAll-width) !important;
-  top: var(--displayAll-top) !important;
-  left: var(--displayAll-left) !important;
-  transform: var(--displayAll-scale) var(--displayAll-translate) !important;
+/*MessageWindowImage*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
+  display: var(--messageWindowImage-display);
+  width: var(--icon-width);
+  height: var(--icon-height);
+  object-position: var(--icon-object-position);
+  object-fit: var(--icon-object-fit);
+  bottom: var(--icon-bottom);
+  left: var(--icon-left);
+  transform-origin: var(--icon-transform-origin);
+  z-index: var(--icon-z-index);
+  opacity: var(--icon-opacity);
+  border-top-right-radius: var(--icon-border-top-right-radius);
+  border-bottom-right-radius: var(--icon-border-bottom-right-radius);
 }
 
+/*MessageWindowButtons*/
+.MuiButtonBase-root.MuiIconButton-root  {
+  display: none;
+}
 
+/*StatusWindow*/
+div[tabindex="0"] >div:nth-child(6)  {
+  display: var(--statusWindow-display);
+}
+
+/*ChatWindow*/
+.MuiDrawer-root.MuiDrawer-docked {
+  display: var(--chatWindow-display);
+}
+
+/* Dynamic Dice */
+div[tabindex="0"]>div:last-child{
+  display: none !important;
+}
