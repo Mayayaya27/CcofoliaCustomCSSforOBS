@@ -123,14 +123,11 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
   display: var(--background-display) !important;
 }
 
-/*全体の配置*/
-div[tabindex="0"] {
-/*％を入力して、描画する範囲の指定。見切れている駒は描画されません*/
-  height: var(--displayAll-height) !important;/*画面全体描画する縦幅*/
-  width: var(--displayAll-width) !important;/*画面全体描画する横幅*/
+div[tabindex="0"]{
+  right: 0px !important;
+}
 
-  position: absolute;/*ここは触らない*/
-  top: var(--displayAll-top);/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
-  left: var(--displayAll-left);/*横に何ピクセルずらすか指定。マイナスも入力できます*/
-  transform: var(--displayAll-scale);
+/*全体の配置*/
+div[tabindex="0"] >div >div >div >div >div {
+  transform: var(--displayAll-scale) !important;
 }
