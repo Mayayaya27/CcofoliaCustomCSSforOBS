@@ -128,7 +128,7 @@ div[tabindex="0"]{
 }
 
 /*全体の配置*/
-div[tabindex="0"] >div {
+div[tabindex="0"]  {
   height: var(--displayAll-height) !important;
   width: var(--displayAll-width) !important;
   position: absolute !important;
