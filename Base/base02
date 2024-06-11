@@ -1,8 +1,8 @@
 :root{
-  --chatWindow-display: block;
+  --chatWindow-display: none;
   --statusWindow-display: block;
   
-  --messageWindow-display: block;
+  --messageWindow-display: none;
   --messageWindowImage-display: none;
   --icon-width: 350px;
   --icon-height: 350px;
@@ -20,7 +20,7 @@
 
   --f-s-m-c-display: block;
   --foreground-display: block;
-  --screenPanel-display: inline-block;
+  --screenPanel-display: block;
   --markerPanel-display: block;
   --charaIcon-display: block;
   
@@ -30,7 +30,8 @@
   --displayAll-width: 100%;
   --displayAll-top: 0px;
   --displayAll-left: 0px;
-  --displayAll-scale: scale(1, 1);
+  --displayAll-scale: scale(0.2, 0.2);
+  --displayAll-translate: translate(50%, 50%);
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
@@ -90,11 +91,14 @@ div[tabindex="0"]>div:last-child{
   display: none;
 }
 
+.css-wga6ab {
+	position: fixed;
+}
+
 /*foreground, screenpanel, markerpanel, charaIcons*/
 div[tabindex="0"]>div:nth-child(1) {
   display: var(--f-s-m-c-display) !important;
 }
-
 
 /*only foreground*/
 div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
@@ -113,12 +117,13 @@ div[tabindex="-1"]{
 }
 
 /*CharaIcon*/
-figure[tabindex="-1"]  {
+figure[tabindex="-1"] {
   display: var(--charaIcon-display);
 }
+
 /*CharaIconName*/
-figure[tabindex="-1"] >span{
-  display: none;
+figure[tabindex="-1"] >span {
+	display: none;
 }
 
 /*BackGround*/
@@ -130,12 +135,14 @@ div[tabindex="0"]{
   right: 0px !important;
 }
 
+
 /*全体の配置*/
-div[tabindex="0"] >div  {
+div[tabindex="0"] >div >div >div >div >div {
   height: var(--displayAll-height) !important;
   width: var(--displayAll-width) !important;
-  position: absolute !important;
   top: var(--displayAll-top) !important;
   left: var(--displayAll-left) !important;
-  transform: var(--displayAll-scale) !important;
+  transform: var(--displayAll-scale) var(--displayAll-translate) !important;
 }
+
+
