@@ -1,0 +1,141 @@
+:root{
+  --chatWindow-display: block;
+  --statusWindow-display: block;
+  
+  --messageWindow-display: block;
+  --messageWindowImage-display: none;
+  --icon-width: 350px;
+  --icon-height: 350px;
+  --icon-object-position: 50% 0%;
+  --icon-object-fit: cover;
+  --icon-bottom: -10px;
+  --icon-left: -335px;
+  --icon-transform-origin: center top;
+  --icon-z-index: 2;
+  --icon-opacity: 1;
+  --icon-border-top-right-radius: 0px;
+  --icon-border-bottom-right-radius: 0px;
+
+  --cutIn-display: block;
+
+  --f-s-m-c-display: block;
+  --foreground-display: block;
+  --screenPanel-display: inline-block;
+  --markerPanel-display: block;
+  --charaIcon-display: block;
+  
+  --background-display: block;
+
+  --displayAll-height: 100%;
+  --displayAll-width: 100%;
+  --displayAll-top: 0px;
+  --displayAll-left: 0px;
+  --displayAll-scale: scale(1, 1);
+}
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+[role="presentation"] {display: none;}/*CM*/
+
+header>.MuiToolbar-gutters {display: none;}/*TopMenu*/
+.MuiSnackbarContent-root {display: none;}/*SE,Viewer Mode, Popup*/
+div[tabindex="0"]>div+div:nth-child(3) {display: none}/*MusicSlider*/
+div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
+.MuiButtonBase-root.MuiFab-root {display: none;}/*PencilMark*/
+
+/*ChatWindow*/
+.MuiDrawer-root.MuiDrawer-docked {
+  display: var(--chatWindow-display);
+}
+
+/*StatusWindow*/
+div[tabindex="0"] >div:nth-child(6)  {
+  display: var(--statusWindow-display);
+}
+
+/*CutIn*/
+div[open] {
+  display: var(--cutIn-display) !important;
+}
+
+/* Dynamic Dice */
+div[tabindex="0"]>div:last-child{
+  display: none !important;
+}
+
+/*MessageWindow*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {
+  display: var(--messageWindow-display);
+}
+
+/*MessageWindowImage*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6>img {
+  display: var(--messageWindowImage-display);
+  width: var(--icon-width);
+  height: var(--icon-height);
+  object-position: var(--icon-object-position);
+  object-fit: var(--icon-object-fit);
+  bottom: var(--icon-bottom);
+  left: var(--icon-left);
+  transform-origin: var(--icon-transform-origin);
+  z-index: var(--icon-z-index);
+  opacity: var(--icon-opacity);
+  border-top-right-radius: var(--icon-border-top-right-radius);
+  border-bottom-right-radius: var(--icon-border-bottom-right-radius);
+}
+
+/*MessageWindowButtons*/
+.MuiButtonBase-root.MuiIconButton-root  {
+  display: none;
+}
+
+/*foreground, screenpanel, markerpanel, charaIcons*/
+div[tabindex="0"]>div:nth-child(1) {
+  display: var(--f-s-m-c-display) !important;
+}
+
+
+/*only foreground*/
+div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
+  display: var(--foreground-display);
+}
+
+/*ScreenPanel*/
+div[tabindex="-1"]{
+  display: var(--screenPanel-display) !important;
+  position: absolute !important;
+}
+
+/*MarkerPanel*/
+.sc-irKCZC {
+  display: var(--markerPanel-display);
+}
+
+/*CharaIcon*/
+figure[tabindex="-1"]  {
+  display: var(--charaIcon-display);
+}
+/*CharaIconName*/
+figure[tabindex="-1"] >span{
+  display: none;
+}
+
+/*BackGround*/
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
+  display: var(--background-display) !important;
+}
+
+div[tabindex="0"]{
+  right: 0px !important;
+}
+
+/*全体の配置*/
+div[tabindex="0"] >div  {
+  height: var(--displayAll-height) !important;
+  width: var(--displayAll-width) !important;
+  position: absolute !important;
+  top: var(--displayAll-top) !important;
+  left: var(--displayAll-left) !important;
+  transform: var(--displayAll-scale) !important;
+}
