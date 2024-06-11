@@ -50,7 +50,7 @@ div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 }
 
 /*StatusWindow*/
-.sc-fkmgoA {
+div[tabindex="0"] >div:nth-child(6)  {
   display: var(--statusWindow-display);
 }
 
