@@ -123,6 +123,10 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
   display: var(--background-display) !important;
 }
 
+div[tabindex="0"]{
+  right: 0px !important;
+}
+
 /*全体の配置*/
 div[tabindex="0"] >div >div >div >div >div {
   height: var(--displayAll-height) !important;
