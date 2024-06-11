@@ -60,7 +60,7 @@ div[open] {
 }
 
 /* Dynamic Dice */
-.sc-chKoVZ{
+div[tabindex="0"]>div:last-child{
   display: none !important;
 }
 
