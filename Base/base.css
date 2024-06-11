@@ -101,9 +101,10 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
   display: var(--foreground-display);
 }
 
-/*ScreenPanel(Don't use sc-XXXXX)*/
-.sc-flUmcV, .doYRbp{
-  display: var(--screenPanel-display);
+/*ScreenPanel*/
+div[tabindex="-1"]{
+  display: var(--screenPanel-display) !important;
+  position: absolute !important;
 }
 
 /*MarkerPanel*/
