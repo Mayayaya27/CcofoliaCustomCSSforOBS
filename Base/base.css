@@ -20,7 +20,7 @@
 
   --f-s-m-c-display: block;
   --foreground-display: block;
-  --screenPanel-display: block;
+  --screenPanel-display: inline-block;
   --markerPanel-display: block;
   --charaIcon-display: block;
   
