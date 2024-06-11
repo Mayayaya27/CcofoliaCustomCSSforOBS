@@ -1,0 +1,58 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/MessageWindow/messageWindow_A.css");
+
+:root{
+  /** 背景色 */
+  --dice-win-background: rgba(0, 0, 0, 0.3);
+  /** 角の丸み */
+  --dice-win-radius: 3px;
+  --disp-dice-picture: none;
+  
+  /** ◆◆◆見出し、キャラ名◆◆◆ */
+  --midashi-display: none;
+  /** フォント */
+  --midashi-font: "游ゴシック";
+  /** フォント色 */
+  --midashi-color: black;
+  /** 文字サイズ */
+  --midashi-size: 30px;
+  /** 上の余白 */
+  --midashi-top-space: 60px;
+  /** 左の余白 */
+  --midashi-left-space: 60px;
+
+ /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
+  --dice-result-display: none;
+  /** フォント */
+  --dice-result-font: "游ゴシック";
+  /** フォント色 */
+  --dice-result-color: black;
+  /** 文字サイズ */
+  --dice-result-size: 30px;
+  /** 上の余白 */
+  --dice-result-top-space:60px;
+  /** 下の余白 */
+  --dice-result-bottom-space: 10px;
+  /** 左の余白 */
+  --dice-result-left-space: 15px;
+
+  /** ◆◆◆内容◆◆◆ */
+  /** フォント */
+  --content-font: 'Yu Mincho Demibold';
+  /** フォント色 */
+  --content-color: white;
+  /** フォントの太さ(normal or bold) */
+  --content-font-weight: bold;
+  /** 文字サイズ */
+  --content-size: 23px;
+  /** 下の余白 */
+  --content-bottom-spac: 85px;
+  /** 左の余白 */
+  --content-left-space: 85px;
+  /** 右の余白 */
+  --content-right-space: 85px;
+  /** テキストボックスの縦幅 */
+  --content-height: 800px;
+
+  /** Bottom */
+  --window-bottom: 60px;
+}
