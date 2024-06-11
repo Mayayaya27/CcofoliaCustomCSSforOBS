@@ -112,7 +112,7 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
 }
 
 /*CharaIcon*/
-.sc-kTCrLD {
+figure[tabindex="-1"]  {
   display: var(--charaIcon-display);
 }
 /*CharaIconName*/
