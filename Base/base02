@@ -88,6 +88,7 @@ div[tabindex="-1"]{
 /*CharaIcon*/
 figure[tabindex="-1"] {
   display: var(--charaIcon-display);
+    position: absolute !important;
 }
 
 /*CharaIconName*/
@@ -127,7 +128,7 @@ figure[tabindex="-1"] >span {
 }
 
 /*StatusWindow*/
-div[tabindex="0"] >div:nth-child(6)  {
+div[tabindex="0"] >div:nth-child(7)  {
   display: var(--statusWindow-display);
 }
 
