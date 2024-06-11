@@ -117,7 +117,9 @@ figure[tabindex="-1"]  {
   display: var(--charaIcon-display);
 }
 /*CharaIconName*/
-.sc-eWnSBu {display: none;}
+figure[tabindex="-1"] >span{
+  display: none;
+}
 
 /*BackGround*/
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
