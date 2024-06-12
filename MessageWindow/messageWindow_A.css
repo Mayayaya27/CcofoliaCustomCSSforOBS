@@ -141,7 +141,7 @@
   width: var(--dice-win-width) !important;
   max-width: none;
   /** 背景色 */
-  background: var(--dice-win-background) !important;
+  background:   background: rgba(0,0,0,0);
   /** 角の丸み */
   border-radius: var(--dice-win-radius) !important;
   /** 背景色の見切れ解消 */
@@ -158,7 +158,7 @@
 }
 
 
-/* ダイスウィンドウ裏の背景色非表示 */
+/* ダイスウィンドウ裏の背景色 */
 .css-175dgcc {
   background-color: var(--dice-win-background) !important;
 }
