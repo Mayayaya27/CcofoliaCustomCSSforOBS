@@ -2,6 +2,7 @@
 
 :root{
   /** 背景色 */
+  --all-win-background: rgba(0, 0, 0, 0);
   --dice-win-background: rgba(0, 0, 0, 0.3);
   /** 角の丸み */
   --dice-win-radius: 3px;
