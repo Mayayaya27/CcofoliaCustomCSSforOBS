@@ -50,7 +50,7 @@ div[tabindex="0"]>div:nth-child(5)  {display: none;}/*ZoomInZoomOutButton*/
 }
 
 /*StatusWindow*/
-div[tabindex="0"] >div:nth-child(6)  {
+.cCmYap  {
   display: var(--statusWindow-display);
 }
 
