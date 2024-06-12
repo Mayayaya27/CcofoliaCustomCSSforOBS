@@ -159,7 +159,7 @@
 
 
 /* ダイスウィンドウ裏の背景色非表示 */
-.MuiPaper-elevation6 .MuiPaper-root .MuiPaper-rounded {
+.css-175dgcc {
   background-color: rgba(0,0,0,0) !important;
 }
 
