@@ -53,6 +53,8 @@
   /** テキストボックスの縦幅 */
   --content-height: 800px;
 
+    /** Top */
+  --window-top: 60px;
   /** Bottom */
   --window-bottom: 60px;
 }
