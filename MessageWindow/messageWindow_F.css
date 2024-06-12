@@ -44,6 +44,8 @@
   --content-font-weight: bold;
   /** 文字サイズ */
   --content-size: 23px;
+  /** Top Padding */
+  --content-top-space: 85px;
   /** 下の余白 */
   --content-bottom-spac: 85px;
   /** 左の余白 */
