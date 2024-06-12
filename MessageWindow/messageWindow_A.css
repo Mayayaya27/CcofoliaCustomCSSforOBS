@@ -123,6 +123,8 @@
   /** テキストボックスの縦幅 */
   --content-height: 100px;
 
+  /** Top */
+  --window-top: auto;
   /** Bottom */
   --window-bottom: 21px;
 }
@@ -142,6 +144,7 @@
   border-radius: var(--dice-win-radius) !important;
   /** 背景色の見切れ解消 */
   position: absolute !important;
+  top: var(--window-top) !important;
   bottom: var(--window-bottom) !important;
   left: 0px;
   right: 0px;
