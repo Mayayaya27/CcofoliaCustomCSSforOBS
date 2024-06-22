@@ -153,7 +153,6 @@ hr {
 p.MuiTypography-root,
 .MuiTypography-colorTextSecondary {
   color: var(--font-color);
-  text-shadow: var(--font-color-shadow);
   font-family: var(--font-family);
 }
 
