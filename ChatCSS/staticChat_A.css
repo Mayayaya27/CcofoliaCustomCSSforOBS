@@ -13,6 +13,11 @@
 
   --display-all: flex;
 
+  /*縁無し*/
+  --title-stroke-width: 0px;
+  /*縁の色*/
+  --title-stroke-color: rgb(200, 200, 200);
+
   --item-top: 0%;
   --item-bottom: 0%;
 }
