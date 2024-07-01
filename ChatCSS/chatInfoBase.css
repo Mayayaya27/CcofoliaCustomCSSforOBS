@@ -45,6 +45,7 @@
   --icon-min-width: 56px;
 
   --font-family: Yu Gothic UI Semibold;
+  --title-display: block;
   --title-font-size: 1.2rem;
   --title-stroke-width: 0.3px;
   --title-stroke-color: rgb(200, 200, 200);
@@ -182,7 +183,7 @@ p.MuiTypography-root {
 }
 
 .MuiListItemText-primary {
-  display: block;
+  display: var(--title-display);
   font-size: var(--title-font-size);
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
