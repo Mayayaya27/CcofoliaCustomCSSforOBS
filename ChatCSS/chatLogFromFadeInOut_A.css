@@ -15,6 +15,10 @@
   /*縁の色*/
   --title-stroke-color: rgb(200, 200, 200);
   --title-display: none;
+
+  --icon-display: none;
+  --textbox-right-margin: 40px;
+  --textbox-left-margin: 40px;
 }
 
 .MuiListItemText-primary {
