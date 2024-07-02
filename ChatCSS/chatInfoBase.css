@@ -61,6 +61,7 @@
   --width: 500px;
   --line-clamp: none;/*行数*/
   --textbox-right-margin: 20px;
+  --textbox-left-margin: inherit;
 
   --item-top: auto;
   --item-bottom: 0;
@@ -134,6 +135,7 @@ hr {
 /*Text Box Set Margin Right*/
 .MuiListItemText-root.MuiListItemText-multiline{
   margin-right: var(--textbox-right-margin);
+  margin-left: var(--textbox-left-margin);
 }
 
 .MuiList-root>div:nth-child(1)>div>div>div {
