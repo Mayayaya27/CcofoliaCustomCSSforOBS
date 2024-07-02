@@ -19,8 +19,8 @@
   --icon-display: none;
   --textbox-top-margin: 40px;
   --textbox-bottom-margin: 40px;
-  --textbox-right-margin: 40px;
-  --textbox-left-margin: 40px;
+  --textbox-right-margin: 60px;
+  --textbox-left-margin: 60px;
 }
 
 .MuiListItemText-primary {
