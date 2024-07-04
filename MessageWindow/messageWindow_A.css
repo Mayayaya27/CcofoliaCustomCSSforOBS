@@ -141,7 +141,7 @@
   width: var(--dice-win-width) !important;
   max-width: none;
   /** 背景色 */
-  background:   background: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
   /** 角の丸み */
   border-radius: var(--dice-win-radius) !important;
   /** 背景色の見切れ解消 */
