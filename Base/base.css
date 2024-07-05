@@ -102,7 +102,7 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
 }
 
 /*ScreenPanel*/
-div[tabindex="-1"]{
+div[tabindex="-1"], .sc-flUmcV{
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
