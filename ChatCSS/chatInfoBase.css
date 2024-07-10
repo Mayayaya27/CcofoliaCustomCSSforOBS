@@ -37,6 +37,12 @@
   --all-margin-left: 20px;
 
   --display-all: flex;
+
+    /*Use Here for SetPositions*/
+  --set-position: inherit;
+  --set-align-items: inherit;
+  --set-display: inherit;
+  --set-justify-content: inherit;
     
   --icon-display: block;
   --icon-size: 40px;
@@ -130,6 +136,18 @@ hr {
 
 .MuiPaper-root {
   background-color: var(--window-background-color);
+}
+
+/*SetPositions*/
+.MuiList-root>div {
+  position: var(--set-position) !important;
+}
+
+/*SetPositions*/
+.MuiList-root>div>div {
+  align-items: var(--set-align-items);
+  display: var(--set-display);
+  justify-content: var(--set-justify-content);
 }
 
 .MuiTypography-body2 {
