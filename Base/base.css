@@ -1,6 +1,8 @@
 :root{
   --chatWindow-display: block;
   --statusWindow-display: block;
+
+  --timer-display: none;
   
   --messageWindow-display: block;
   --messageWindowImage-display: none;
@@ -62,6 +64,10 @@ div[open] {
 /* Dynamic Dice */
 div[tabindex="0"]>div:last-child{
   display: none !important;
+}
+
+.MuiPaper-elevation5{
+   display: var(--timer-display);
 }
 
 /*MessageWindow*/
