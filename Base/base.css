@@ -66,6 +66,7 @@ div[tabindex="0"]>div:last-child{
   display: none !important;
 }
 
+/*Timer*/
 .MuiPaper-elevation5{
    display: var(--timer-display);
 }
