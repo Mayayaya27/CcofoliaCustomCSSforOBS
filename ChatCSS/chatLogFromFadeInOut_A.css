@@ -1,8 +1,6 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
-  --item-top: 0;
-  --item-bottom: 0;
   --display-all: none;
 
   --set-position: unset;
@@ -29,6 +27,9 @@
   --textbox-bottom-margin: 40px;
   --textbox-right-margin: 60px;
   --textbox-left-margin: 60px;
+
+  --item-top: 0;
+  --item-bottom: 0;
 }
 
 .MuiListItemText-primary {
