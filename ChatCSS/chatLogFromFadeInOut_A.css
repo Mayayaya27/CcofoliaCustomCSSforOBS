@@ -1,7 +1,7 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
-　--item-top: auto;
+　--item-top: 0;
   --item-bottom: 0;
   --display-all: none;
 
