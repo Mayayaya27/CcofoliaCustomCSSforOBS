@@ -20,3 +20,14 @@
   --displayAll-left: 0px;
   --displayAll-scale: scale(1, 1);
 }
+
+/*SetPositions*/
+[tabindex='0'] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.MuiPaper-elevation5 {
+  position: unset;
+}
