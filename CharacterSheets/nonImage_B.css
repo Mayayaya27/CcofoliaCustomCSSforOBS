@@ -1,9 +1,10 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/CharacterSheets/nonImage_A.css");
 
 :root{
-  --top-margin: 0px;
   --image-size: 0px;
   --display-image: none;
-  --window-padding-left: 80px;/*max 600px*/
+  --top-margin: 30px;
+  --under-image-margin-bottom: -5rem;
+  --window-padding-left: 0px;/*max 600px*/
   --window-padding-right: 0px;/*max 600px*/
 }
