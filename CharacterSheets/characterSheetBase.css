@@ -102,6 +102,20 @@ html{
   margin: 1rem !important;
 }
 
+/*Skill Points Row*/
+.Container_desktop__v8oRx>div:nth-child(4){
+  display: block !important;
+}
+
+/*Skill Points Name Title*/
+.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(1)>:nth-child(1),
+.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(2)>:nth-child(1),
+.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(3)>:nth-child(1),
+.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(4)>:nth-child(1),
+.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(5)>:nth-child(1){
+  display: none !important;
+}
+
 /*Skill Points Basic Amount*/
 .Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(2){
   display: none !important;
