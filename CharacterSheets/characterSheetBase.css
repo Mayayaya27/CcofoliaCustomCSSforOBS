@@ -107,6 +107,11 @@ html{
   display: block !important;
 }
 
+/*Set Rows To Left*/
+.Container_desktop__v8oRx>div:nth-child(4)>div>div{
+    justify-content: left !important;
+}
+
 /*Skill Points Name Title*/
 .Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(1)>:nth-child(1),
 .Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(2)>:nth-child(1),
