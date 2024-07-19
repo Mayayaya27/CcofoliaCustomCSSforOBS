@@ -3,7 +3,10 @@
 :root{
   --image-size: 0px;
   --display-image: none;
-  --centering-window-right: 150px;
+  --top-margin: 30px;
+  --under-image-margin-bottom: -5rem;
+  --window-padding-left: 0px;/*max 600px*/
+  --window-padding-right: 0px;/*max 600px*/
 }
 
 /*Align Window*/
