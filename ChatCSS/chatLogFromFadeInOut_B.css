@@ -7,8 +7,7 @@
 
 .MuiListItem-gutters {
     animation:
-        fadeIn  0.5s ease forward,
-        fadeOut 0.5s ease 0.5s forward;
+        fadeIn  0.5s ease forwards;
 }
 
 @keyframes fadeIn {
@@ -17,14 +16,5 @@
     }
     to {
         opacity: 1;
-    }
-}
-
-@keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
     }
 }
