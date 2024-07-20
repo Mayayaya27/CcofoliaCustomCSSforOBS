@@ -1,4 +1,5 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromFadeInOut_A.css");
+/*Doesn't fade out automaticaly*/
 
 :root{
 
@@ -6,7 +7,8 @@
 
 .MuiListItem-gutters {
     animation:
-        fadeIn  0.5s ease 0s,
+        fadeIn  0.5s ease,
+        fadeOut 0.5s ease;
 }
 
 @keyframes fadeIn {
@@ -15,5 +17,14 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
     }
 }
