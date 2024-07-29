@@ -98,6 +98,8 @@
   --item-outline-color: rgba(255, 255, 255, 1);
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
+
+  --displayAll-translate: translate(2%, 0%);
 }
 
 #root > div > div > div > div {
