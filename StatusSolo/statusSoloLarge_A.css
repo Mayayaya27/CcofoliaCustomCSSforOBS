@@ -23,7 +23,7 @@
   /* Initiative */
  --initiative-size: 35px;
  --initiative-font-size: 25px;
- --initiative-transform: translate(60px, -17px);
+ --initiative-transform: translate(52px, -20px);
  --initiative-border-radius: 20px;
  
   /**************************
@@ -83,4 +83,6 @@
   --item-outline-color: rgba(255, 255, 255, 1);
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
+
+  --displayAll-translate: translate(2%, 0%);
 }
