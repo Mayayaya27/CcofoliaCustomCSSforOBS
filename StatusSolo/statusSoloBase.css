@@ -169,7 +169,7 @@ body {
 .MuiBadge-badge {
  display: var(--initiative-display) !important;
  transform: var(--initiative-transform);
- height: var(--initiative-size);
+ height: calc(var(--initiative-size) + 5px);
  min-width: var(--initiative-size);
  border-radius: var(--initiative-border-radius);
  font-size: var(--initiative-font-size);
