@@ -119,7 +119,7 @@
   --displayAll-top: 0px;/*縦に何ピクセルずらすか指定。マイナスも入力できます*/
   --displayAll-left: 0px;/*横に何ピクセルずらすか指定。マイナスも入力できます*/
   --displayAll-scale: scale(1, 1) ;/* デフォルト1倍。中央寄せになる*/
-  --displayAll-translate: translate(0%, 0%);
+  --displayAll-translate: translate(3%, 0%);
 }
 
 /**************************
