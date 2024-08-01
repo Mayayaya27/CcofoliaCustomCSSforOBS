@@ -10,6 +10,7 @@
   
   --background-color: rgba(22, 22, 22, 0.99);
   --font-size: 1.3rem;
+  --border-radius: 0px;
   
   --all-margin-left: 5px;
   --width: 800px;
@@ -19,12 +20,12 @@
   --title-stroke-color: rgb(200, 200, 200);
   --title-display: none;
 
-  --font-family: "游ゴシック";
+  --font-family: 'Yu Mincho Demibold';
   --contents-font-weight: normal;
 
   --icon-display: none;
-  --textbox-top-margin: 40px;
-  --textbox-bottom-margin: 40px;
+  --textbox-top-margin: 60px;
+  --textbox-bottom-margin: 60px;
   --textbox-right-margin: 60px;
   --textbox-left-margin: 60px;
 
