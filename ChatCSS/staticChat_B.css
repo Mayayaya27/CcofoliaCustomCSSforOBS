@@ -1,0 +1,15 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/staticChat_A.css");
+
+.MuiListItem-gutters {
+    animation:
+        fadeIn  0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
