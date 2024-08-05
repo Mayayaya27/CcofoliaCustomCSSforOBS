@@ -3,40 +3,43 @@
 :root{
   /*****Icons*****/
   /** Icon's Size */
-  --icon-size: 180px;
+  --icon-size: 120px;
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
   --placement-icon-status: inline-table;
 
   --disp-icon: inline-block !important;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-160px, 93px);
-  --initiative-radius: 35px;
-  --initiative-border-radius: 23px;
-  --initiative-font-size: 22px;
+  --initiative-transform: translate(-105px, 78px);
+  --initiative-radius: 25px;
+  --initiative-border-radius: 18px;
+  --initiative-font-size: 14px;
   
   /**************************
    ステータス（全体）
  **************************/
   /**Status Transform*/
-  --status-transform: translate(0px, -55px);
+  --status-transform: translate(0px, -19px);
   /** ステータスの横幅 */
-  --width-status: 100px;
+  --width-status: 80px;
   /** ステータスの行間 */
-  --height-status: 25px;
+  --height-status: 20px;
   
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 40px;
+  --space-between-status: 15px;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 20px;
 
+  --height-total: 20px;
+  --height-remain: 20px;
+  
   /** Colum Amount */
   --columAmount: 2;
 
-  --status-padding-top: 5px;
-  --status-padding-bottom: 5px;
+  --status-padding-top: 4px;
+  --status-padding-bottom: 4px;
   --status-padding-left: 5px;
   --status-padding-right: 5px;
-  --item-font-size: 17px;
-  --status-font-size: 17px;
+  --item-font-size: 14px;
+  --status-font-size: 14px;
 }
