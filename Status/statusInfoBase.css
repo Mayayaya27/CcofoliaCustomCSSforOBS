@@ -104,7 +104,7 @@
   /** 位置 */
   --color-total: rgb(255, 255, 255);
   /** 色 */
-  --image-total: url(https://gazounoURL);
+  --image-total: url();
   /** ステータス背景を画像にしたい場合 */
   --opacity-total: 0.6;
   /** 不透明度 */
