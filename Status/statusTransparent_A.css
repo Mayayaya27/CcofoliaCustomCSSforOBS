@@ -1,0 +1,25 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Status/statusInfoBase.css");
+
+:root{
+  --disp-icon: none;
+
+  /** ステータスの横幅 */
+  --width-status: 110px;
+  --height-status: 45px;
+
+  --height-total: 35px;
+  --color-total: rgba(255, 255, 255, 0);
+  --height-remain: 35px;
+  --color-remain: rgba(255, 255, 255, 0);
+
+  --item-font-size: 25px;
+  --status-font-size: 25px;
+  --item-font-color: rgba(255, 255, 255, 1);
+  --status-font-color: rgba(255, 255, 255, 1);
+  --futei-font-color: rgba(255, 255, 255, 1);
+
+  --item-outline-color: rgb(66, 66, 66);
+  --status-outline-color: rgb(66, 66, 66);
+
+  --item-max-width: 160px;
+}
