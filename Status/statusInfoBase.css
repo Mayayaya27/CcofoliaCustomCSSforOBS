@@ -139,6 +139,7 @@
   --item-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   --item-font-size: 20px;
   --item-font-color: rgb(66, 66, 66);
+  --item-max-width: inherit;
   /** 12/15など、ステータス側のフォント、サイズ、色 */
   --status-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   --status-font-size: 20px;
@@ -282,6 +283,8 @@
     var(--item-outline-color) 0px -1px 0px,
     var(--item-outline-color) -1px 0px 0px,
     var(--item-outline-color) 1px 0px 0px !important;
+  
+  max-width: var(--item-max-width);
 }
 
 .eyQguk > div:nth-child(1) > p:nth-child(2) {
