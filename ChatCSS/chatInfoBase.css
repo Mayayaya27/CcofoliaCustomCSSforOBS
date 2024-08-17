@@ -53,12 +53,12 @@
   --font-family: Yu Gothic UI Semibold;
   --title-display: block;
   --title-font-size: 1.2rem;
-  --title-stroke-width: 0.3px;
+  --title-stroke-width: 0px;
   --title-stroke-color: rgb(200, 200, 200);
   --font-color: rgb(255, 255, 255);
   --font-color-shadow: 0;
   --font-color-fail: rgb(245, 0, 87);
-  --font-color-fail-shadow: 0;
+  --font-color-shadow: rgba(255, 255, 255, 1) 0px 0px 2px;
   --font-color-success: rgb(33, 150, 243);
   --font-color-success-shadow: 0;
   --font-size: 1.2rem;
