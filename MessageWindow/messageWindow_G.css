@@ -111,7 +111,7 @@
   /** フォント色 */
   --content-color: inherit;
   /** フォントの太さ(normal or bold) */
-  --content-font-weight: normal;
+  --content-font-weight: bold;
   /** Font size */
   --content-size: 22px;
   /** Top Padding */
