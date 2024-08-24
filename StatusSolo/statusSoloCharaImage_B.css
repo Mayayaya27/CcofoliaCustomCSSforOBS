@@ -13,7 +13,7 @@
   /** アイコンの大きさ */
   --icon-size: 100%;
   --icon-max-width: 400px;
-  --icon-max-height: 1080px;
+  --icon-max-height: none;
   /** アイコンの角の丸み：50%⇒正円 */
   --icon-radius: 0px;
   --icon-border: 0px;
