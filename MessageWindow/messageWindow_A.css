@@ -209,6 +209,12 @@ img[src*="dice"] {
   text-shadow: var(--text-shadow);
   position: var(--font-position);
   z-index: var(--font-z-index);
+
+  /* Text Overflow */
+  width: 530px; /* 省略せずに表示するサイズを指定 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .MuiToolbar-gutters {
