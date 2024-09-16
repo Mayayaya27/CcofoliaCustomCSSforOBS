@@ -87,6 +87,13 @@
   /** テキスト影 */
   --text-shadow: 0px;
 
+  /* Text Overflow */
+  --title-width: 530px; /* 省略せずに表示するサイズを指定 */
+  --title-white-space: nowrap;
+  --title-overflow: hidden;
+  --title-text-overflow: ellipsis;
+
+  
   /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** Display */
   --dice-result-display: block;
@@ -211,10 +218,10 @@ img[src*="dice"] {
   z-index: var(--font-z-index);
 
   /* Text Overflow */
-  width: 530px; /* 省略せずに表示するサイズを指定 */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: var(--title-width); /* 省略せずに表示するサイズを指定 */
+  white-space: var(--title-white-space:);
+  overflow: var(--title-overflow);
+  text-overflow: var(--title-text-overflow);
 }
 
 .MuiToolbar-gutters {
