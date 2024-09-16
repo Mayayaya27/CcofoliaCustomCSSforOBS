@@ -219,7 +219,7 @@ img[src*="dice"] {
 
   /* Text Overflow */
   width: var(--title-width); /* 省略せずに表示するサイズを指定 */
-  white-space: var(--title-white-space:);
+  white-space: var(--title-white-space);
   overflow: var(--title-overflow);
   text-overflow: var(--title-text-overflow);
 }
