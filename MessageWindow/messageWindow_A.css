@@ -266,3 +266,8 @@ img[src*="dice"] {
   padding-right: var(--content-right-space) !important;
   height: var(--content-height);
 }
+
+/* Access Limitation Window */
+.MuiBox-root{
+  display: none !important;
+}
