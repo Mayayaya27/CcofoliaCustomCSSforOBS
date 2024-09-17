@@ -164,7 +164,6 @@
   border: var(--all-win-background) !important;
 }
 
-
 /* ダイスウィンドウ裏の背景色 */
 .css-175dgcc {
   background-color: var(--dice-win-background) !important;
@@ -183,7 +182,8 @@ img[src*="dice"] {
   height: var(--dice-pic-size) !important;
 }
 
-.MuiPaper-root .MuiPaper-elevation .MuiPaper-rounded .MuiPaper-elevation6 > div:nth-child(1) {
+/** ダイス画像 */
+img[index="0"]{
   /** 表示、非表示 */
   display: var(--disp-dice-picture) !important;
   /** 上下位置の調整 */
