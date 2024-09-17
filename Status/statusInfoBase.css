@@ -160,7 +160,7 @@
 　デザイン
 **************************/
 /* アイコン画像 */
-.css-1b47e06 {
+.dQVHWE {
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
   margin-right: var(--icon-position-y1) !important;
@@ -188,7 +188,7 @@
   border-radius: var(--icon-radius) !important;
 }
 
-.sc-bTJQTw {
+.sc-gpEJRh {
   display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
   margin-left: 0px; !important;
@@ -196,52 +196,52 @@
   vertical-align: top !important;
 }
 
-.eyQguk  {
+.iQLGgm  {
   width: var(--width-status) !important;
   height: var(--height-status) !important;
 }
 
-.eTqEcT >div:nth-child(1) {
+.kuAsLM >div:nth-child(1) {
   display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
 }
 
-.eTqEcT >div:nth-child(2) {
+.kuAsLM >div:nth-child(2) {
   display: var(--2ndStatus-display);
   margin-left: var(--left-space-status2) !important;
 }
 
-.eTqEcT >div:nth-child(3) {
+.kuAsLM >div:nth-child(3) {
   display: var(--3rdStatus-display);
   margin-left: var(--left-space-status3) !important;
 }
 
-.eTqEcT >div:nth-child(4) {
+.kuAsLM >div:nth-child(4) {
   display: var(--4thStatus-display);
   margin-left: var(--left-space-status4) !important;
 }
 
-.eTqEcT >div:nth-child(5) {
+.kuAsLM >div:nth-child(5) {
   display: var(--5thStatus-display);
   margin-left: var(--left-space-status5) !important;
 }
 
-.eTqEcT >div:nth-child(6) {
+.kuAsLM >div:nth-child(6) {
   display: var(--6thStatus-display);
   margin-left: var(--left-space-status6) !important;
 }
 
-.eTqEcT >div:nth-child(7) {
+.kuAsLM >div:nth-child(7) {
   display: var(--7thStatus-display);
   margin-left: var(--left-space-status7);
 }
 
-.eTqEcT >div:nth-child(8) {
+.kuAsLM >div:nth-child(8) {
   display: var(--8thStatus-display);
   margin-left: var(--left-space-status8);
 }
 
-.eyQguk > div:nth-child(2) > div:nth-child(1) {
+.iQLGgm > div:nth-child(2) > div:nth-child(1) {
   height: var(--height-total) !important;
   top: var(--top-total) !important;
   background: var(--color-total) !important;
@@ -250,7 +250,7 @@
   border-radius: var(--radius-total) !important;
 }
 
-.eyQguk > div:nth-child(2) > div:nth-child(2) {
+.iQLGgm > div:nth-child(2) > div:nth-child(2) {
   height: var(--height-remain) !important;
   top: var(--top-remain) !important;
   background: var(--color-remain) !important;
@@ -260,7 +260,7 @@
   content: var(--image-total) !important;
 }
 
-.eyQguk > div:nth-child(1) {
+.iQLGgm > div:nth-child(1) {
   top: var(--top-total) !important;
 
   padding-top: var(--status-padding-top) !important;
@@ -269,7 +269,7 @@
   padding-right: var(--status-padding-right) !important;
 }
 
-.eyQguk > div:nth-child(1) > p:nth-child(1) {
+.iQLGgm > div:nth-child(1) > p:nth-child(1) {
   top: var(--top-total) !important;
 
   font-family: var(--item-font-family) !important;
@@ -287,7 +287,7 @@
   max-width: var(--item-max-width);
 }
 
-.eyQguk > div:nth-child(1) > p:nth-child(2) {
+.iQLGgm > div:nth-child(1) > p:nth-child(2) {
   font-family: var(--status-font-family) !important;
   font-size: var(--status-font-size) !important;
   color: var(--status-font-color) !important;
@@ -301,12 +301,12 @@
     var(--status-outline-color) 1px 0px 0px !important;
 }
 
-.eyQguk > div:nth-child(1) > p:nth-child(2) > span[color="secondary"] {
+.iQLGgm > div:nth-child(1) > p:nth-child(2) > span[color="secondary"] {
   color: var(--futei-font-color) !important;
 }
 
 /* Middle Status */
-.eTqEcT {
+.JlNyO {
   transform: var(--status-transform);
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
   overflow-y: visible !important;
@@ -315,11 +315,8 @@
 }
 
 /** Transfor All */
-.sc-fkmgoA{
+.sc-ljpcOE {
   top: var(--all-top);
-  left: var(--all-left);
-  overflow: visible;
-}
   left: var(--all-left);
   overflow: visible;
 }
