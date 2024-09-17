@@ -104,18 +104,18 @@ div[tabindex="0"]>div:nth-child(1) {
 
 
 /*only foreground*/
-div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
+div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img {
   display: var(--foreground-display);
 }
 
 /*ScreenPanel*/
-div[tabindex="-1"], .sc-cveafp{
+.GlXHc >img {
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
 
 /*MarkerPanel*/
-.sc-cveafp {
+.cvXnvK >img {
   display: var(--markerPanel-display);
 }
 
