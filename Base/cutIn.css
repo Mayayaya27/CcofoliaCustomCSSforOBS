@@ -13,11 +13,11 @@
   --charaIcon-display: none;
   --background-display: none;
   
-  --displayAll-height: 200%;
+  --displayAll-height: 100%;
   --displayAll-width: 100%;
-  --displayAll-top: -600px;
+  --displayAll-top: 0px;
   --displayAll-left: 0px;
-  --displayAll-scale: scale(1.5, 1.5);
+  --displayAll-scale: scale(1.4, 1.4);
 }
 
 div[open] {
