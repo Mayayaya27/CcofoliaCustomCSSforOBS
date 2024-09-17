@@ -250,7 +250,7 @@ img[src*="dice"] {
 
 
 /** ダイス結果(□＞58) 成功・失敗無し用 */
-.css-ucj12 {
+.MuiTypography-body2 > p  {
   display: var(--dice-result-display);
   /** フォント色 */
   color: var(--dice-result-color) !important;
