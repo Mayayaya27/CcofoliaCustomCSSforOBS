@@ -109,13 +109,13 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>img {
 }
 
 /*ScreenPanel*/
-div[tabindex="-1"], .sc-flUmcV{
+div[tabindex="-1"], .sc-cveafp{
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
 
 /*MarkerPanel*/
-.sc-irKCZC {
+.sc-cveafp {
   display: var(--markerPanel-display);
 }
 
