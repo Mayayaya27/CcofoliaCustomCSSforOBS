@@ -272,7 +272,7 @@ img[src*="dice"] {
 }
 
 /*Contents*/
-.iKUBvp{
+.MuiToolbar-gutters + div {
   padding-top: var(--content-top-space) !important;;
   padding-bottom: var(--content-bottom-space) !important;
   padding-left: var(--content-left-space) !important;
