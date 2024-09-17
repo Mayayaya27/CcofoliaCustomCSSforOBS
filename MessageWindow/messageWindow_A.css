@@ -183,7 +183,7 @@ img[src*="dice"] {
   height: var(--dice-pic-size) !important;
 }
 
-.MuiPaper-elevation6 > div:nth-child(1) {
+.MuiPaper-root .MuiPaper-elevation .MuiPaper-rounded .MuiPaper-elevation6 > div:nth-child(1) {
   /** 表示、非表示 */
   display: var(--disp-dice-picture) !important;
   /** 上下位置の調整 */
