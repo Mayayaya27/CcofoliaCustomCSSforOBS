@@ -12,7 +12,7 @@
   --disp-icon: inline-flex;
   /** アイコンの大きさ */
   --icon-size: 100%;
-  --icon-width: 100%;
+  --icon-width: var(--icon-max-width);
   --icon-max-width: 400px;
   --icon-max-height: none;
   /** アイコンの角の丸み：50%⇒正円 */
