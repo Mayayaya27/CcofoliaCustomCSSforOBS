@@ -11,6 +11,7 @@
   /** アイコンの大きさ */
   --icon-size: 0px;
   --icon-size-width-correction: 0px;/*補正用*/ 
+  --icon-width: inherit;
   --icon-max-width: 100%;
   --icon-max-height: 100%;
   /** アイコンの角の丸み：50%⇒正円 */
@@ -153,6 +154,7 @@ body {
 }
 
 .MuiButtonBase-root>img{
+    width: var(--icon-width) !important;
     max-width: var(--icon-max-width) !important;
     max-height: var(--icon-max-height) !important;
 }
