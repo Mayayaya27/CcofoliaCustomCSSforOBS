@@ -26,7 +26,9 @@
   **************************/
   /** ◆◆◆ウィンドウ◆◆◆ */
   --all-win-background: inherit;
-  
+  --window-position: absolute;
+  /** height */
+  --dice-win-heigth: inherit;
   /** width */
   --dice-win-width: 900px;
   /** 背景色 */
@@ -35,6 +37,7 @@
   --dice-win-border: solid 0px white;
   /** 角の丸み */
   --dice-win-radius: 20px;
+  --dice-win-margin-top: inherit;
 
   /*◆◆◆MessageWindowImage◆◆◆*/
   /*MessageWindowImage*/
@@ -139,20 +142,22 @@
 }
 
 /** ウィンドウ */
-.MuiPaper-elevation6/*,.MuiPaper-rounded:nth-child(2)*/ {
+.MuiPaper-elevation6 {
   /** 横幅 */
   width: var(--dice-win-width) !important;
+  height: var(--dice-win-heigth) !important;
   max-width: none;
   /** 背景色 */
   background: rgba(0,0,0,0);
   /** 角の丸み */
   border-radius: var(--dice-win-radius) !important;
   /** 背景色の見切れ解消 */
-  position: absolute !important;
+  position: var(--window-position) !important;
   top: var(--window-top) !important;
   bottom: var(--window-bottom) !important;
   left: 0px;
   right: 0px;
+  margin-top: var(--dice-win-margin-top) !important;
 }
 
 /* 枠線 */
