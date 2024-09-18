@@ -3,6 +3,10 @@
 :root{
   --dice-win-background: rgba(250, 250, 250, 1);
   --disp-dice-picture: none;
+
+  --dice-win-heigth: 90vh !important;
+  --window-position: relative !important;
+  --dice-win-margin-top: 55px !important;
   
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** フォント */
