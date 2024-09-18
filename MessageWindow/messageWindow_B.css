@@ -21,7 +21,7 @@
   --midashi-left-space: 60px;
 
   --title-width: auto; /* タイトルが表示できる横幅 */
-  --title-white-space: normal; /*1行だけにしたい場合はnowrap*/
+  --title-white-space: nowrap; /*1行だけにしたい場合はnowrap*/
 
  /** ◆◆◆ダイス結果(□＞58)◆◆◆ */
   /** フォント */
