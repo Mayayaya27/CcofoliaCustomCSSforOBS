@@ -67,7 +67,6 @@
   /** 画像が表示される範囲 */
   --dice-pic-disp-range: 600px;
 
-  --window-position: static;
   --font-position: relative;
   --font-z-index: 3;
   
