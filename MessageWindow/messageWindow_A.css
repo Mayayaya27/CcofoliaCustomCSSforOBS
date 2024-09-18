@@ -138,10 +138,6 @@
   --window-bottom: 21px;
 }
 
-.MuiPaper-rounded .MuiPaper-elevation6 {
-  position: var(--window-position) !important;
-}
-
 /** ウィンドウ */
 .MuiPaper-elevation6/*,.MuiPaper-rounded:nth-child(2)*/ {
   /** 横幅 */
@@ -175,6 +171,13 @@
   box-shadow: block !important;
 }*/
 
+/*
+/** ダイス画像 */
+img[src*="dice"] {
+  /** サイズ設定 */
+
+}
+*/
 /** ダイス画像 */
 img[index="0"]{
   /** 表示、非表示 */
@@ -188,7 +191,6 @@ img[index="0"]{
   /** 画像が表示される範囲 */
   max-width: var(--dice-pic-disp-range) !important;
 
-  /** サイズ設定 */
   width: var(--dice-pic-size) !important;
   height: var(--dice-pic-size) !important;
 }
