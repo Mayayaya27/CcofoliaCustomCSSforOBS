@@ -109,13 +109,13 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img {
 }
 
 /*ScreenPanel*/
-.GlXHc >img {
+.sc-fTZqFM >img {
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
 
 /*MarkerPanel*/
-.cvXnvK >img {
+.sc-ByBgr >img {
   display: var(--markerPanel-display);
 }
 
