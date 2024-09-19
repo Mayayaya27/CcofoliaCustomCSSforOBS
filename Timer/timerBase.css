@@ -7,7 +7,7 @@
   --messageWindow-display: none;
   --cutIn-display: none;
 
-  --f-s-m-c-display: none;
+  --f-s-m-c-display: block;
   --foreground-display: none;
   --screenPanel-display: none;
   --markerPanel-display: none;
