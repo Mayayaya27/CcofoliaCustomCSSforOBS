@@ -23,6 +23,7 @@
 
   --f-s-m-c-display: block;
   --foreground-display: block;
+  --foreground-grid-display: block;
   --screenPanel-display: inline-block;
   --markerPanel-display: block;
   --charaIcon-display: block;
@@ -107,6 +108,11 @@ div[tabindex="0"]>div:nth-child(1) {
 /*only foreground*/
 div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img {
   display: var(--foreground-display);
+}
+
+/* foreground grid */
+div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img + div {
+  display: var(--foreground-grid-display);
 }
 
 /*ScreenPanel*/
