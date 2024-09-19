@@ -12,10 +12,17 @@
   /*↓↓カットイン表示・非表示↓↓*/
   --cutIn-display: none;
 
+  /*↓↓タイマー表示・非表示↓↓*/
+  --timer-display: none;
+  /*↓↓ダイナミックダイス表示・非表示↓↓*/
+  --dynamic-dice-display: none;
+  
   /*↓↓前景・スクリーンパネル・マーカーパネル・キャラ駒一括表示・非表示↓↓*/
   --f-s-m-c-display: none !important;
   /*↓↓前景表示・非表示↓↓*/
   --foreground-display: none !important;
+  /*↓↓前景グリッド表示・非表示↓↓*/
+  --foreground-grid-display: block;
   /*↓↓スクリーンパネル表示・非表示↓↓*/
   --screenPanel-display: none !important;
   /*↓↓マーカーパネル表示・非表示↓↓*/
