@@ -3,6 +3,7 @@
   --statusWindow-display: block;
 
   --timer-display: none;
+  --dynamic-dice-display: none;
   
   --messageWindow-display: block;
   --messageWindowImage-display: none;
@@ -63,7 +64,7 @@ div[open] {
 
 /* Dynamic Dice */
 div[tabindex="0"]>div:last-child{
-  display: none !important;
+  display: var(--dynamic-dice-display) !important;
 }
 
 /*Timer*/
