@@ -42,4 +42,8 @@
   --status-padding-right: 5px;
   --item-font-size: 14px;
   --status-font-size: 14px;
+
+  /**** Everything ****/
+  --all-top: 10px;
+  --all-left: 30px;
 }
