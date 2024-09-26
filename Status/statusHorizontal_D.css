@@ -11,13 +11,13 @@
   --disp-icon: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-82px, 62px);
+  --initiative-transform: translate(-77px, 67px);
   --initiative-radius: 30px;
   --initiative-border-radius: 20px;
   --initiative-font-size: 18px;
 
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 15px;
+  --space-between-status: 22px;
 
   /** ステータス文字の周りの余白(上,下,左,右) */
   --status-padding-top: 5px;
