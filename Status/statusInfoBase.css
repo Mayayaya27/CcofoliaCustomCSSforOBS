@@ -159,8 +159,8 @@
 /**************************
 　デザイン
 **************************/
-/* アイコン画像 *//*.dQVHWE*/
-.MuiPaper-root + div > div {
+/* アイコン画像 .dQVHWE*/
+.MuiBadge-root {
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
   margin-right: var(--icon-position-y1) !important;
@@ -189,7 +189,7 @@
 }
 
 /*.sc-gpEJRh*/
-.MuiPaper-root + div > div {
+.MuiPaper-root ~ [class^="sc-"] > div{
   display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
   margin-left: 0px; !important;
@@ -199,7 +199,7 @@
 
 /*.kuAsLM*/
 .MuiBadge-root + div > div {
-  display: flex;
+  display: block;
 }
 
 .MuiBadge-root + div > div >div:nth-child(1) {
