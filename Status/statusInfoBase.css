@@ -201,6 +201,10 @@
   height: var(--height-status) !important;
 }
 
+.kuAsLM {
+  display: flex !important;
+}
+
 .kuAsLM >div:nth-child(1) {
   display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
