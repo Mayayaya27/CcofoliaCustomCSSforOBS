@@ -159,6 +159,13 @@
 /**************************
 　デザイン
 **************************/
+/** Transfor All .sc-ljpcOE */
+.MuiPaper-root ~ [class^="sc-"] {
+  top: var(--all-top);
+  left: var(--all-left);
+  overflow: visible;
+}
+
 /* アイコン画像 .dQVHWE*/
 .dQVHWE {
   display: var(--disp-icon) !important;
@@ -320,11 +327,3 @@
   margin-left: var(--statusAll-margin) !important;
   width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
 }
-
-/** Transfor All .sc-ljpcOE */
-.MuiPaper-root ~ [class^="sc-"] {
-  top: var(--all-top);
-  left: var(--all-left);
-  overflow: visible;
-}
-
