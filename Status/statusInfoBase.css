@@ -160,7 +160,7 @@
 　デザイン
 **************************/
 /** Transfor All .sc-ljpcOE */
-.MuiPaper-root ~ [class^="sc-"] {
+.sc-ljpcOE {
   top: var(--all-top);
   left: var(--all-left);
   overflow: visible;
