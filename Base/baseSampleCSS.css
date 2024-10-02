@@ -16,6 +16,11 @@
   --timer-display: none;
   /*↓↓ダイナミックダイス表示・非表示↓↓*/
   --dynamic-dice-display: none;
+
+  /*↓↓カード表示・非表示↓↓*/
+  --card-display: block;
+ /*↓↓カードの名前表示・非表示↓↓*/
+  --card-name-display: none;
   
   /*↓↓前景・スクリーンパネル・マーカーパネル・キャラ駒一括表示・非表示↓↓*/
   --f-s-m-c-display: none !important;
