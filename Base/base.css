@@ -21,6 +21,7 @@
 
   --cutIn-display: block;
   --card-display: block;
+  --card-name-display: none;
   
   --f-s-m-c-display: block;
   --foreground-display: block;
@@ -144,6 +145,10 @@ figure[tabindex="-1"] >span{
 /*Card*/
 .kGZMEt{
   display: var(--card-display) !important;
+}
+
+.MuiChip-labelMedium{
+  display: var(--card-name-display) !important;
 }
 
 div[tabindex="0"]{
