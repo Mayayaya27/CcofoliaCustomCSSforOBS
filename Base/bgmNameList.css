@@ -1,0 +1,74 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Base/base.css");
+
+:root{
+  --chatWindow-display: none;
+  --statusWindow-display: none;
+  --messageWindow-display: none;
+  --cutIn-display: none;
+
+  --f-s-m-c-display: none;
+  --foreground-display: none;
+  --foreground-grid-display: none;
+  --screenPanel-display: none;
+  --markerPanel-display: none;
+  --charaIcon-display: none;
+  --background-display: none;
+
+  --displayAll-height: 100%;
+  --displayAll-width: 100%;
+  --displayAll-top: 0px;
+  --displayAll-left: 0px;
+  --displayAll-scale: scale(1, 1);
+}
+
+:root {
+  --font-color: rgb(48, 40, 51);
+  --font-size: 3rem;
+}
+
+#root > div > div[tabindex='0'][style] > div:nth-child(3) {
+  border: none;
+  display: block;
+  left: 0;
+  right: auto;
+  top: 0;
+  width: 100%;
+}
+
+#root > div > div[tabindex='0'][style] > div:nth-child(3):hover {
+  background-color: transparent;
+}
+
+#root > div > div[tabindex='0'][style] > div:nth-child(3) > div {
+  display: block;
+  padding: 0;
+}
+
+#root > div > div[tabindex='0'][style] > div:nth-child(3) > div > div {
+  margin: 0;
+}
+
+.MuiSlider-root,
+.MuiIconButton-sizeSmall,
+.MuiButton-label {
+  display: none;
+}
+
+.MuiButton-root {
+  display: block;
+  font-size: 0;
+  height: calc(var(--font-size) * 2);
+  overflow: hidden;
+  text-align: left;
+  white-space: pre-wrap;
+  width: 100%;
+}
+.MuiButton-root:after {
+  color: var(--font-color);
+  content: '' attr(aria-label);
+  font-size: var(--font-size);
+}
+
+.MuiButton-root:hover {
+  background-color: transparent;
+}
