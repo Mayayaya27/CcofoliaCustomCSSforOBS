@@ -22,16 +22,16 @@
 }
 
 :root {
-  --font-color: rgb(48, 40, 51);
+  --font-color: black;
   --font-size: 3rem;
 }
 
 #root > div > div[tabindex='0'][style] > div:nth-child(3) {
   border: none;
   display: block;
-  left: 0;
+  left: 50px;
   right: auto;
-  top: 0;
+  top: 30px;
   width: 100%;
 }
 
