@@ -140,6 +140,10 @@
   --window-bottom: 21px;
 }
 
+.MuiPaper-elevation6 > img + div {
+  position: static !important;
+}
+
 /** ウィンドウ */
 .MuiPaper-elevation6 {
   /** 横幅 */
