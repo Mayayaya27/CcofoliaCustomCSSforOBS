@@ -1,7 +1,7 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Status/statusInfoBase.css");
 
 :root{
-  --disp-icon: none;
+  --disp-icon: flex;
 
   /** ステータスの横幅 */
   --width-status: 110px;
