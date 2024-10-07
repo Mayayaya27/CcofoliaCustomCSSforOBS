@@ -7,6 +7,12 @@
   --dice-win-heigth: 90vh !important;
   --window-position: relative !important;
   --dice-win-margin-top: 55px !important;
+
+  /** ◆◆◆Icon Display◆◆◆ */
+  --icon-width: 400px;
+  --icon-height: 400px;
+  --icon-left: 500px;
+  --icon-border-top-right-radius: 0px;
   
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** フォント */
