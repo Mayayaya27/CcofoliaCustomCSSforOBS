@@ -3,6 +3,9 @@
 :root{
   --disp-icon: flex;
 
+  /** Icon's Size */
+  --icon-size: 0px;
+  
   /** ステータスの横幅 */
   --width-status: 110px;
   --height-status: 45px;
