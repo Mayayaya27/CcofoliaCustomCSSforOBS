@@ -45,6 +45,8 @@
   --status-font-size: 14px;
 
   /**** Everything ****/
+  --all-position: relative;
   --all-top: 10px;
   --all-left: 30px;
+  --all-text-align: center;
 }
