@@ -1,0 +1,60 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Status/statusInfoBase.css");
+
+/*Set Roots*/
+:root {
+  /*****Icons*****/
+  --icon-position: relative;
+  /** Icon's Size */
+  --icon-size: 140px
+  /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
+  --placement-icon-status: inline-table;
+
+  --disp-icon: inline-block !important;
+
+  /*****Initiative*****/
+  --initiative-transform: translate(-120px, 107px);
+  --initiative-radius: 33px;
+  --initiative-border-radius: 23px;
+  --initiative-font-size: 22px;
+  
+  /**************************
+   ステータス（全体）
+ **************************/
+  /**Status Transform*/
+  --status-transform: translate(15px, -5px);
+  /** ステータスの横幅 */
+  --width-status: 140px;
+  /** ステータスの行間 */
+  --height-status: 25px;
+  
+  /** Margin Between Status(Horizontal) */
+  --space-between-status: 30px;
+   /** Margin Between Status(Bottom) */
+  --space-between-bottom: 30px;
+  
+  /**************************
+    ステータス（個別）
+  **************************/
+  --3rdStatus-display: none;
+  --4thStatus-display: none;
+  --5thStatus-display: none;
+  --6thStatus-display: none;
+  --7thStatus-display: none;
+  --8thStatus-display: none;
+
+  --status-padding-top: 5px;
+  --status-padding-bottom: 5px;
+  --status-padding-left: 5px;
+  --status-padding-right: 5px;
+  --item-font-size: 17px;
+  --status-font-size: 17px;
+
+  /** Colum Amount */
+  --columAmount: 1;
+
+  /**** Everything ****/
+  --all-position: relative;
+  --all-text-align: center;
+  --all-top: 30px;
+  --all-left: 35px;
+}
