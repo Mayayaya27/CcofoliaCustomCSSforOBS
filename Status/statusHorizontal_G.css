@@ -5,7 +5,7 @@
   /*****Icons*****/
   --icon-position: relative;
   /** Icon's Size */
-  --icon-size: 140px
+  --icon-size: 140px;
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
   --placement-icon-status: inline-table;
 
