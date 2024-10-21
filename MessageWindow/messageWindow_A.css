@@ -140,7 +140,7 @@
   --window-bottom: 21px;
 }
 
-.MuiPaper-elevation6 > img + div {
+.MuiPaper-root.MuiPaper-elevation6 > .MuiPaper-root.MuiPaper-elevation6 {
   position: static !important;
 }
 
