@@ -45,7 +45,7 @@
   --icon-height: 193px;
   --icon-object-position: 50% 2%;
   --icon-object-fit: cover;
-  --icon-bottom: var(--window-bottom);
+  --icon-bottom: 0px;
   --icon-left: 700px;
   --icon-transform-origin: center left;
   --icon-z-index: 2;
