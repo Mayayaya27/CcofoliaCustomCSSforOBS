@@ -57,7 +57,7 @@
   /** display dice*/
   --disp-dice-picture: block;
   /** サイズ設定 */
-  --dice-pic-size: 85px;
+  --dice-pic-size: inherit;
   /** 上下位置の調整 */
   --dice-pic-y: 100%;
   /** 左側のスペースの幅 */
