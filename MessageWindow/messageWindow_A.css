@@ -66,6 +66,7 @@
   --dice-pic-right-space: 0px;
   /** 画像が表示される範囲 */
   --dice-pic-disp-range: 600px;
+  --dice-z-index: inherit;
 
   --font-position: relative;
   --font-z-index: 3;
@@ -185,7 +186,7 @@ img[src*="dice"] {
 }
 
 /** ダイス画像 */
-.sc-bgPvvg{
+.dnSOOJ{
   /** 表示、非表示 */
   display: var(--disp-dice-picture) !important;
   /** 上下位置の調整 */
@@ -196,6 +197,7 @@ img[src*="dice"] {
   right: var(--dice-pic-right-space) !important;
   /** 画像が表示される範囲 */
   max-width: var(--dice-pic-disp-range) !important;
+  z-index: var(--dice-z-index);
 
   width: var(--dice-pic-size) !important;
   height: var(--dice-pic-size) !important;
