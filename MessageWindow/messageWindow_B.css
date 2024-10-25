@@ -13,6 +13,10 @@
   --icon-height: 400px;
   --icon-left: 500px;
   --icon-border-top-right-radius: 0px;
+
+  /** ◆◆◆Dice Display◆◆◆ */
+  --dice-pic-y: 0%;
+  --dice-z-index: 3;
   
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** フォント */
