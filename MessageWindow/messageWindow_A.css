@@ -179,13 +179,11 @@
   box-shadow: block !important;
 }*/
 
-/*
 /** ダイス画像 */
 img[src*="dice"] {
   /** サイズ設定 */
-
 }
-*/
+
 /** ダイス画像 */
 .sc-bgPvvg{
   /** 表示、非表示 */
