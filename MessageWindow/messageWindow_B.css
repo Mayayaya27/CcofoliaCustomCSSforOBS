@@ -2,7 +2,6 @@
 
 :root{
   --dice-win-background: rgba(250, 250, 250, 1);
-  --disp-dice-picture: none;
 
   --dice-win-heigth: 90vh !important;
   --window-position: relative !important;
@@ -15,8 +14,9 @@
   --icon-border-top-right-radius: 0px;
 
   /** ◆◆◆Dice Display◆◆◆ */
+  --disp-dice-picture: flex;
   --dice-pic-y: 0%;
-  --dice-z-index: 3;
+  --dice-z-index: 5;
   
   /** ◆◆◆見出し、キャラ名◆◆◆ */
   /** フォント */
