@@ -39,4 +39,9 @@
   --status-padding-right: 5px;
   --item-font-size: 17px;
   --status-font-size: 17px;
+
+  /**** Everything ****/
+  --all-position: relative;
+  --all-top: inherit;
+  --all-left: inherit;
 }
