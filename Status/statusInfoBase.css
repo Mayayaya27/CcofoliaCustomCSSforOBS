@@ -153,7 +153,7 @@
   --status-outline-color: rgba(255, 255, 255, 1);
 
   /**** Everything ****/
-  --all-position: inherit;
+  --all-position: relative;
   --all-top: 10px;
   --all-left: 10px;
   --all-text-align: inherit;
