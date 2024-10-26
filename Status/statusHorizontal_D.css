@@ -30,4 +30,9 @@
   /** ステータスの横幅 */
   --width-status: 100px;
   --status-transform: translate(0px, -10px);
+
+  /**** Everything ****/
+  --all-position: relative;
+  --all-top: inherit;
+  --all-left: inherit;
 }
