@@ -13,4 +13,9 @@
 
   /** Margin Between Status(Horizontal) */
   --space-between-status: 20px;
+
+  /**** Everything ****/
+  --all-position: relative;
+  --all-top: inherit;
+  --all-left: inherit;
 }
