@@ -138,11 +138,6 @@ div[style="border-bottom: 1px solid rgb(255, 255, 255); width: 90%; text-align: 
   display: none !important;
 }
 
-/*Skill Points Basic Amount*/
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(2){
-  display: none !important;
-}
-
 /*Skill Points*/
 .AbilityTable_tableLeftHeaderSkill__Lu9Zp,
 .AbilityTable_tableLeftHeaderSkill__Lu9Zp>div,
