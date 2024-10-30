@@ -94,7 +94,7 @@ html{
 }
 
 /*Name Color*/
-.Container_desktop__v8oRx>div>div:nth-child(2)>div>div{
+.Container_desktop__v8oRx>div>div:nth-child(1)>div>div, .Container_desktop__v8oRx>div>div:nth-child(2)>div>div{
   color: var(--font-color) !important;
 }
 
