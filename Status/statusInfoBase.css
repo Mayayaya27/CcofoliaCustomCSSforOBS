@@ -69,6 +69,7 @@
   
   /** Margin Between Status(Horizontal) */
   --space-between-status: 10px;
+  --space-between-status2: inherit;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
   /**************************
@@ -208,6 +209,10 @@
   margin-left: 0px; !important;
   margin-bottom: var(--space-between-bottom) !important;
   vertical-align: top !important;
+}
+
+.gnuyGa{
+  margin-right: var(--space-between-status2) !important;
 }
 
 /*.kuAsLM*/
