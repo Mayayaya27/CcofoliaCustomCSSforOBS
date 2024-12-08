@@ -12,7 +12,8 @@
   --initiative-transform: translate(-70px, 85px);
 
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 20px;
+  --space-between-status: 0px;
+  --space-between-status2: 60px;
 
   /**** Everything ****/
   --all-position: relative;
