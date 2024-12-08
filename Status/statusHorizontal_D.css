@@ -17,7 +17,8 @@
   --initiative-font-size: 18px;
 
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 22px;
+  --space-between-status: 0px;
+  --space-between-status2: 40px;
 
   /** ステータス文字の周りの余白(上,下,左,右) */
   --status-padding-top: 5px;
