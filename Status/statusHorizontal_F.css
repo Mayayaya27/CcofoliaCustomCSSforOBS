@@ -29,7 +29,8 @@
   /** Margin Between Status(Horizontal) */
   --space-between-status: 5px;
 　--space-between-status2: 60px;
-   /** Margin Between Status(Bottom) */
+  
+  /** Margin Between Status(Bottom) */
   --space-between-bottom: 20px;
 
   --height-total: 20px;
