@@ -124,7 +124,7 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img + div {
 }
 
 /*MarkerPanel*/
-.sc-ByBgr >img {
+.sc-fTFLve>img {
   display: var(--markerPanel-display);
 }
 
