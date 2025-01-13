@@ -38,11 +38,10 @@
   /*↓↓背景表示・非表示↓↓*/
   --background-display: block !important;
 
-　/*↓↓表示範囲用↓↓*/
+  /*↓↓拡大縮小・表示範囲用↓↓*/
   --displayAll-height: 300%;
   --displayAll-width: 300%;
   --displayAll-top: -100%;
   --displayAll-left: -100%;
-  　/*↓↓拡大縮小用（scale(1)で1倍のサイズになる）↓↓*/
   --displayAll-scale: scale(1);
 }
