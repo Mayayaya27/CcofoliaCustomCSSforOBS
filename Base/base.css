@@ -31,6 +31,7 @@
   --charaIcon-display: block;
   
   --background-display: block;
+  --blur-amount: inherit !important;
 
   --displayAll-height: 100%;
   --displayAll-width: 100%;
@@ -140,6 +141,11 @@ figure[tabindex="-1"] >span{
 /*BackGround*/
 .MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div {
   display: var(--background-display) !important;
+}
+
+/*BackGround Blur*/
+#root>div>div>div:nth-child(1) {
+  filter: blur(var(--blur-amount)) !important;
 }
 
 /*Card*/
