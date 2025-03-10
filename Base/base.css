@@ -31,7 +31,7 @@
   --charaIcon-display: block;
   
   --background-display: block;
-  --blur-amount: inherit !important;
+  --blur-amount: 8px !important;
 
   --displayAll-height: 100%;
   --displayAll-width: 100%;
