@@ -92,6 +92,7 @@
 
   /* Text Overflow */
   --title-width: 530px; /* 省略せずに表示するサイズを指定 */
+  --title-min-width: 120px; /* 省略せずに表示するサイズを指定 */
   --title-white-space: nowrap;
   --title-overflow: hidden;
   --title-text-overflow: ellipsis;
@@ -114,6 +115,13 @@
   --dice-result-bottom-space: 5px;
   /** 左の余白 */
   --dice-result-left-space: 15px;
+
+   /* Text Overflow */
+  --dice-result-margin-right: 50px; 
+  --dice-result-white-space: nowrap; /* 折り返し無しにする */
+  --dice-result-overflow: hidden; /* はみ出た部分を非表示 */
+  --dice-result-text-overflow: ellipsis; /* 語尾を3点リーダーに */
+  
 
   /** ◆◆◆内容◆◆◆ */
   /** フォント */
@@ -226,6 +234,7 @@ img[src*="dice"] {
 
   /* Text Overflow */
   max-width: var(--title-width); /* 省略せずに表示するサイズを指定 */
+  min-width: var(--title-min-width); /* 省略せずに表示するサイズを指定 */
   white-space: var(--title-white-space);
   overflow: var(--title-overflow);
   text-overflow: var(--title-text-overflow);
@@ -253,6 +262,12 @@ img[src*="dice"] {
   text-shadow: var(--text-shadow);
   position: var(--font-position);
   z-index: var(--font-z-index);
+
+ /* Text Overflow */
+  margin-right: var(--dice-result-margin-right);
+  white-space: var(--dice-result-white-space); /* 折り返し無しにする */
+  overflow: var(--dice-result-overflow); /* はみ出た部分を非表示 */
+  text-overflow: var(--dice-result-text-overflow); /* 語尾を3点リーダーに */
 }
 
 
