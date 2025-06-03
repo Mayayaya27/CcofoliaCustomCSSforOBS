@@ -36,6 +36,8 @@
   --border-shadow: 0;
   --all-margin-left: 20px;
 
+  --panel-background: transparent;
+
   --display-all: flex;
 
     /*Use Here for SetPositions*/
@@ -137,6 +139,11 @@ hr {
 
 .MuiPaper-root {
   background-color: var(--window-background-color);
+}
+
+/*Menu Panel Background*/
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6 > form{
+background: var(--panel-background);
 }
 
 /*SetPositions*/
