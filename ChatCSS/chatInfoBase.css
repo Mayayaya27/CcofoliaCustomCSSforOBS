@@ -142,7 +142,7 @@ hr {
 }
 
 /*Menu Panel Background*/
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6 > form{
+.MuiPaper-elevation6, .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6 > form{
 background: var(--panel-background);
 }
 
