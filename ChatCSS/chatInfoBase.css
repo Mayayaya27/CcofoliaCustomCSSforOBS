@@ -231,6 +231,11 @@ p.MuiTypography-root {
   display: none;
 }
 
+/*Chat Border*/
+.MuiDivider-root, .MuiDivider-fullWidth{
+border-style: none !important;
+}
+
 .MuiList-root>div:nth-child(1) {
   height: 100% !important;
 }
