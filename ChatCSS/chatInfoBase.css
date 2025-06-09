@@ -70,6 +70,7 @@
   --image-radius: 0%;
   --width: 500px;
   --line-clamp: none;/*行数*/
+  --line-height: inheirt;
 
   --textbox-top-margin: inherit;
   --textbox-bottom-margin: inherit;
@@ -229,6 +230,10 @@ p.MuiTypography-root {
 
 .MuiTypography-caption {
   display: none;
+}
+
+p.MuiListItemText-secondary {
+  line-height: var(--line-height) !important;
 }
 
 /*Chat Border*/
