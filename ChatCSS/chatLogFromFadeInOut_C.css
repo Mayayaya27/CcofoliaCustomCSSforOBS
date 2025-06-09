@@ -1,11 +1,18 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromFadeInOut_B.css");
 
 :root{
-  --font-color: rgb(255, 255, 255);
-  --font-text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7), 0px 0px 1px rgba(0, 0, 0, 1);
-  --background-color: rgba(255, 255, 255, 0.2);
-  --font-family: "游ゴシック";
+  --font-color: rgb(0, 0, 0);
+  --background-color: rgba(255, 255, 255, 0.5);
+  --font-text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5), 0px 0px 1px rgba(0, 0, 0, 0);
+  --border-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  --font-family: MS PMincho;
   --contents-font-weight: bold;
-  --border-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
   --border-radius: 15px;
+
+  --textbox-top-margin: 80px;
+  --textbox-bottom-margin: 80px;
+  --textbox-right-margin: 80px;
+  --textbox-left-margin: 80px;
+
+  --line-height: 1.6;
 }
