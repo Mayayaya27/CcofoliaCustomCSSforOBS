@@ -1,0 +1,35 @@
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+body { background-color: transparent !important; }
+
+:root{
+--gm3-select-shared-menu-container-color： transparent !important;
+}
+
+::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+
+div[role="banner"], div[aria-label="Sheet tab bar"], div[class="grid-shim-bottom"], div[class="grid-shim-end-ltr"], div[class="grid-table-container fixed-table-container"], div[class="overlay-container-ltr"]{
+
+display: none !important;
+
+}
+
+div[class="postpaste-parent docs-material"], div[id="docs-editor-container"], div[class="grid-container"], div[id="docs-editor"], div[class="column-headers-background"], .waffle-background-container{
+
+background: transparent !important;
+background-color: transparent !important;
+}
+
+div[id="0-grid-container"]{
+background-color: transparent !important;
+}
+
+div[id="0-grid-container"]{
+background-color: transparent !important;
+}
+
+div[class="grid-container"]{
+height: 100% !important;
+width: 100% !important;
+overflow: visible
+}
