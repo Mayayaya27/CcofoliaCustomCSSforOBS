@@ -55,7 +55,7 @@
 
   /** ◆◆◆ダイス画像◆◆◆ */
   /** display dice*/
-  --disp-dice-picture: block;
+  --disp-dice-picture: inherit;
   /** サイズ設定 */
   --dice-pic-size: inherit;
   /** 上下位置の調整 */
