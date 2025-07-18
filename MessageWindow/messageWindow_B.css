@@ -14,7 +14,8 @@
   --icon-border-top-right-radius: 0px;
 
   /** ◆◆◆Dice Display◆◆◆ */
-  --disp-dice-picture: flex;
+  /** display dice*/
+  --disp-dice-picture: inherit;
   --dice-pic-y: 0%;
   --dice-z-index: 5;
   
