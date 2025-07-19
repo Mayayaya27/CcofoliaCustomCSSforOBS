@@ -20,21 +20,26 @@
   --textbox-left-margin: inherit;
 
   --icon-margin-top: 35px;
+
+  --item-top: auto;
+  --item-bottom: 100px;
 }
 
 .MuiListItem-gutters {
     animation:
         fadeIn  1s ease 0s,
         /* 7sを変えると表示されてる秒数が変わります。最低2s */
-        fadeOut 1s ease 20s forwards;
+        fadeOut 1s ease 30s forwards;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
+        transform: translateY(100px);
     }
     to {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 
