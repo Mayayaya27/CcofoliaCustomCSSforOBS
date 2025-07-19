@@ -16,20 +16,50 @@
 
   --textbox-top-margin: 15px;
   --textbox-bottom-margin: 20px;
-  --textbox-right-margin: 20px;
+  --textbox-right-margin: 30px;
   --textbox-left-margin: inherit;
 
-  --icon-margin-top: 35px;
+  --icon-size: 100px !important; /** 画像の横幅 */
+  --icon-margin-top: 5px;
+  --icon-margin-left: 770px;
+  --icon-min-width: 0px;
 
   --item-top: auto;
   --item-bottom: 100px;
 }
 
+ .MuiListItemAvatar-root {
+   position: absolute !important;
+   opacity: 0.75 !important;/* 画像の不透明度　0：透明、1：不透明 */
+   z-index: 1 !important;
+ }
+  .MuiListItemAvatar-root img{
+    position: relative !important;
+    top: 0px !important;/* アイコン画像のX座標 */
+ }
+ 
+ .MuiListItemText-root {
+   z-index: 3 !important;
+ }
+
+/**　チャット欄アイコン背景 */
+.MuiListItemAvatar-root > div {
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+}
+
+ .MuiListItem-root {
+   padding-top: 0px !important;
+   padding-bottom: 0px !important;
+   padding-left: 30px !important;
+   overflow: hidden !important;
+ }
+
 .MuiListItem-gutters {
     animation:
-        fadeIn  1s ease 0s,
+        fadeIn  0.5s ease 0s,
         /* 7sを変えると表示されてる秒数が変わります。最低2s */
-        fadeOut 1s ease 30s forwards;
+        fadeOut 1s ease 30s forwards !important;
 }
 
 @keyframes fadeIn {
