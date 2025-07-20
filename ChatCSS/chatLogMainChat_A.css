@@ -28,32 +28,6 @@
   --item-bottom: 100px;
 }
 
- .MuiListItemAvatar-root {
-   position: absolute !important;
-   opacity: 0.75 !important;/* 画像の不透明度　0：透明、1：不透明 */
-   z-index: 1 !important;
- }
-  .MuiListItemAvatar-root img{
-    position: relative !important;
-    top: 0px !important;/* アイコン画像のX座標 */
- }
- 
- .MuiListItemText-root {
-   z-index: 3 !important;
- }
-
-/**　チャット欄アイコン背景 */
-.MuiListItemAvatar-root > div {
-  width: var(--icon-size) !important;
-  height: var(--icon-size) !important;
-}
-
- .MuiListItem-root {
-   padding-top: 0px !important;
-   padding-bottom: 0px !important;
-   padding-left: 30px !important;
-   overflow: hidden !important;
- }
 
 .MuiListItem-gutters {
     animation:
