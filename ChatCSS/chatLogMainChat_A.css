@@ -27,6 +27,7 @@
 
   --icon-opacity: 0.75;
   --icon-z-index: 1;
+  --align-img: flex-end;
     
   --icon-position: absolute;
   --icon-img-position: relative;
