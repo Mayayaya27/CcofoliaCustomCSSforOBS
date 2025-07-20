@@ -10,22 +10,22 @@
   --set-justify-content: center;
   
   --all-margin-left: 5px;
-  --width: 500px;
-  --textbox-left-margin: 60px;
+  --width: 550px;
   --icon-display: none;
 
   --title-font-size: 1.5rem;
   --font-size: 1.45rem;
   --font-color: rgb(50, 50, 50);
 
+  --textbox-top-margin: 15px;
+  --textbox-bottom-margin: 20px;
+  --textbox-right-margin: 30px;
+  --textbox-left-margin: 30px;
+
   --item-top: 0;
   --item-bottom: 0;
 
-  --item-top: 50px;
-}
-
-.MuiListItemText-primary {
-  display: none;
+  --item-top: 100px;
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
