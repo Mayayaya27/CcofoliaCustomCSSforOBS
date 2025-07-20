@@ -17,17 +17,26 @@
   --textbox-top-margin: 15px;
   --textbox-bottom-margin: 20px;
   --textbox-right-margin: 30px;
-  --textbox-left-margin: inherit;
+  --textbox-left-margin: 30px;
 
+  --icon-display: flex-end;
   --icon-size: 100px !important; /** 画像の横幅 */
   --icon-margin-top: 5px;
   --icon-margin-left: 770px;
   --icon-min-width: 0px;
 
+  --icon-opacity: 0.75;
+  --icon-z-index: 1;
+    
+  --icon-position: absolute;
+  --icon-img-position: relative;
+  --icon-img-top: 0;
+
   --item-top: auto;
   --item-bottom: 100px;
-}
 
+  --text-z-index: 3;
+}
 
 .MuiListItem-gutters {
     animation:
