@@ -76,6 +76,7 @@
   --textbox-bottom-margin: inherit;
   --textbox-right-margin: 20px;
   --textbox-left-margin: inherit;
+  --text-z-index: inherit;
 
   --item-top: auto;
   --item-bottom: 0;
@@ -184,7 +185,8 @@ background: var(--panel-background);
 }
 
 .MuiListItemText-root {
-  overflow: hidden;
+  overflow: hidden !important;
+  z-index: var(--text-z-index) !important;
 }
 
 p.MuiTypography-root,
