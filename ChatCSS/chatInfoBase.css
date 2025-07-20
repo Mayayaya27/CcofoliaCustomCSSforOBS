@@ -54,6 +54,7 @@
   --icon-min-width: 56px;
   --icon-opacity: inherit;
   --icon-z-index: inherit;
+  --align-img: inherit;
     
   --icon-position: inherit;
   --icon-img-position: inherit;
@@ -146,6 +147,11 @@ hr {
   margin-left: var(--icon-margin-left);
   min-width: var(--icon-min-width);
   display: var(--icon-display);
+}
+
+/* Image Align */
+.css-15eea9h {
+align-items: var(--align-img);
 }
 
 .MuiListItemAvatar-root >div img{
