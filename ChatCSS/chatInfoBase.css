@@ -48,9 +48,16 @@
     
   --icon-display: block;
   --icon-size: 40px;
+  --icon-margin-all: inherit;
   --icon-margin-top: 15px;
   --icon-margin-left: 15px;
   --icon-min-width: 56px;
+  --icon-opacity: inherit;
+  --icon-z-index: inherit;
+    
+  --icon-position: inherit;
+  --icon-img-position: inherit;
+  --icon-img-top: inherit;
 
   --font-family: Yu Gothic UI Semibold;
   --title-display: block;
@@ -122,8 +129,19 @@ hr {
   box-shadow: none !important;
 }
 
+ .MuiListItemAvatar-root {
+   position: var(--icon-position) !important;
+   opacity: var(--icon-opacity) !important;
+   z-index: var(--icon-z-index) !important;
+ }
+
+  .MuiListItemAvatar-root img{
+    position: var(--icon-img-position) !important;
+    top: var(--icon-img-top) !important;
+ }
+
 .MuiListItemAvatar-alignItemsFlexStart {
-  margin: 0px;
+  margin: var(--icon-margin-all);
   margin-top: var(--icon-margin-top);
   margin-left: var(--icon-margin-left);
   min-width: var(--icon-min-width);
@@ -137,6 +155,8 @@ hr {
 .MuiListItemAvatar-root>div {
   background: transparent;
   border-radius: var(--image-radius);
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
 }
 
 .MuiPaper-root {
