@@ -1,6 +1,8 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
+  --background-padding: 0px 0px 0px 0px;
+
   --font-color-shadow: rgba(0, 0, 0, 0) 0px 0px 2px;
   /*縁無し*/
   --title-stroke-width: 0px;
@@ -14,13 +16,13 @@
   --background-color: rgba(30, 30, 30, 1);
   --border-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 
-  --textbox-top-margin: 15px;
-  --textbox-bottom-margin: 20px;
-  --textbox-right-margin: 30px;
-  --textbox-left-margin: 30px;
+  --textbox-top-margin: 25px;
+  --textbox-bottom-margin: 30px;
+  --textbox-right-margin: 40px;
+  --textbox-left-margin: 40px;
 
   --icon-display: flex-end;
-  --icon-size: 100px !important; /** 画像の横幅 */
+  --icon-size: 126px !important; /** 画像の横幅 */
   --icon-margin-top: 5px;
   --icon-margin-left: 770px;
   --icon-min-width: 0px;
