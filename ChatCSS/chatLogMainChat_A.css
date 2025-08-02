@@ -35,23 +35,30 @@
   --icon-img-position: relative;
   --icon-img-top: 0;
 
-  --item-top: auto;
-  --item-bottom: 100px;
-
   --text-z-index: 3;
+
+  --display-all: none;
+
+  --item-top: auto;
+  --item-bottom: 110px;
+
+
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+15)>div {
+  display: flex !important;
 }
 
 .MuiListItem-gutters {
     animation:
         fadeIn  0.5s ease 0s,
-        /* 7sを変えると表示されてる秒数が変わります。最低2s */
-        fadeOut 1s ease 30s forwards !important;
+        fadeOut 1s ease 30s forwards;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(110px);
     }
     to {
         opacity: 1;
