@@ -5,12 +5,12 @@
   --background-color: white;
 
   --set-position: unset;
-  --set-align-items: top;
+  --set-align-items: center;
   --set-display: flex;
   --set-justify-content: center;
   
   --all-margin-left: 5px;
-  --width: 550px;
+  --width: 900px;
   --icon-display: none;
 
   --title-font-size: 1.5rem;
@@ -27,7 +27,7 @@
   --item-top: 0;
   --item-bottom: 0;
 
-  --item-top: 100px;
+  --line-clamp: 29;/*行数*/
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
