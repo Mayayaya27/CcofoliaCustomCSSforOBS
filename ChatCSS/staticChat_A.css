@@ -10,6 +10,7 @@
   --border-width: 2px;
   --width: 600px;
   --line-clamp: none;/*行数*/
+  --chat-border: solid;
 
   --display-all: flex;
 
