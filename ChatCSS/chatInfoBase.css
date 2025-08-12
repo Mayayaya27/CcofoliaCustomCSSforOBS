@@ -35,6 +35,7 @@
   --border-radius: 10px;
   --border-shadow: 0;
   --all-margin-left: 20px;
+  --chat-border: none;
 
   --panel-background: transparent;
 
@@ -266,7 +267,7 @@ p.MuiListItemText-secondary {
 
 /*Chat Border*/
 .MuiDivider-root, .MuiDivider-fullWidth{
-border-style: none !important;
+border-style: var(--chat-border) !important;
 }
 
 .MuiList-root>div:nth-child(1) {
