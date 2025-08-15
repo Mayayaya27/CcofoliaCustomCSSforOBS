@@ -1,0 +1,156 @@
+::-webkit-scrollbar {display: none !important;} /* ScrollBar非表示 */
+
+/* ボイス状態の全体設定 */
+[class*="Voice_voiceStates__"] {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 120px;
+  height: 100vh; /* 画面いっぱいの高さに */
+}
+
+[class*="Voice_voiceState__"] {
+  height: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* 枠内で下揃え */
+  height: 100%; /* 親の高さに合わせる */
+}
+
+/* 各アイコン画像 */
+[class*="Voice_voiceState__"] > img {
+  display: flex;
+  width: auto;
+  height: auto;
+  object-fit: cover !important;
+  overflow: hidden;
+  align-items: flex-start;
+  max-width: none;
+  border-radius: 0;
+  border: none;
+}
+
+/* Discordアイコン本体 */
+[class*="Voice_avatar__"] {
+  width: 150px !important; /* 枠の見た目サイズ */
+  height: 350px !important;
+  object-fit: contain !important;
+  object-position: bottom !important; /* 画像の下を基準に配置 */
+  transform-origin: center bottom !important; /* 拡大縮小の基準を下に */
+  overflow: visible !important;
+  
+  /* 顔拡大設定 */
+  transform: scale(1.6); /* 倍率（1.0 = 等倍） */
+  transform-origin: 0% 60%; /* 拡大の基準位置（X% Y%） */
+  
+  filter: brightness(80%);
+  margin-bottom: 20px;
+}
+
+/* 発言時のアイコン光エフェクト */
+[class*="Voice_avatarSpeaking__"] {
+  position: relative;
+  z-index: 0;
+  filter: brightness(100%);
+  border-color: rgb(0, 255, 0);
+  animation: 750ms infinite alternate ease-in-out speak-light;
+}
+
+/* 名前表示 */
+[class*="Voice_name__"] {
+  width: 150px !important;   /* アイコンと同じ幅に */
+  max-width: none !important;
+  text-align: center !important;
+  margin: 0 auto;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  display: block;
+  position: relative;
+  z-index: 100; /* 光より前面に */
+}
+
+/* ユーザー枠 */
+[class*="Voice_user__"] {
+  padding-top: 190px;
+  position: absolute;
+  margin-bottom: -10px;
+}
+
+/* 光るアニメーション */
+@keyframes speak-light {
+  0% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+}
+
+/* KP & SKP */
+img[src*="1043453456830169118"],  img[src*="407919591814070282"]{
+/* 倍率（1.0 = 等倍） */
+  display: none;
+}
+
+/* Nono */
+img[src*="788402063881142312"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1398856977760915538/20250617-0001.png?ex=689bfa95&is=689aa915&hm=afa4cf425e8c9a41251111194372e5e7ff029bd354e0bfa27293e1d4688ad463&");
+
+  z-index: 15;
+}
+
+/* すがる */
+img[src*="670952865975500800"]{
+  content:url("https://media.discordapp.net/attachments/1315575779051966534/1401035227513618592/358_20250620233222.png?ex=689ca6fc&is=689b557c&hm=60b4839e5bd059b952263c9236fd8af0c85226ae9b148d386c85ef9bee75ae82&=&format=webp&quality=lossless&width=337&height=600");
+
+  transform: scale(1.9);
+  transform-origin: 40% 0%;
+  margin-bottom: -10px;
+}
+
+/* なお */
+img[src*="566836864162725888"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1401078611561414737/Sunflower-0001.png?ex=689ccf63&is=689b7de3&hm=b94ab61889137e03b03f5dd06e4fe79097e8fea6b0255f032719e51a573b5745&");
+
+  transform: scale(1.9) translate(0%, 0%);
+}
+
+/* しばむぎ */
+img[src*="971248960079556628"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1401197418988568586/e29430c2e9657c58.png?ex=689c9549&is=689b43c9&hm=1bae3f6ac433bfaf0b0a2d4f8e40b64ff84012cea662b0e7d9131126868e228e&");
+
+  transform: scale(3.4) translate(0%, 0%);
+}
+
+/* あくた */
+img[src*="938444741232709654"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1403087383058186260/HO.png?ex=689cddf4&is=689b8c74&hm=1568dbdcd8d011a49873ae46a24c8c76339d6117a88b4d18b7aff88cb677116c&");
+
+  transform: scale(1.8) translate(37% -60%);
+}
+
+/* 薬袋 */
+img[src*="393410550240903169"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1404146763769843863/303b9ffb59a7ecfd.png?ex=689d6cd4&is=689c1b54&hm=c4005249b9e2a4dc4191572be18513499581c8246a57eab651549b947861d1ff&");
+
+  transform: scale(1.9) translate(-20%, 0%);
+  z-index: 0;
+}
+
+/* りりぽん */
+img[src*="799225244098494484"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1404394770788515900/74122460-95fe-4bc9-a872-de327b960b7a.png?ex=689d024d&is=689bb0cd&hm=3e32e6b3933a78fa41421beceea6247e448097d96f1d1fa679ef7e01708983cd&");
+
+  transform: scale(1.9) translate(50% -55%);
+}
+
+/* 特定ユーザーのアイコン差し替え 
+img[src*="788402063881142312"] {
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1398856977760915538/20250617-0001.png?ex=689bfa95&is=689aa915&hm=afa4cf425e8c9a41251111194372e5e7ff029bd354e0bfa27293e1d4688ad463&");
+}
+*/
