@@ -31,7 +31,7 @@
   --charaIcon-display: block;
   
   --background-display: block;
-  --blur-amount: 8px !important;
+  --blur-degree: inherit;
 
   --displayAll-height: 100%;
   --displayAll-width: 100%;
@@ -145,11 +145,9 @@ figure[tabindex="-1"] >span{
 }
 
 /*BackGround Blur*/
-/*
 #root>div>div>div:nth-child(1) {
-  filter: blur(var(--blur-amount)) !important;
+  filter: blur(var(--blur-degree)) !important;
 }
-*/
 
 /*Card*/
 .kGZMEt{
