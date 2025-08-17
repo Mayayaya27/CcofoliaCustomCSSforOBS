@@ -52,8 +52,9 @@
   --all-left: 30px;
   --all-text-align: right;
 
-  --displayAll-top: -40px;
   --displayAll-height: 200%;
-  --displayAll-width: 106%;
+  --displayAll-width: 110%;
+  --displayAll-top: -40px;
+  --displayAll-left: -100px;
   --displayAll-scale: scale(0.9);
 }
