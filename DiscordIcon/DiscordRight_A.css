@@ -1,0 +1,68 @@
+[class*="Voice_voiceStates__"] {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end !important;
+  padding-right: 16px;
+} 
+
+[class*="Voice_voiceState__"] {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-start !important;
+  align-items: center !important;   
+  width: auto !important;
+  order: 99;
+  height: initial;
+  margin-bottom: 0;
+}
+ 
+[class*="Voice_avatar__"] {
+  filter: brightness(70%);
+  margin-right: 0;
+}
+
+[class*="Voice_name__"] {
+  box-sizing: border-box;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  top: -8px;
+  position: relative;
+}
+
+.voice_state .voice_username:before {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: rgba(30, 33, 36, 0.95);
+  border-radius: 3px;
+  padding: 4px 6px;
+  box-sizing: border-box;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  top: -8px;
+  position: relative;
+}
+
+[class*="Voice_avatarSpeaking__"] {
+  animation-duration: 750ms;
+  position: relative;
+  filter: brightness(100%);
+  border-color: rgb(0, 0, 0);
+  animation: 750ms infinite alternate ease-in-out speak-light;
+  z-index: 1;
+}
+
+@keyframes speak-light {
+  0% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+}
