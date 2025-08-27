@@ -153,7 +153,7 @@
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
 
-  --drop-shadow: 0px 0px 0px black;
+  --drop-shadow: none;
   --icon-z-index: -1;
   --initiative-z-index: 0;
   --status-z-index: 1;
