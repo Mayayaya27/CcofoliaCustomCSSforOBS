@@ -153,6 +153,11 @@
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
 
+  --drop-shadow: 0px 0px 0px black;
+  --icon-z-index: -1;
+  --initiative-z-index: 0;
+  --status-z-index: 1;
+
   /**** Everything ****/
   --all-position: relative;
   --all-top: 10px;
@@ -180,6 +185,8 @@
   margin-right: var(--icon-position-y1) !important;
   margin-bottom: var(--icon-position-x2) !important;
   margin-left: var(--icon-position-y2) !important;
+
+  z-index: var(--icon-z-index);
 }
 
 /* イニシアティブ */
@@ -189,6 +196,9 @@
   min-width: var(--initiative-radius);
   border-radius: var(--initiative-border-radius);
   font-size: var(--initiative-font-size);
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--initiative-z-index);
 }
 
 .MuiBadge-root>div {
@@ -223,41 +233,65 @@
 .MuiBadge-root + div > div >div:nth-child(1) {
   display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(2) {
   display: var(--2ndStatus-display);
   margin-left: var(--left-space-status2) !important;
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(3) {
   display: var(--3rdStatus-display);
   margin-left: var(--left-space-status3) !important;
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(4) {
   display: var(--4thStatus-display);
   margin-left: var(--left-space-status4) !important;
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(5) {
   display: var(--5thStatus-display);
   margin-left: var(--left-space-status5) !important;
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(6) {
   display: var(--6thStatus-display);
   margin-left: var(--left-space-status6) !important;
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(7) {
   display: var(--7thStatus-display);
   margin-left: var(--left-space-status7);
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 .MuiBadge-root + div > div >div:nth-child(8) {
   display: var(--8thStatus-display);
   margin-left: var(--left-space-status8);
+
+  box-shadow: var(--drop-shadow);
+  z-index: var(--status-z-index) !important;
 }
 
 /*.JlNyO*/
