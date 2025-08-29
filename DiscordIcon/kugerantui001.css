@@ -18,7 +18,7 @@ div[id="root"]  {
   display: flex;
   align-items: flex-end;
   margin: 0px;
-  height: 100vh; /* 画面いっぱいの高さに */
+  height: 100vh;
   flex-wrap: wrap;
   overflow: visible;
   column-gap: 1px;
