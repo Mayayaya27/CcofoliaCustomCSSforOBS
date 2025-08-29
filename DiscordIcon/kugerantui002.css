@@ -1,0 +1,244 @@
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+::-webkit-scrollbar {display: none !important;} /* ScrollBar非表示 */
+
+:root{
+  --full-icon-size: 280px;
+  --full-icon-max-height: none;
+  --normal-icon-size: 80px;
+  --transform-all: translate(0%, 0%);
+  --display-kp: none;
+}
+
+div[id="root"]  {
+  transform: var(--transform-all) !important;
+}
+
+/* ボイス状態の全体設定 */
+[class*="Voice_voiceStates__"] {
+  display: flex;
+  align-items: flex-end;
+  margin: 0px;
+  height: 100vh;
+  flex-wrap: wrap;
+  overflow: visible;
+  column-gap: 0px;
+}
+
+[class*="Voice_voiceState__"] {
+  height: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  order: 99;
+}
+
+/* 各アイコン画像 */
+[class*="Voice_voiceState__"] > img {
+  display: flex;
+  width: auto;
+  height: auto;
+  object-fit: cover !important;
+  overflow: hidden;
+  align-items: flex-start;
+  max-width: none;
+  border-radius: 50%;
+}
+
+/* Discordアイコン本体 */
+[class*="Voice_avatar__"] {
+  width: var(--normal-icon-size) !important;
+  max-width: none !important;
+  max-height: var(--normal-icon-size);
+  object-fit: cover !important;
+  object-position: top !important;
+  overflow: hidden !important;
+  
+  border: none;
+  transform: translate(15%, -25%) scale(1.0);
+  filter: brightness(80%);
+  margin-bottom: 0px;
+}
+
+/* 発言時のアイコン光エフェクト */
+[class*="Voice_avatarSpeaking__"] {
+  position: relative;
+  z-index: 0;
+  filter: brightness(100%);
+  border-color: rgb(0, 0, 0);
+  animation: 750ms infinite alternate ease-in-out speak-light;
+}
+
+/* 名前表示 */
+[class*="Voice_name__"] {
+  width: calc(var(--normal-icon-size) + 20px) !important;
+  max-width: calc(var(--normal-icon-size) + 20px) !important;
+  text-align: center !important;
+  margin: 0 auto;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  display: block;
+  position: relative;
+  z-index: 100; /* 光より前面に */
+  margin-right: 8px;
+}
+
+/* ユーザー枠 */
+[class*="Voice_user__"] {
+  transform: translate(0%, -75%);
+}
+
+/* 光るアニメーション */
+@keyframes speak-light {
+  0% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgb(0, 255, 0)) brightness(100%) drop-shadow(2px 2px 0px rgb(0, 255, 0)) drop-shadow(-2px -2px 0px rgb(0, 255, 0)) drop-shadow(-2px 2px 0px rgb(0, 255, 0)) drop-shadow(2px -2px 0px rgb(0, 255, 0));
+  }
+}
+
+/* KP & SKP */
+[data-userid="1043453456830169118"] {
+  order: 1;
+  display: var(--display-kp);
+}
+[data-userid="407919591814070282"] {
+  order: 2;
+  display: var(--display-kp);
+}
+
+[class*="Voice_avatar__"][src*="788402063881142312"],
+[class*="Voice_avatar__"][src*="670952865975500800"],
+[class*="Voice_avatar__"][src*="566836864162725888"],
+[class*="Voice_avatar__"][src*="971248960079556628"],
+[class*="Voice_avatar__"][src*="938444741232709654"],
+[class*="Voice_avatar__"][src*="393410550240903169"],
+[class*="Voice_avatar__"][src*="799225244098494484"],
+[class*="Voice_avatar__"][src*="228837112282218496"],
+[class*="Voice_avatar__"][src*="438685150323146752"]{
+
+  width: var(--full-icon-size) !important;
+  max-width: var(--full-icon-size) !important;
+  max-height: var(--full-icon-max-height) !important;
+  transform: translate(0%, 0%) scale(1);
+  display: var(----display-kp);
+}
+
+[data-userid="788402063881142312"] [class*="Voice_name__"], [data-userid="788402063881142312"] .voice_username,
+[data-userid="670952865975500800"] [class*="Voice_name__"], [data-userid="670952865975500800"] .voice_username,
+[data-userid="566836864162725888"] [class*="Voice_name__"], [data-userid="566836864162725888"] .voice_username,
+[data-userid="971248960079556628"] [class*="Voice_name__"], [data-userid="971248960079556628"] .voice_username,
+[data-userid="938444741232709654"] [class*="Voice_name__"], [data-userid="938444741232709654"] .voice_username,
+[data-userid="393410550240903169"] [class*="Voice_name__"], [data-userid="393410550240903169"] .voice_username,
+[data-userid="799225244098494484"] [class*="Voice_name__"], [data-userid="799225244098494484"] .voice_username,
+[data-userid="228837112282218496"] [class*="Voice_name__"], [data-userid="228837112282218496"] .voice_username
+[data-userid="438685150323146752"] [class*="Voice_name__"], [data-userid="438685150323146752"] .voice_username{
+
+  width: var(--full-icon-size) !important;
+  max-width: var(--full-icon-size) !important;
+}
+
+/* Nono */
+img[src*="788402063881142312"]{
+  content: url("https://cdn.discordapp.com/attachments/1315575779051966534/1398856977760915538/20250617-0001.png?ex=68ae6f95&is=68ad1e15&hm=46c155c0d9ac343f0038ba356f203f70b7daa833d4530c90a6e7b76574018f60&");
+
+  border-radius: 0%;
+  transform: translate(0%, -5%) scale(0.9) !important;
+}
+[data-userid="788402063881142312"] {
+  order: calc(2 + 6);
+}
+
+/* すがる */
+img[src*="670952865975500800"]{
+  content:url("https://media.discordapp.net/attachments/1315575779051966534/1401035227513618592/358_20250620233222.png?ex=68ae733c&is=68ad21bc&hm=9e4a53af5ca1dc2adf9751df71a81e9afcc801410a0dee6179196fe80b3692f4&=&format=webp&quality=lossless&width=197&height=350");
+
+  border-radius: 0%;
+  transform: translate(5%, -5%) scale(1) !important;
+}
+[data-userid="670952865975500800"] {
+  order: calc(2 + 11);
+}
+
+/* なお */
+img[src*="566836864162725888"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1401078611561414737/Sunflower-0001.png?ex=68ae9ba3&is=68ad4a23&hm=c4e76b43b5a538b98afcf726933d93c1cb14e2afd7c214513295fa0413127d18&");
+
+  border-radius: 0%;
+  transform: translate(0%, -15%) scale(1.1) !important;
+}
+[data-userid="566836864162725888"] {
+  order: calc(2 + 3);
+}
+
+/* しばむぎ */
+img[src*="971248960079556628"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1401197418988568586/e29430c2e9657c58.png?ex=68ae6189&is=68ad1009&hm=fcefa9efcc71ee2bbe7d6a39f2e49cd69f34f4b276e6b1f8f7ff0a72b872e781&");
+
+  border-radius: 0%;
+  transform: translate(10%, -40%) scale(1.7) !important;
+}
+[data-userid="971248960079556628"] {
+  order: calc(2 + 8);
+}
+
+/* あくた */
+img[src*="938444741232709654"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1403087383058186260/HO.png?ex=68aeaa34&is=68ad58b4&hm=66ed2333800a85229ce0012375f73e67e11de71b5d501fa9953b1a298ef06aa0&");
+
+  border-radius: 0%;
+  transform: translate(5%, -8%) scale(1) !important;
+}
+[data-userid="938444741232709654"] {
+  order: calc(2 + 5);
+}
+
+/* 薬袋 */
+img[src*="393410550240903169"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1404146763769843863/303b9ffb59a7ecfd.png?ex=68ae9054&is=68ad3ed4&hm=e7587661d8d22e9ae070d2718726e631f77f383660d8211cd8a6e706c55a6854&");
+
+  border-radius: 0%;
+  transform: translate(-15%, -50%) scale(1.7) !important;
+  z-index: -1;
+}
+[data-userid="393410550240903169"] {
+  order: calc(2 + 12);
+}
+
+/* りりぽん */
+img[src*="799225244098494484"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1404394770788515900/74122460-95fe-4bc9-a872-de327b960b7a.png?ex=68ae25cd&is=68acd44d&hm=bca24b67900e78b67c454a016dc5ae02ddb1ec6defe216875b78b92eba843f69&");
+
+  border-radius: 0%;
+  transform: translate(5%, -8%) scale(1.0) !important;
+}
+[data-userid="799225244098494484"] {
+  order: calc(2 + 9);
+}
+
+/* やしち */
+img[src*="228837112282218496"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1408054567089999923/1005C11D-C731-425C-8D60-FF5D7210926619_20250811014703.png?ex=68ae4741&is=68acf5c1&hm=aab4a0a97cb12cd63ce54e83c4f1cbf5be9035e8e3be4a7c25ac09893c865f5a&");
+
+  border-radius: 0%;
+  transform: translate(0%, 5%) scale(0.75) !important;
+}
+[data-userid="228837112282218496"] {
+  order: calc(2 + 10);
+}
+
+/* 龍門 */
+img[src*="438685150323146752"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1410622468309389332/IMG_5049.png?ex=68b1b00c&is=68b05e8c&hm=dd390c75a8b863ce8cf925217da1987d9236c93532c2768f46632d034c6da4a5&");
+
+  border-radius: 0%;
+  transform: translate(0%, -10%) scale(1.1) !important;
+}
+[data-userid="228837112282218496"] {
+  order: calc(2 + 7);
+}
