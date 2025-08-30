@@ -18,7 +18,7 @@ div[id="root"]  {
   display: flex;
   align-items: flex-end;
   margin: 0px;
-  height: 100vh;
+  height: 100vh; /* 画面いっぱいの高さに */
   flex-wrap: wrap;
   overflow: visible;
   column-gap: 1px;
@@ -124,7 +124,10 @@ div[id="root"]  {
 [class*="Voice_avatar__"][src*="938444741232709654"],
 [class*="Voice_avatar__"][src*="393410550240903169"],
 [class*="Voice_avatar__"][src*="799225244098494484"],
-[class*="Voice_avatar__"][src*="438685150323146752"]{
+[class*="Voice_avatar__"][src*="228837112282218496"],
+[class*="Voice_avatar__"][src*="695652325552816168"],
+
+[class*="Voice_avatar__"][src*="888361999405314059"]{
 
   width: var(--full-icon-size) !important;
   max-width: var(--full-icon-size) !important;
@@ -139,8 +142,12 @@ div[id="root"]  {
 [data-userid="938444741232709654"] [class*="Voice_name__"], [data-userid="938444741232709654"] .voice_username,
 [data-userid="393410550240903169"] [class*="Voice_name__"], [data-userid="393410550240903169"] .voice_username,
 [data-userid="799225244098494484"] [class*="Voice_name__"], [data-userid="799225244098494484"] .voice_username,
-[data-userid="228837112282218496"] [class*="Voice_name__"], [data-userid="228837112282218496"] .voice_username
-[data-userid="438685150323146752"] [class*="Voice_name__"], [data-userid="438685150323146752"] .voice_username{
+[data-userid="228837112282218496"] [class*="Voice_name__"], [data-userid="228837112282218496"] .voice_username,
+[data-userid="438685150323146752"] [class*="Voice_name__"], [data-userid="438685150323146752"] .voice_username,
+[data-userid="695652325552816168"] [class*="Voice_name__"], [data-userid="695652325552816168"] .voice_username,
+
+[data-userid="888361999405314059"] [class*="Voice_name__"], [data-userid="888361999405314059"] .voice_username
+{
 
   width: var(--full-icon-size) !important;
   max-width: var(--full-icon-size) !important;
@@ -207,7 +214,7 @@ img[src*="393410550240903169"]{
 
   border-radius: 0%;
   transform: translate(-15%, 30%) scale(1.7) !important;
-  z-index: -1;
+  z-index: -10;
 }
 [data-userid="393410550240903169"] {
   order: calc(2 + 12);
@@ -244,4 +251,16 @@ img[src*="438685150323146752"]{
 }
 [data-userid="228837112282218496"] {
   order: calc(2 + 7);
+}
+
+/* パンジャン */
+img[src*="695652325552816168"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1411139521155956847/dazai.png?ex=68b39197&is=68b24017&hm=d19d852a122f5e09017846cd8cd77c989e6cd30c2e32a3d5a47190c70d9acdc9&");
+
+  border-radius: 0%;
+  transform: translate(15%, 5%) scale(1.1) !important;
+  z-index: -5;
+}
+[data-userid="695652325552816168"] {
+  order: calc(2 + 2);
 }
