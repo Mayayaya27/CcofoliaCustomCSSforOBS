@@ -121,6 +121,8 @@ div[id="root"]  {
 [class*="Voice_avatar__"][src*="799225244098494484"],
 [class*="Voice_avatar__"][src*="228837112282218496"],
 [class*="Voice_avatar__"][src*="695652325552816168"],
+[class*="Voice_avatar__"][src*="542697802690461738"],
+[class*="Voice_avatar__"][src*="610111841619804161"],
 
 [class*="Voice_avatar__"][src*="888361999405314059"]{
 
@@ -141,6 +143,8 @@ div[id="root"]  {
 [data-userid="228837112282218496"] [class*="Voice_name__"], [data-userid="228837112282218496"] .voice_username,
 [data-userid="438685150323146752"] [class*="Voice_name__"], [data-userid="438685150323146752"] .voice_username,
 [data-userid="695652325552816168"] [class*="Voice_name__"], [data-userid="695652325552816168"] .voice_username,
+[data-userid="542697802690461738"] [class*="Voice_name__"], [data-userid="542697802690461738"] .voice_username,
+[data-userid="610111841619804161"] [class*="Voice_name__"], [data-userid="610111841619804161"] .voice_username,
 
 [data-userid="888361999405314059"] [class*="Voice_name__"], [data-userid="888361999405314059"] .voice_username
 {
@@ -258,5 +262,29 @@ img[src*="695652325552816168"]{
   z-index: -5;
 }
 [data-userid="695652325552816168"] {
+  order: calc(2 + 2);
+}
+
+/* 梁 */
+img[src*="888361999405314059"], img[src*="542697802690461738"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1411631476323254373/de75d3868d73fc61.png?ex=68b55bc2&is=68b40a42&hm=edd94064b1edf6b8275e115ce567946b1391f5067c864584a2af97c4d42aa821&");
+
+  border-radius: 0%;
+  transform: translate(0%, -20%) scale(1.32) !important;
+  z-index: -5;
+}
+[data-userid="542697802690461738"] {
+  order: calc(2 + 2);
+}
+
+/* thena */
+img[src*="610111841619804161"]{
+  content:url("https://cdn.discordapp.com/attachments/1315575779051966534/1411139521155956847/dazai.png?ex=68b39197&is=68b24017&hm=d19d852a122f5e09017846cd8cd77c989e6cd30c2e32a3d5a47190c70d9acdc9&");
+
+  border-radius: 0%;
+  transform: translate(15%, 5%) scale(1.1) !important;
+  z-index: -5;
+}
+[data-userid="610111841619804161"] {
   order: calc(2 + 2);
 }
