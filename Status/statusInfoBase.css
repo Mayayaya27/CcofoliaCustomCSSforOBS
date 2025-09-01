@@ -169,7 +169,7 @@
 　デザイン
 **************************/
 /** Transfor All .sc-ljpcOE */
-.sc-gDyKqB {
+.fXPYIC {
   position: var(--all-position);
   top: var(--all-top);
   left: var(--all-left);
@@ -178,7 +178,7 @@
 }
 
 /* アイコン画像 .dQVHWE*/
-.flnHeq {
+.ewChLF {
   position: var(--icon-position);
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
@@ -213,7 +213,7 @@
 }
 
 /*header + div + div :nth-child(10) > div*/
-.sc-iKUUEK{
+.sc-gLMgQo{
   display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
   margin-left: 0px; !important;
