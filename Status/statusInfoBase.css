@@ -165,11 +165,12 @@
   --all-text-align: inherit;
 }
 
+
 /**************************
 　デザイン
 **************************/
-/** Transfor All .sc-ljpcOE */
-.sc-fzJBwl {
+/** Transfor All, Select of Parent of Status */
+.sc-gDyKqB, .fXPYIC {
   position: var(--all-position);
   top: var(--all-top);
   left: var(--all-left);
@@ -177,8 +178,8 @@
   text-align: var(--all-text-align);
 }
 
-/* アイコン画像 .dQVHWE*/
-.ewChLF {
+/* Icon, Above of status bar */
+.grjApO {
   position: var(--icon-position);
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
