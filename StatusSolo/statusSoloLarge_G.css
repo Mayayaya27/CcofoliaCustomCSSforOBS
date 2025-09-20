@@ -85,5 +85,7 @@
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
 
-  --displayAll-translate: translate(3%, 0%);
+  --displayAll-scale: scale(0.65, 0.65) ;/* デフォルト1倍。中央寄せになる*/
+  --displayAll-translate: translate(-18%, -32%);
+  --initiative-border-radius: 20%;
 }
