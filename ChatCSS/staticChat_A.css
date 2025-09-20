@@ -23,6 +23,10 @@
   --item-bottom: 0%;
 
   --font-family: "游ゴシック";
+  --title-font-size: 1.3rem;
+  --font-size: 1.3rem;
+
+　 --textbox-right-margin: 0px;
 }
 
 hr {
