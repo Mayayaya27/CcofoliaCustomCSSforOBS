@@ -24,7 +24,7 @@
   /* Initiative */
  --initiative-size: 45px;
  --initiative-font-size: 35px;
- --initiative-transform: translate(28px, 8px);
+ --initiative-transform: translate(85px, -48px);
  --initiative-border-radius: 20px;
  
   /**************************
@@ -86,6 +86,6 @@
   --status-outline-color: rgba(255, 255, 255, 1);
 
   --displayAll-scale: scale(0.65, 0.65) ;/* デフォルト1倍。中央寄せになる*/
-  --displayAll-translate: translate(-18%, -32%);
+  --displayAll-translate: translate(-33%, -17%);
   --initiative-border-radius: 20%;
 }
