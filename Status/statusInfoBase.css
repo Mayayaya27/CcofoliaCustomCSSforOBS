@@ -29,7 +29,7 @@
   --parent-aling-items: inherit;
   --parent-padding-right: inherit;
 
-  --parent-flex-direction: inherit;
+  --parent-c-flex-direction: inherit;
   
   /*****Icons*****/
   --icon-position: inherit;
@@ -193,7 +193,7 @@
 }
 
 .sc-gDyKqB > div {
-  flex-direction: var(--parent-flex-direction) !important;
+  flex-direction: var(--parent-c-flex-direction) !important;
 }
 
 /* Icon, Above of status bar */
