@@ -27,6 +27,7 @@
   --item-font-size: 17px;
   --status-font-size: 17px;
 
+  --all-left: 0px;
   --parent-display: flex;
   --parent-flex-direction: column;
   --parent-aling-items: flex-end!important;
