@@ -72,6 +72,7 @@
   --space-between-status2: inherit;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
+  --status-padding-left: inherit;
   /**************************
     ステータス（個別）
   **************************/
@@ -229,6 +230,7 @@
 /*.kuAsLM*/
 .MuiBadge-root + div > div {
   display: flex;
+  padding-left: var(--status-padding-left);
 }
 
 .MuiBadge-root + div > div >div:nth-child(1) {
