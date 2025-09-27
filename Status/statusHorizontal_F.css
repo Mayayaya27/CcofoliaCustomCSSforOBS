@@ -51,4 +51,6 @@
   --all-top: 10px;
   --all-left: 30px;
   --all-text-align: center;
+
+  --parent-display: block;
 }
