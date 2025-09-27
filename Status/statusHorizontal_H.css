@@ -52,6 +52,8 @@
   --all-left: 30px;
   --all-text-align: right;
 
+  --parent-display: block;
+
   --displayAll-height: 200%;
   --displayAll-width: 110%;
   --displayAll-top: -40px;
