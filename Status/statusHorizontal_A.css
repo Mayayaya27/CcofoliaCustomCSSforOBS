@@ -49,4 +49,6 @@
   --all-position: relative;
   --all-top: 0px;
   --all-left: 35px;
+
+  --parent-display: block;
 }
