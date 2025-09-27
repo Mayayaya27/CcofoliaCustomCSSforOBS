@@ -36,4 +36,6 @@
   --all-position: relative;
   --all-top: inherit;
   --all-left: inherit;
+
+  --parent-display: block;
 }
