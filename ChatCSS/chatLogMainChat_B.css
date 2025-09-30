@@ -4,7 +4,11 @@
   --display-all: none;
   --background-color: white;
 　--border-shadow: 0px 0px 10px rgba(0,0,0,0.7);
-  
+
+  --set-position: unset;
+  --set-align-items: center;
+  --set-display: flex;
+  --set-justify-content: center;
   --window-margin: 5px auto 5px auto;
   --width: 900px;
   --icon-display: none;
