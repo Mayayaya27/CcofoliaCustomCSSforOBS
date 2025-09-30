@@ -8,6 +8,11 @@
   --title-stroke-width: 0px;
   /*縁の色*/
   --title-stroke-color: rgb(200, 200, 200);
+
+  --set-position: unset;
+  --set-align-items: center;
+  --set-display: flex;
+  --set-justify-content: center;
   --width: 900px;
   --window-margin: 5px auto　5px auto;
 
