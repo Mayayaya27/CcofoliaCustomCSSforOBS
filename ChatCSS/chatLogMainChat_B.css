@@ -3,7 +3,7 @@
 :root{
   --display-all: none;
   --background-color: white;
-　--border-shadow: 0px 0px 5px rgba(0,0,0,1);
+　--border-shadow: 0px 0px 5px rgba(0,0,0,0.7);
 
   --set-position: unset;
   --set-align-items: center;
