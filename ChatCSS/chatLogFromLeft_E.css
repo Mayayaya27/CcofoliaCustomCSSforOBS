@@ -12,6 +12,8 @@
 
   --title-stroke-width: 0.8px;
   --title-stroke-color: rgb(20, 20, 20);
+
+  --line-clamp: 39;/*行数*/
   
 　--item-top: auto;
   --item-bottom: 0;
