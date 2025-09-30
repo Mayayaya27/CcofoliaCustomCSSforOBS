@@ -24,7 +24,7 @@
 :root{
   /*Window All*/
   --window-background-color: transparent;
-  --window-margin: 5px;
+  --window-margin: 5px 5px 5px 5px;
   
 /*Chat*/
   --background-color: rgba(30, 30, 30, 1);
