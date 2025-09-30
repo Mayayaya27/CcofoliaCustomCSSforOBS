@@ -1,6 +1,7 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
+  --background-padding: 0px 0px 0px 0px;
   --background-color: rgba(250, 250, 250, 1);
   --font-color: rgb(50, 50, 50);
   --font-color-fail: #DF0025;
