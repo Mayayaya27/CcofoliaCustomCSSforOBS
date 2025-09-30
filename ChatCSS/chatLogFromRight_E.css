@@ -1,23 +1,42 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
-  --background-color: rgba(250, 250, 250, 0.8);
-  --font-color: rgb(50, 50, 50);
-  --font-color-fail: #DF0025;
-  --font-color-success: #0095DF;
+  --background-padding: 0px 0px 0px 0px;
 
-/*--font-color-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1), -1px 1px 3px rgba(255, 255, 255, 0.1), -1px -1px 3px rgba(255, 255, 255, 0.1), 1px -1px 3px rgba(255, 255, 255, 0.1);*/
-  --font-family: Yu Gothic UI Semibold;
-  --border-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+  --font-color-shadow: rgba(0, 0, 0, 0) 0px 0px 2px;
+  /*縁無し*/
+  --title-stroke-width: 0px;
+  /*縁の色*/
+  --title-stroke-color: rgb(200, 200, 200);
 
-  --title-stroke-width: 0.8px;
-  --title-stroke-color: rgb(20, 20, 20);
+  --background-color: rgba(22, 22, 22, 0.9);
+  --border-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 
-  --line-clamp: 39;/*行数*/
-  
-　--item-top: auto;
-  --item-bottom: 0;
+  --textbox-top-margin: 20px;
+  --textbox-bottom-margin: 25px;
+  --textbox-right-margin: 30px;
+  --textbox-left-margin: 30px;
+
+  --icon-display: flex-end;
+  --icon-size: 102px !important; /** 画像の横幅 */
+  --icon-margin-top: 6px;
+  --icon-margin-left: 390px;
+  --icon-min-width: 0px;
+
+  --icon-opacity: 0.45;
+  --icon-z-index: 1;
+  --align-img: flex-end;
+    
+  --icon-position: absolute;
+  --icon-img-position: relative;
+  --icon-img-top: 0;
+
+  --text-z-index: 3;
+
   --display-all: none;
+  --line-clamp: 31;/*行数*/
+
+  --item-top: auto;
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+15)>div {
