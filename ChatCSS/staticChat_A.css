@@ -34,3 +34,8 @@ hr {
   border-color: rgba(255, 255, 255, 0.1) !important;
   border-width: 0px 0px thin !important;
 }
+
+.MuiList-root {
+  scroll-behavior: smooth;  /* 慣性スクロールを疑似的に */
+  overscroll-behavior: contain; /* はみ出しの挙動を抑える */
+}
