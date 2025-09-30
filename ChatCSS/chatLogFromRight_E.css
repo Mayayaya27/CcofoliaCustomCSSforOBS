@@ -1,0 +1,49 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
+
+:root{
+  --background-color: rgba(250, 250, 250, 0.8);
+  --font-color: rgb(50, 50, 50);
+  --font-color-fail: #DF0025;
+  --font-color-success: #0095DF;
+
+/*--font-color-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1), -1px 1px 3px rgba(255, 255, 255, 0.1), -1px -1px 3px rgba(255, 255, 255, 0.1), 1px -1px 3px rgba(255, 255, 255, 0.1);*/
+  --font-family: Yu Gothic UI Semibold;
+  --border-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+
+  --title-stroke-width: 0.8px;
+  --title-stroke-color: rgb(20, 20, 20);
+  
+　--item-top: auto;
+  --item-bottom: 0;
+  --display-all: none;
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+15)>div {
+  display: flex !important;
+}
+
+.MuiListItem-gutters {
+    animation:
+        fadeIn  1s ease 0s,
+        /* 7sを変えると表示されてる秒数が変わります。最低2s */
+        fadeOut 2s ease 25s forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* -150pxにすると左から右にフェードイン */
+        transform: translateX(150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
