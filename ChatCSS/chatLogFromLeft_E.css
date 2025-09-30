@@ -1,6 +1,7 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
 
 :root{
+  --window-margin:  5px 20px 5px auto;
   --background-padding: 0px 0px 0px 0px;
 
   --font-color-shadow: rgba(0, 0, 0, 0) 0px 0px 2px;
