@@ -244,7 +244,6 @@
   margin-right: var(--space-between-status2) !important;
 }
 
-/*.kuAsLM*/
 .MuiBadge-root + div > div {
   display: flex;
   padding-left: var(--status-between-padding-left);
@@ -256,6 +255,10 @@
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
+}
+
+.dqJjbC{
+  margin-right: -20px;
 }
 
 .MuiBadge-root + div > div >div:nth-child(2) {
@@ -314,7 +317,6 @@
   z-index: var(--status-z-index) !important;
 }
 
-/*.JlNyO*/
 .MuiBadge-root + div > div > div  {
   width: var(--width-status) !important;
   height: var(--height-status) !important;
