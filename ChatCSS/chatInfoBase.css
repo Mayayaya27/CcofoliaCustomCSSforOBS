@@ -210,7 +210,7 @@ background: var(--panel-background);
 }
 
 .MuiListItemText-root {
-  overflow: hidden !important;
+  overflow: visible !important;
   z-index: var(--text-z-index) !important;
 }
 
