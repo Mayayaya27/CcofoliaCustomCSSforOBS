@@ -14,7 +14,7 @@
   --textbox-bottom-margin: 80px;
   --textbox-right-margin: 80px;
   --textbox-left-margin: 80px;
-  --text-overflow: visible;
+  --text-overflow: visible;/* using this for drop shadow */
 
   --line-height: 1.6;
 }
