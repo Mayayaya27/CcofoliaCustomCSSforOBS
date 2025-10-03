@@ -14,6 +14,7 @@
   --textbox-bottom-margin: 80px;
   --textbox-right-margin: 80px;
   --textbox-left-margin: 80px;
+  --text-overflow: visible;
 
   --line-height: 1.6;
 }
