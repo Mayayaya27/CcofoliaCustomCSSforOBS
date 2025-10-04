@@ -91,5 +91,5 @@
   --displayAll-height: 500px;/*画面全体描画する縦幅*/
   --displayAll-width: 300px;/*画面全体描画する横幅*/
 
-  --drop-shadow: 0px 0px 10px black;
+  --drop-shadow: 0px 0px 5px black;
 }
