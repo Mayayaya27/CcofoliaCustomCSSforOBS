@@ -86,7 +86,7 @@
   --status-outline-color: rgba(255, 255, 255, 1);
 
   --displayAll-scale: scale(0.65, 0.65) ;/* デフォルト1倍。中央寄せになる*/
-  --displayAll-translate: translate(-33%, -17%);
+  --displayAll-translate: translate(-23%, -17%);
   --initiative-border-radius: 20%;
   --displayAll-height: 500px;/*画面全体描画する縦幅*/
   --displayAll-width: 300px;/*画面全体描画する横幅*/
