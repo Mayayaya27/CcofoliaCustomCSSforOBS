@@ -101,6 +101,9 @@
   --status-outline-color: rgba(255, 255, 255, 1);
 
   --displayAll-translate: translate(2%, 0%);
+
+  --displayAll-height: 500px;/*画面全体描画する縦幅*/
+  --displayAll-width: 300px;/*画面全体描画する横幅*/
 }
 
 #root > div > div > div > div {
