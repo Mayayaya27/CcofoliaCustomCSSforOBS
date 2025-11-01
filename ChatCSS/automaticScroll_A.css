@@ -1,0 +1,70 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatInfoBase.css");
+
+:root{
+  --display-all: none;
+
+  --font-color: rgb(255, 255, 255);
+  --font-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4), 0px 0px 3px rgba(0, 0, 0, 0.7);
+  --background-color: rgba(255, 255, 255, 0);
+  --font-size: 1.6rem;
+  --font-family: "游明朝";
+  --contents-font-weight: bold;
+  --border-radius: 15px;
+
+
+  --textbox-top-margin: 80px;
+  --textbox-bottom-margin: 80px;
+  --textbox-right-margin: 80px;
+  --textbox-left-margin: 80px;
+  --text-overflow: visible;/* using this for drop shadow */
+
+  --line-height: 1.6;
+
+
+  --all-margin-left: 5px;
+  --width: 900px;
+  /*縁無し*/
+  --title-stroke-width: 0px;
+  /*縁の色*/
+  --title-stroke-color: rgb(200, 200, 200);
+  --title-display: none;
+
+  --font-family: 'Yu Mincho Demibold';
+  --contents-font-weight: normal;
+
+  --icon-display: none;
+  --textbox-top-margin: 60px;
+  --textbox-bottom-margin: 60px;
+  --textbox-right-margin: 60px;
+  --textbox-left-margin: 60px;
+
+  --item-top: auto;
+  --item-bottom: 0;
+
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
+  display: flex !important;
+}
+
+.MuiListItem-gutters {
+  animation: fadeIn  0.5s ease forwards, scrollUp 120s linear forwards;
+}
+
+/* スクロールアニメーション */
+@keyframes scrollUp {
+  from {
+    transform: translateY(90%);
+  }
+  to {
+    transform: translateY(-80%);
+  }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
