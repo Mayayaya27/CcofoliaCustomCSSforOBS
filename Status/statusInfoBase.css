@@ -1,26 +1,5 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Base/base.css");
 
-:root {
-/*base.css*/
-  --chatWindow-display: none;
-  --statusWindow-display: block;
-  --messageWindow-display: none;
-  --cutIn-display: none;
-
-  --f-s-m-c-display: none !important;
-  --foreground-display: none !important;
-  --screenPanel-display: none !important!;
-  --markerPanel-display: none !important;
-  --charaIcon-display: none !important;
-  --background-display: none !important;
-
-  --displayAll-height: 100%;
-  --displayAll-width: 100%;
-  --displayAll-top: 0px;
-  --displayAll-left: 0px;
-  --displayAll-scale: scale(1, 1);
-}
-
 /*Set Roots*/
 :root {
   /*****Parent*****/
@@ -174,7 +153,9 @@
   --all-text-align: inherit;
 }
 
-
+/**************************
+　デザイン
+**************************/
 /** Transfor All, Select of Parent of Status */
 div[id ="DndLiveRegion-1"] + div + div + div {
   position: var(--all-position);
@@ -324,6 +305,8 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
   transform: skewX(var(--degree-total)) !important;
   opacity: var(--opacity-total) !important;
   border-radius: var(--radius-total) !important;
+
+  position: absolute;
 }
 
 .MuiBadge-root + div > div > div > div:nth-child(2) > div:nth-child(2) {
