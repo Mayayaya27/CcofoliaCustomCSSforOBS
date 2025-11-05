@@ -12,13 +12,13 @@
   --initiative-transform: translate(-70px, 85px);
 
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 0px;
+  --space-between-status: -60px;
   --space-between-status2: 60px;
 
   /**** Everything ****/
   --all-position: relative;
-  --all-top: inherit;
-  --all-left: inherit;
+  --all-top: 10px;
+  --all-left: 30px;
 
   --parent-display: block;
 }
