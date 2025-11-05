@@ -118,13 +118,13 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img + div {
 }
 
 /*ScreenPanel*/
-.fqWoVc >img {
+div[class="sc-kJNpLD fqWoVc"] >img, div[class="sc-kJNpLD gWLZVh"] > img{
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
 
 /*MarkerPanel*/
-.jQqkQ > img {
+div[class="sc-bA-DSAS jQqkQ"] > img, div[class="sc-bA-DSAS jztOGF"] > img {
   display: var(--markerPanel-display);
 }
 
@@ -144,7 +144,7 @@ figure[tabindex="-1"] >span{
 }
 
 /*Card*/
-.iuInUu{
+div[class="sc-jfkKyr iuInUu"]{
   display: var(--card-display) !important;
 }
 
