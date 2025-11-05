@@ -91,16 +91,9 @@
   /**************************
     ステータス（個別）
   **************************/
-  /** ステータス1～6行目の位置調整 */
-  --left-space-status1: 0px;
-  --left-space-status2: 0px;
-  --left-space-status3: 0px;
-  --left-space-status4: 0px;
-  --left-space-status5: 0px;
-  --left-space-status6: 0px;
-  --left-space-status7: 0px;
-  --left-space-status8: 0px;
-
+    /**************************
+    ステータス（個別）
+  **************************/
   --1stStatus-display: block;
   --2ndStatus-display: block;
   --3rdStatus-display: block;
@@ -111,7 +104,7 @@
   --8thStatus-display: block;
 
   /** Colum Amount */
-  --columAmount: 1;
+  --columAmount: 2;
   
   /**************************
     ステータス（最大値）
@@ -202,7 +195,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div{
   flex-direction: var(--parent-c-flex-direction) !important;
   display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
-  margin-left: 0px; !important;
   margin-bottom: var(--space-between-bottom) !important;
   vertical-align: top !important;
   margin-right: var(--space-between-status2) !important;
@@ -232,7 +224,7 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
   z-index: var(--initiative-z-index);
 }
 
-.MuiBadge-root>div {
+.MuiBadge-root > div {
   border: var(--icon-border);
   background: var(--icon-background);
 }
@@ -250,7 +242,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root > div + div > div:nth-child(1) {
   display: var(--1stStatus-display);
-  margin-left: var(--left-space-status1) !important;
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -258,7 +249,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(2) {
   display: var(--2ndStatus-display);
-  margin-left: var(--left-space-status2) !important;
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -266,7 +256,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(3) {
   display: var(--3rdStatus-display);
-  margin-left: var(--left-space-status3) !important;
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -274,7 +263,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(4) {
   display: var(--4thStatus-display);
-  margin-left: var(--left-space-status4) !important;
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -282,7 +270,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(5) {
   display: var(--5thStatus-display);
-  margin-left: var(--left-space-status5) !important;
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -290,7 +277,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(6) {
   display: var(--6thStatus-display);
-  margin-left: var(--left-space-status6) !important;
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -298,7 +284,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(7) {
   display: var(--7thStatus-display);
-  margin-left: var(--left-space-status7);
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
@@ -306,7 +291,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 
 .MuiBadge-root + div > div > div:nth-child(8) {
   display: var(--8thStatus-display);
-  margin-left: var(--left-space-status8);
 
   box-shadow: var(--drop-shadow);
   z-index: var(--status-z-index) !important;
