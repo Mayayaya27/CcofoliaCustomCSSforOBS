@@ -324,8 +324,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
   transform: skewX(var(--degree-total)) !important;
   opacity: var(--opacity-total) !important;
   border-radius: var(--radius-total) !important;
-
-  position: absolute;
 }
 
 .MuiBadge-root + div > div > div > div:nth-child(2) > div:nth-child(2) {
