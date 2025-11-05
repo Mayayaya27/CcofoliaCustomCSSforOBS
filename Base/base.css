@@ -118,13 +118,13 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img + div {
 }
 
 /*ScreenPanel*/
-.sc-fTZqFM >img {
+.sc-clGGjC >img {
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
 
 /*MarkerPanel*/
-.sc-fTFLve>img {
+.sc-clGGjC > img {
   display: var(--markerPanel-display);
 }
 
@@ -144,7 +144,7 @@ figure[tabindex="-1"] >span{
 }
 
 /*Card*/
-.kGZMEt{
+.dyvCpE{
   display: var(--card-display) !important;
 }
 
