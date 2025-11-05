@@ -3,15 +3,15 @@
 :root{
   --icon-size: 60px;
 
-  --initiative-transform: translate(-32px, 37px);
+  --initiative-transform: translate(12px, 42px);
   --initiative-radius: 28px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 17px;
 
-  --5thStatus-display: block;
-  --6thStatus-display: block;
-  --7thStatus-display: block;
-  --8thStatus-display: block;
+  --5thStatus-display: none;
+  --6thStatus-display: none;
+  --7thStatus-display: none;
+  --8thStatus-display: none;
 
   /** Colum Amount */
   --columAmount: 2;
@@ -19,6 +19,7 @@
   --width-status: 100px;
   --space-between-status: 20px;
   --space-between-bottom: 20px;
+  --status-between-padding-left: 20px;
 
   --status-padding-top: 5px;
   --status-padding-bottom: 5px;
@@ -27,6 +28,11 @@
   --item-font-size: 17px;
   --status-font-size: 17px;
 
-  --all-top: 2px;
-  --all-left: 30px;
+  --all-left: -15px;
+  --parent-display: flex;
+  --parent-flex-direction: column;
+  --parent-aling-items: flex-end!important;
+  --parent-padding-right: 30px;
+
+  --parent-c-flex-direction: row-reverse;
 }
