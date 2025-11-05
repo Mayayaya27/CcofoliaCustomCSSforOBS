@@ -144,7 +144,7 @@ figure[tabindex="-1"] >span{
 }
 
 /*Card*/
-div[class="sc-jfkKyr iuInUu"]{
+div[class="sc-jfkKyr iuInUu"] > img{
   display: var(--card-display) !important;
 }
 
