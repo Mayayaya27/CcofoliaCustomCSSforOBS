@@ -180,11 +180,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div{
   margin-right: var(--space-between-status2) !important;
 }
 
-/*header + div + div :nth-child(10) > div*/
-.irgECf{
-
-}
-
 /* Icon, Above of status bar */
 div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
   position: var(--icon-position);
@@ -223,10 +218,6 @@ div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
 .MuiBadge-root + div > div {
   display: flex;
   padding-left: var(--status-between-padding-left);
-}
-
-.irgECf{
-  margin-right: -20px;
 }
 
 .MuiBadge-root > div + div > div:nth-child(1) {
