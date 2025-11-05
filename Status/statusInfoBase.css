@@ -175,11 +175,8 @@
 }
 
 
-/**************************
-　デザイン
-**************************/
 /** Transfor All, Select of Parent of Status */
-.sc-gDyKqB, .fXPYIC {
+div[id ="DndLiveRegion-1"] + div + div + div {
   position: var(--all-position);
   top: var(--all-top);
   left: var(--all-left);
@@ -192,12 +189,23 @@
   padding-right: (--parent-padding-right);
 }
 
-.sc-gDyKqB > div {
+div[id ="DndLiveRegion-1"] + div + div + div > div{
   flex-direction: var(--parent-c-flex-direction) !important;
+  display: var(--placement-icon-status);
+  margin-right: var(--space-between-status) !important;
+  margin-left: 0px; !important;
+  margin-bottom: var(--space-between-bottom) !important;
+  vertical-align: top !important;
+  margin-right: var(--space-between-status2) !important;
+}
+
+/*header + div + div :nth-child(10) > div*/
+.irgECf{
+
 }
 
 /* Icon, Above of status bar */
-.grjApO {
+div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div {
   position: var(--icon-position);
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
@@ -231,25 +239,16 @@
   border-radius: var(--icon-radius) !important;
 }
 
-/*header + div + div :nth-child(10) > div*/
-.sc-gLMgQo{
-  display: var(--placement-icon-status);
-  margin-right: var(--space-between-status) !important;
-  margin-left: 0px; !important;
-  margin-bottom: var(--space-between-bottom) !important;
-  vertical-align: top !important;
-}
-
-.ewChLF{
-  margin-right: var(--space-between-status2) !important;
-}
-
 .MuiBadge-root + div > div {
   display: flex;
   padding-left: var(--status-between-padding-left);
 }
 
-.MuiBadge-root + div > div >div:nth-child(1) {
+.irgECf{
+  margin-right: -20px;
+}
+
+.MuiBadge-root > div + div > div:nth-child(1) {
   display: var(--1stStatus-display);
   margin-left: var(--left-space-status1) !important;
 
@@ -257,11 +256,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.dqJjbC{
-  margin-right: -20px;
-}
-
-.MuiBadge-root + div > div >div:nth-child(2) {
+.MuiBadge-root + div > div > div:nth-child(2) {
   display: var(--2ndStatus-display);
   margin-left: var(--left-space-status2) !important;
 
@@ -269,7 +264,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.MuiBadge-root + div > div >div:nth-child(3) {
+.MuiBadge-root + div > div > div:nth-child(3) {
   display: var(--3rdStatus-display);
   margin-left: var(--left-space-status3) !important;
 
@@ -277,7 +272,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.MuiBadge-root + div > div >div:nth-child(4) {
+.MuiBadge-root + div > div > div:nth-child(4) {
   display: var(--4thStatus-display);
   margin-left: var(--left-space-status4) !important;
 
@@ -285,7 +280,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.MuiBadge-root + div > div >div:nth-child(5) {
+.MuiBadge-root + div > div > div:nth-child(5) {
   display: var(--5thStatus-display);
   margin-left: var(--left-space-status5) !important;
 
@@ -293,7 +288,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.MuiBadge-root + div > div >div:nth-child(6) {
+.MuiBadge-root + div > div > div:nth-child(6) {
   display: var(--6thStatus-display);
   margin-left: var(--left-space-status6) !important;
 
@@ -301,7 +296,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.MuiBadge-root + div > div >div:nth-child(7) {
+.MuiBadge-root + div > div > div:nth-child(7) {
   display: var(--7thStatus-display);
   margin-left: var(--left-space-status7);
 
@@ -309,7 +304,7 @@
   z-index: var(--status-z-index) !important;
 }
 
-.MuiBadge-root + div > div >div:nth-child(8) {
+.MuiBadge-root + div > div > div:nth-child(8) {
   display: var(--8thStatus-display);
   margin-left: var(--left-space-status8);
 
@@ -386,7 +381,7 @@
   color: var(--futei-font-color) !important;
 }
 
-/* Middle Status .iQLGgm */
+/* Middle Status */
 .MuiBadge-root + div {
   transform: var(--status-transform);
   /* ステータスを一定以上の横幅にしたときに見切れないようにする設定 */
