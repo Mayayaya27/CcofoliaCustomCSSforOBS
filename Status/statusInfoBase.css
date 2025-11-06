@@ -178,7 +178,7 @@
 　デザイン
 **************************/
 /** Transfor All, Select of Parent of Status */
-div[id ="DndLiveRegion-1"] + div + div + div,  div[id ="DndLiveRegion-1"] + div + div + div + div{
+.kulSwB{
   position: var(--all-position);
   top: var(--all-top);
   left: var(--all-left);
@@ -191,7 +191,7 @@ div[id ="DndLiveRegion-1"] + div + div + div,  div[id ="DndLiveRegion-1"] + div 
   padding-right: (--parent-padding-right);
 }
 
-div[id ="DndLiveRegion-1"] + div + div + div > div, div[id ="DndLiveRegion-1"] + div + div + div + div > div{
+.kulSwB > div{
   flex-direction: var(--parent-c-flex-direction) !important;
   display: var(--placement-icon-status);
   margin-right: var(--space-between-status) !important;
@@ -201,7 +201,7 @@ div[id ="DndLiveRegion-1"] + div + div + div > div, div[id ="DndLiveRegion-1"] +
 }
 
 /* Icon, Above of status bar */
-div[id ="DndLiveRegion-1"] + div + div + div > div > div:nth-child(1) > div,  div[id ="DndLiveRegion-1"] + div + div + div + div > div > div:nth-child(1) > div{
+.kulSwB > div > div:nth-child(1) > div{
   position: var(--icon-position);
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
