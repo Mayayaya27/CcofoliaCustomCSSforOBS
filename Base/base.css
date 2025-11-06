@@ -56,7 +56,7 @@ div[tabindex="0"]>div:not([class])+div  {display: none;}/*ZoomInZoomOutButton*/
 }
 
 /*StatusWindow*/
-div[id ="DndLiveRegion-1"] + div + div + div {
+.kulSwB {
   display: var(--statusWindow-display);
 }
 
