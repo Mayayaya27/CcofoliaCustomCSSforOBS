@@ -81,6 +81,7 @@
   --width-status: 130px;
   /** ステータスの行間 */
   --height-status: 25px;
+  --block-parent-text-align: inherit;
   
   /** Margin Between Status(Horizontal) */
   --space-between-status: 10px;
