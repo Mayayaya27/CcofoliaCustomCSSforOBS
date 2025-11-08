@@ -25,6 +25,7 @@
   --width-status: 130px;
   /** ステータスの行間 */
   --height-status: 25px;
+  --block-parent-text-align: left;
   
   /** Margin Between Status(Horizontal) */
   --space-between-status: 60px;
