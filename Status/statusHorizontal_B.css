@@ -44,7 +44,7 @@
   /**** Everything ****/
   --all-position: relative;
   --all-top: inherit;
-  --all-left: inherit;
+  --all-left: 40px;
 
   --parent-display: block;
 }
