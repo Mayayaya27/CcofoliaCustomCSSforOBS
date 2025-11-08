@@ -1,9 +1,0 @@
-/* 2 colums on right side */
-@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/Status/statusSmall_D.css");
-
-:root{
-  --all-left: -15px;
-  /** Colum Amount */
-  --columAmount: 2;
-  --drop-shadow: 0px 0px 3px black;
-}
