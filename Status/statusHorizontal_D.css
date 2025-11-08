@@ -6,19 +6,20 @@
   /** Icon's Size */
   --icon-size: 100px;
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
-  --placement-icon-status: inline-table;
+  --placement-icon-status: inline-block;
 
   --disp-icon: inline-block;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-77px, 67px);
+  --initiative-transform: translate(-77px, 62px);
   --initiative-radius: 30px;
   --initiative-border-radius: 20px;
   --initiative-font-size: 18px;
 
+  --block-parent-text-align: left;
+
   /** Margin Between Status(Horizontal) */
-  --space-between-status: -60px;
-  --space-between-status2: 40px;
+  --space-between-status: -25px;
 
   /** ステータス文字の周りの余白(上,下,左,右) */
   --status-padding-top: 5px;
@@ -30,12 +31,12 @@
 
   /** ステータスの横幅 */
   --width-status: 100px;
-  --status-transform: translate(0px, -10px);
+  --status-transform: translate(-10px, -10px);
 
   /**** Everything ****/
   --all-position: relative;
   --all-top: inherit;
-  --all-left: 25px;
+  --all-left: 30px;
 
   --parent-display: block;
 }
