@@ -188,13 +188,9 @@
   box-shadow: block !important;
 }*/
 
-/** ダイス画像 */
-img[src*="dice"] {
-  /** サイズ設定 */
-}
 
 /** ダイス画像 */
-.dgmQwG{
+.cddHNt{
   /** 表示、非表示 */
   display: var(--disp-dice-picture) !important;
   /** 上下位置の調整 */
