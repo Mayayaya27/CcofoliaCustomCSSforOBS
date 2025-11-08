@@ -20,7 +20,7 @@
    ステータス（全体）
  **************************/
   /**Status Transform*/
-  --status-transform: translate(0px, -19px);
+  --status-transform: translate(-40px, -19px) !important;
   /** ステータスの横幅 */
   --width-status: 80px;
   /** ステータスの行間 */
