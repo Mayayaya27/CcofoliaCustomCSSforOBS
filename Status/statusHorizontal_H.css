@@ -28,7 +28,7 @@
   --block-parent-text-align: left;
   
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 5px;
+  --space-between-status: 10px;
   --space-between-status2: 0px;
   
   /** Margin Between Status(Bottom) */
