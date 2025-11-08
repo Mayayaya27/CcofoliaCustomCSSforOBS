@@ -4,7 +4,7 @@
   /** Icon's Size */
   --icon-size: 115px;
   /** Display Icon: flex=>VerNor inline-flex=>HorNor,none */
-  --disp-icon: inline-flex;
+  --disp-icon: inline-block;
   
   /** Align Icons and Status: flex=> VerVer / inline-flex=> HorVer / inline-block=>HorHor */
   --placement-icon-status: inline-flex;
@@ -12,8 +12,8 @@
   --initiative-transform: translate(-70px, 85px);
 
   /** Margin Between Status(Horizontal) */
-  --space-between-status: -60px;
-  --space-between-status2: 60px;
+  --space-between-status: -30px;
+  --block-parent-text-align: left;
 
   /**** Everything ****/
   --all-position: relative;
@@ -21,4 +21,5 @@
   --all-left: 30px;
 
   --parent-display: block;
+  --all-left: 30px;
 }
