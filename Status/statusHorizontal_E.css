@@ -24,10 +24,10 @@
   --width-status: 80px;
   /** ステータスの行間 */
   --height-status: 20px;
+  --block-parent-text-align: left;
   
   /** Margin Between Status(Horizontal) */
-  --space-between-status: 5px;
-  --space-between-status2: 50px;
+  --space-between-status: 10px;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 20px;
 
