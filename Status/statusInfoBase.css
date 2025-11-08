@@ -85,7 +85,6 @@
   
   /** Margin Between Status(Horizontal) */
   --space-between-status: 10px;
-  --space-between-status2: inherit;
    /** Margin Between Status(Bottom) */
   --space-between-bottom: 30px;
   --status-between-padding-left: inherit;
