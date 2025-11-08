@@ -194,10 +194,11 @@
 .kulSwB > div{
   flex-direction: var(--parent-c-flex-direction) !important;
   display: var(--placement-icon-status);
-  margin-right: var(--space-between-status) !important;
   margin-bottom: var(--space-between-bottom) !important;
   vertical-align: top !important;
-  margin-right: var(--space-between-status2) !important;
+  margin-right: var(--space-between-status) !important;
+  min-width: calc((var(--width-status) + var(--space-between-status)) * var(--columAmount));
+  text-align: var(--block-parent-text-align);
 }
 
 /* Icon, Above of status bar */
