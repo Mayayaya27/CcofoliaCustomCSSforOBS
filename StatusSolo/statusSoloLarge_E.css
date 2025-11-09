@@ -1,4 +1,5 @@
-@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloBase.css");
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloLarge_A.css");
+
 :root {
   /**************************
    アイコン
@@ -21,11 +22,10 @@
   --icon-position-y2: 0px; /** 縦並びの時の横位置の設定。横並びの場合は0に設定する */
 
   /* Initiative */
- --initiative-size: 38px;
- --initiative-font-size: 25px;
- --initiative-transform: translate(133px, -20px);
+ --initiative-size: 45px;
+ --initiative-font-size: 35px;
+ --initiative-transform: translate(85px, -48px);
  --initiative-border-radius: 20px;
- --initiative-line-height: 20px;
  
   /**************************
    ステータス（全体）
@@ -38,22 +38,7 @@
   --space-between-status: 160px;
 
  /* Column Amount*/
- --column-amount: 2;
-
-  /**************************
-    ステータス（個別）
-  **************************/
-  /** ステータス1～6行目の位置調整 */
-  --left-space-status1: 69px;
-  --left-space-status2: 0px;
-  --left-space-status3: 46px;
-  --left-space-status4: 0px;
-  --left-space-status5: 23px;
-  --left-space-status6: 0px;
-  --left-space-status7: 0px;
-  --left-space-status8: 0px;
-  /** ステータスの横幅＋位置調整の最大値以上に設定してください */
-  --max-width: 450px;
+ --column-amount: 1;
 
   /**************************
     ステータス（最大値）
@@ -63,8 +48,8 @@
   --color-total: rgb(255, 255, 255); /** 色 */
   --image-total: url(https://gazounoURL); /** ステータス背景を画像にしたい場合 */
   --opacity-total: 0.6; /** 不透明度 */
-  --degree-total: -30deg; /** 角の角度 */
-  --radius-total: 0px; /** 角の丸み */
+  --degree-total: 0deg; /** 角の角度 */
+  --radius-total: 6px; /** 角の丸み */
   --statusAll-transform: translate(30px, 0px);
 
   /**************************
@@ -74,8 +59,8 @@
   --top-remain: 0px; /** 位置 */
   --color-remain: rgb(255, 255, 255); /** 色 */
   --opacity-remain: 1; /** 不透明度 */
-  --degree-remain: -30deg; /** 角の角度 */
-  --radius-remain: 0px; /** 角の丸み */
+  --degree-remain: 0deg; /** 角の角度 */
+  --radius-remain: 6px; /** 角の丸み */
 
   /**************************
    文字
@@ -83,7 +68,7 @@
   /** ステータス文字の周りの余白(上,下,左,右) */
   --status-padding-top: 5px;
   --status-padding-bottom: 5px;
-  --status-padding-left: 15px;
+  --status-padding-left: 10px;
   --status-padding-right: 10px;
   /** HPなど、見出し側のフォント、サイズ、色 */
   --item-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -100,9 +85,11 @@
   /** 12/15など、ステータスの周りに白縁を設定する */
   --status-outline-color: rgba(255, 255, 255, 1);
 
-  --displayAll-translate: translate(0%, 2%);
-}
+  --displayAll-scale: scale(0.65, 0.65) ;/* デフォルト1倍。中央寄せになる*/
+  --displayAll-translate: translate(-23%, -17%);
+  --initiative-border-radius: 20%;
+  --displayAll-height: 500px;/*画面全体描画する縦幅*/
+  --displayAll-width: 300px;/*画面全体描画する横幅*/
 
-#root > div > div > div > div {
-  max-width: 600px !important;
+  --drop-shadow: 0px 0px 5px black;
 }
