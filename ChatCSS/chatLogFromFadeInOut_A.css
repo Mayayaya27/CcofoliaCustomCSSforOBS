@@ -31,6 +31,7 @@
 
   --item-top: 0;
   --item-bottom: 0;
+  --line-clamp: 20;/*行数*/
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
