@@ -11,15 +11,8 @@
   --background-color: rgba(22, 22, 22, 0.9);
   
   --all-margin-left: 5px;
-  --width: 900px;
-  /*縁無し*/
-  --title-stroke-width: 0px;
-  /*縁の色*/
-  --title-stroke-color: rgb(200, 200, 200);
   --title-display: none;
   
-  --item-top: 0;
-  --item-bottom: 0;
   --line-clamp: 20;/*行数*/
   --font-size: 1.6rem;
   --font-family: "游明朝";
