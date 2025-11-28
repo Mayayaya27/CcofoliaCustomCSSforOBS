@@ -1,0 +1,54 @@
+@import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/ChatCSS/chatLogFromFadeInOut_B.css");
+
+:root{
+  --display-all: none;
+
+  --set-position: unset;
+  --set-align-items: center;
+  --set-display: flex;
+  --set-justify-content: center;
+  
+  --background-color: rgba(22, 22, 22, 0.999);
+  
+  --all-margin-left: 5px;
+  --width: 900px;
+  /*縁無し*/
+  --title-stroke-width: 0px;
+  /*縁の色*/
+  --title-stroke-color: rgb(200, 200, 200);
+  --title-display: none;
+  
+  --item-top: 0;
+  --item-bottom: 0;
+  --line-clamp: 20;/*行数*/
+  --font-size: 1.6rem;
+  --font-family: "游明朝";
+  --contents-font-weight: bold;
+  --border-radius: 15px;
+
+  --icon-display: none;
+  --textbox-top-margin: 80px;
+  --textbox-bottom-margin: 80px;
+  --textbox-right-margin: 80px;
+  --textbox-left-margin: 80px;
+
+  --line-height: 1.6;
+}
+
+.MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
+  display: flex !important;
+}
+
+.MuiListItem-gutters {
+    animation:
+        fadeIn  0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
