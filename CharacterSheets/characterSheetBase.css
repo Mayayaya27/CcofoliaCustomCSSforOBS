@@ -1,188 +1,36 @@
-:root{
-  --top-margin: -30px;
-  --font-color: black;
-  --image-size: 300px;
-  --display-image: block;
-  --under-image-margin-bottom: -2rem;
-  --window-padding-left: 0px;/*max 600px*/
-  --window-padding-right: 0px;/*max 600px*/
-}
-
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 ::-webkit-scrollbar {display: none !important;}/*ScrollBar*/
+
+.utility_border5__G6kf6[style*="border: 1px solid rgb(39, 43, 48)"]{
+	border:none !important;
+}
+
+.Box_box__uZszk, .Container_desktop__L17PM > div + div > div,
+.Container_desktop__L17PM > div + div > div > div,
+.Container_desktop__L17PM[style*="padding: 0.5rem; background-color: rgb(58, 63, 68)"]{
+background-color: transparent !important;
+}
 
 html{
   background-color: transparent !important;
 }
 
-/*Header*/
-.header_header____5Dq{
-  background-color: transparent !important;
-  display: none !important;
-  height: 0px;
+.header_header__us6ao, .MuiBox-root css-0, .Box_box__uZszk + div,
+.Box_box__uZszk div[style*="display: grid"],
+.utility_border5__G6kf6[style*="border: 1px solid rgb(39, 43, 48)"] > :nth-child(1),
+.adsbygoogle{
+display: none !important;
 }
 
-/*BackGround*/
-.Box_box__rGwZa{
-  margin-top: var(--top-margin) !important;
-  background-color: rgba(0, 0, 0, 0) !important;
-  padding-left: var(--window-padding-left);
-  padding-right: var(--window-padding-right);
-}
-
-/*Container*/
-.utility_border5__nJBG5{
-  background-color: rgba(0, 0, 0, 0) !important;
-  border: transparent !important;
-  color: var(--font-color) !important;
-}
-
-.Container_desktop__v8oRx>div display{
-  justify-content: left !important;
-}
-
-/*閲覧モード*/
-.utility_border5__nJBG5>div:nth-child(1){
-  display: none !important;
-}
-
-/*Display Image*/
-.MuiBox-root.css-11vq85{
-  display: var(--display-image) !important;
-}
-
-/*Delete arrow if there is multiple images*/
-.MuiBox-root.css-1ikp9kq img{
-  display: none !important;
-}
-  
-.utility_border5__nJBG5>div:nth-child(2){
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
-.Container_desktop__v8oRx{
-  color: var(--font-color) !important;
-  /*border-bottom: 1px solid var(--font-color) !important;*/
-}
-
-/*Image Height*/
-.Container_desktop__v8oRx>div:nth-child(1)>:nth-child(1){
-  height: 280px !important;
-}
-
-/*Undisplay Profile*/
-.Container_desktop__v8oRx>div:nth-child(1)>:nth-child(2)>div{
-  display: none !important;
-}
-
-/*Display Profile*/
-.Container_desktop__v8oRx>div:nth-child(1)>:nth-child(2)>div:nth-child(-n+5){
-  display: list-item !important;
-  list-style-type: none; /* 全てのリストアイテムからマーカーを消す */
-  min-width: 20%;
-}
-
-/*Personal Data*/
-.Container_desktop__v8oRx>div:nth-child(1){
-  margin-bottom: var(--under-image-margin-bottom) !important;
-}
-
-/*Name Border Color*/
-div[style="border-bottom: 1px solid rgb(255, 255, 255); width: 90%; text-align: center; height: fit-content;"],div[class="MuiBox-root css-7ui6a3"]{
-  border-bottom: 1px solid var(--font-color) !important;
-}
-
-/*Name Color*/
-.Container_desktop__v8oRx>div>div:nth-child(1)>div>div, .Container_desktop__v8oRx>div>div:nth-child(2)>div>div{
-  color: var(--font-color) !important;
-}
-
-/*Status Border Color*/
-.Container_desktop__v8oRx>div:nth-child(2)>div{
-  border-bottom: 1px solid var(--font-color) !important;
-}
-
-/*Sanity Color*/
-.Container_desktop__v8oRx>div:nth-child(3)>div>div{
-  color: var(--font-color) !important;
-}
-
-/*Sanity Border Color*/
-.Container_desktop__v8oRx>div:nth-child(3)>div:not(:last-child),
-.MuiBox-root.css-0>div{
-  border: 1px solid var(--font-color) !important;
-}
-
-/*Basic Data*/
-.Container_desktop__v8oRx>div:nth-child(2){
-  margin: 1rem !important;
-}
-
-/*Skill Points Row*/
-.Container_desktop__v8oRx>div:nth-child(4){
+.Container_desktop__L17PM[style*="padding: 0.5rem; background-color: rgb(58, 63, 68)"] :nth-child(4){
   display: block !important;
 }
 
-/*Set Rows To Left*/
-.Container_desktop__v8oRx>div:nth-child(4)>div>div{
-    justify-content: left !important;
+.Container_desktop__L17PM[style*="padding: 0.5rem; background-color: rgb(58, 63, 68)"] :nth-child(4) > :nth-child(1)［style*="min-width: 200px;"]{
+  min-width: 500px !important;
 }
 
-/*Skill Points Name Title*/
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(1)>:nth-child(1),
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(2)>:nth-child(1),
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(3)>:nth-child(1),
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(4)>:nth-child(1),
-.Container_desktop__v8oRx>div:nth-child(4)>div>div>div:nth-child(5)>:nth-child(1){
-  display: none !important;
-}
-
-/*Skill Points*/
-.AbilityTable_tableLeftHeaderSkill__Lu9Zp,
-.AbilityTable_tableLeftHeaderSkill__Lu9Zp>div,
-.AbilityTable_abilityTableData__7S4lQ>div>div> input,
-.MuiBox-root.css-10klw3m>div>div,/*運転・制作など*/
-.MuiBox-root.css-10klw3m>div>div:nth-child(2) input,
-.AbilityTable_abilityTableData__7S4lQ{
-  border: 0px solid transparent !important;
-  background-color: rgba(39, 43, 48, 0) !important;
-}
-
-/*Skill Points Color*/
-.AbilityTable_abilityTableData__7S4lQ>div>div input,
-.MuiBox-root.css-10klw3m>div>div,
-.MuiBox-root.css-10klw3m>div>div input{
-  color: var(--font-color) !important;
-  -webkit-text-fill-color: var(--font-color) !important;
-}
-
-/*Footer Policy*/
-footer{
-  display: none !important;
-}
-
-/*Bottom Arrow*/
-.EditFooter_closeOpenButton__vmouP.EditFooter_mobileSquareButton__TQQK0{
-  display: none !important;
-}
-
-/*Bottom Menu*/
-.MuiBox-root.css-15y1c4f{
-  display: none !important;
-}
-
-/*Footer Policy*/
-footer{
-  display: none !important;
-}
-
-/*Bottom Arrow*/
-.EditFooter_closeOpenButton__vmouP.EditFooter_mobileSquareButton__TQQK0{
-  display: none !important;
-}
-
-/*Bottom Menu*/
-.MuiBox-root.css-15y1c4f{
-  display: none !important;
+.Container_desktop__L17PM[style*="padding: 0.5rem; background-color: rgb(58, 63, 68)"] :nth-child(4) > :nth-child(2){
+  display :none !important;
 }
