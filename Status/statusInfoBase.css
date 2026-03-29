@@ -227,8 +227,8 @@
   box-shadow: var(--drop-shadow);
   z-index: var(--initiative-z-index);
 
-  left: var(--initiative-left);
-  right: var(--initiative-right);
+  left: var(--initiative-left) !important;
+  right: var(--initiative-right) !important;
 }
 
 .MuiBadge-root > div {
