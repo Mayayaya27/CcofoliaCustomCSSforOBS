@@ -11,10 +11,12 @@
   --disp-icon: inline-block !important;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-120px, 81px);
+  --initiative-transform: translate(-30px, 76px);
   --initiative-radius: 25px;
   --initiative-border-radius: 18px;
   --initiative-font-size: 14px;
+  --initiative-left: 0 !important;
+  --initiative-right: auto !important;
   
   /**************************
    ステータス（全体）
