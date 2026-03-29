@@ -182,8 +182,8 @@ body {
  font-size: var(--initiative-font-size);
  line-height: var(--initiative-line-height);
  box-shadow: var(--drop-shadow);
- left: var(--initiative-left);
- right: var(--initiative-right);
+ left: var(--initiative-left) !important;
+ right: var(--initiative-right) !important;
 }
 
 #root > div > div > div > div > div {
