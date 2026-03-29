@@ -241,7 +241,7 @@
   padding-left: var(--status-between-padding-left);
 }
 
-.MuiBadge-root + div + div > div:nth-child(1) {
+.MuiBadge-root + div > div > div:nth-child(1) {
   display: var(--1stStatus-display);
 
   box-shadow: var(--drop-shadow);
