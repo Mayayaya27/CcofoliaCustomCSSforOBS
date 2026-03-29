@@ -34,8 +34,8 @@
  --initiative-transform: translate(40px, 0px);
  --initiative-border-radius: 15px;
  --initiative-line-height: 12px;
- --initiative-left: 0;
- --initiative-right: auto;
+ --initiative-left: inherit;
+ --initiative-right: inherit;
  
   /**************************
    ステータス（全体）
