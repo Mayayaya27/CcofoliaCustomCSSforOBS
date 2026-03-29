@@ -15,8 +15,8 @@
   --initiative-radius: 25px;
   --initiative-border-radius: 18px;
   --initiative-font-size: 14px;
-  --initiative-left: 0 !important;
-  --initiative-right: auto !important;
+  --initiative-left: 0;
+  --initiative-right: auto;
   
   /**************************
    ステータス（全体）
