@@ -34,6 +34,8 @@
  --initiative-transform: translate(40px, 0px);
  --initiative-border-radius: 15px;
  --initiative-line-height: 12px;
+ --initiative-left: 0;
+ --initiative-right: auto;
  
   /**************************
    ステータス（全体）
@@ -180,6 +182,8 @@ body {
  font-size: var(--initiative-font-size);
  line-height: var(--initiative-line-height);
  box-shadow: var(--drop-shadow);
+ left: var(--initiative-left);
+ right: var(--initiative-right);
 }
 
 #root > div > div > div > div > div {
