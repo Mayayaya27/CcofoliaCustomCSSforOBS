@@ -24,8 +24,10 @@
   /* Initiative */
  --initiative-size: 45px;
  --initiative-font-size: 35px;
- --initiative-transform: translate(85px, -48px);
+ --initiative-transform: translate(30px, -48px);
  --initiative-border-radius: 20px;
+ --initiative-left: 0;
+ --initiative-right: auto;
  
   /**************************
    ステータス（全体）
