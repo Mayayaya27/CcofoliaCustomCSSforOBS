@@ -4,6 +4,8 @@
   --icon-size: 60px;
 
   --initiative-transform: translate(12px, 42px);
+  --initiative-left: auto;
+  --initiative-right: 0px;
   --initiative-radius: 28px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 17px;
