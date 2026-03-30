@@ -24,7 +24,9 @@
   /* Initiative */
  --initiative-size: 35px;
  --initiative-font-size: 25px;
- --initiative-transform: translate(55px, -22px);
+ --initiative-transform: translate(25px, -28px);
+ --initiative-left: 0;
+ --initiative-right: auto;
  --initiative-border-radius: 20px;
  
   /**************************
