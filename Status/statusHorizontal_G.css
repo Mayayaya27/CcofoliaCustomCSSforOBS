@@ -12,7 +12,9 @@
   --disp-icon: inline-block !important;
 
   /*****Initiative*****/
-  --initiative-transform: translate(-110px, 107px);
+  --initiative-transform: translate(5px, 100px);
+  --initiative-left: 0px;
+  --initiative-right: auto;
   --initiative-radius: 33px;
   --initiative-border-radius: 23px;
   --initiative-font-size: 22px;
