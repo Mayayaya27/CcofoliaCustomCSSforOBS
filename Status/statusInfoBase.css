@@ -181,7 +181,7 @@
 　デザイン
 **************************/
 /** Transfor All, Select of Parent of Status */
-.kulSwB{
+.kxIUFo{
   position: var(--all-position);
   top: var(--all-top);
   left: var(--all-left);
@@ -194,7 +194,7 @@
   padding-right: (--parent-padding-right);
 }
 
-.kulSwB > div{
+.kxIUFo > div{
   flex-direction: var(--parent-c-flex-direction) !important;
   display: var(--placement-icon-status);
   margin-bottom: var(--space-between-bottom) !important;
@@ -205,7 +205,7 @@
 }
 
 /* Icon, Above of status bar */
-.kulSwB > div > div:nth-child(1) > div{
+.kxIUFo > div > div:nth-child(1) > div{
   position: var(--icon-position);
   display: var(--disp-icon) !important;
   top: var(--icon-position-x1) !important;
