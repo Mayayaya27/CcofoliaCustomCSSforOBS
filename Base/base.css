@@ -118,13 +118,13 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img + div {
 }
 
 /*ScreenPanel*/
-div[class="sc-kJNpLD fqWoVc"] >img, div[class="sc-kJNpLD gWLZVh"] > img{
+div[class="sc-fkmgoA hTXwKT"] >img, div[class="sc-fkmgoA bbrkaq"] > img{
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
 
 /*MarkerPanel*/
-div[class="sc-bA-DSAS jQqkQ"] > img, div[class="sc-bA-DSAS jztOGF"] > img {
+div[class="sc-irqcnZ iednIr"] > img, div[class="sc-irqcnZ kIPebW"] > img {
   display: var(--markerPanel-display);
 }
 
