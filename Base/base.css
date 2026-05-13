@@ -49,6 +49,10 @@ header>.MuiToolbar-gutters {display: none;}/*TopMenu*/
 div[tabindex="0"]>div+div+div:nth-child(3) {display: none}/*MusicSlider*/
 .MuiButtonBase-root.MuiFab-root {display: none;}/*PencilMark*/
 
+div[id="DndLiveRegion-1"]+div+div {
+display: none !important;
+}
+
 /*ChatWindow*/
 .MuiDrawer-root.MuiDrawer-docked {
   display: var(--chatWindow-display);
