@@ -63,6 +63,7 @@
   --font-family: Yu Gothic UI Semibold;
   --title-display: block;
   --title-font-size: 1.2rem;
+  --title-font-color: inherit;
   --title-stroke-width: 0px;
   --title-stroke-color: rgb(200, 200, 200);
   --font-color: rgb(255, 255, 255);
@@ -213,6 +214,10 @@ background: var(--panel-background);
 .MuiListItemText-root {
   overflow: var(--text-overflow) !important;
   z-index: var(--text-z-index) !important;
+}
+
+.MuiTypography-subtitle2{
+  color: var(--title-font-color) !important;
 }
 
 p.MuiTypography-root,
