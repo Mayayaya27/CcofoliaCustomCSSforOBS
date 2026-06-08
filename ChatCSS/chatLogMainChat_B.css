@@ -29,6 +29,10 @@
   --line-clamp: 29;/*行数*/
 }
 
+.MuiTypography-subtitle2{
+  color: var(--title-font-color) !important;
+}
+
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
   display: flex !important;
 }
