@@ -217,7 +217,7 @@ background: var(--panel-background);
 }
 
 .MuiTypography-subtitle2{
-  color: var(--title-font-color) !important;
+  color: var(--title-font-color);
 }
 
 p.MuiTypography-root,
