@@ -16,7 +16,7 @@
   --title-font-size: 1.5rem;
   --font-size: 1.45rem;
   --font-color: rgb(50, 50, 50);
-  --title-font-color: var(--font-color);
+  --title-font-color: grey;
 
   --textbox-top-margin: 30px;
   --textbox-bottom-margin: 30px;
