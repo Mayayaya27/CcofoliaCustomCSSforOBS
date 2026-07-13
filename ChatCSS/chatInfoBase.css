@@ -162,7 +162,7 @@ align-items: var(--align-img);
 }
 
 .MuiListItemAvatar-root .MuiAvatar-root {
-  background: transparent;
+  background: transparent !important;
   border-radius: var(--image-radius);
   width: var(--icon-size) !important;
   height: var(--icon-size) !important;
