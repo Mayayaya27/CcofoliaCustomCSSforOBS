@@ -156,7 +156,9 @@ align-items: var(--align-img);
 }
 
 .MuiListItemAvatar-root .MuiAvatar-root img {
-  width: var(--icon-size);
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
 }
 
 .MuiListItemAvatar-root .MuiAvatar-root {
@@ -164,6 +166,7 @@ align-items: var(--align-img);
   border-radius: var(--image-radius);
   width: var(--icon-size) !important;
   height: var(--icon-size) !important;
+  overflow: hidden;
 }
 
 .MuiPaper-root {
