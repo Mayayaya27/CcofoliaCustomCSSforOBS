@@ -121,7 +121,7 @@ div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img + div {
 }
 
 /*ScreenPanel*/
-div[class="sc-fkmgoA hTXwKT"] >img, div[class="sc-fkmgoA bbrkaq"] > img{
+div[class="sc-iuhWPH cpebUA"] >img, div[class="sc-iuhWPH gfjYxJ"] > img{
   display: var(--screenPanel-display) !important;
   position: absolute !important;
 }
