@@ -109,17 +109,31 @@
    --all-padding: 0px;
 }
 
-
 #root {
   position: static;
   height: 100% !important;
 }
 
-.MuiBadge-root {
- position: static;
+.MuiBadge-root,
+.MuiAvatar-root.MuiAvatar-circular,
+button.MuiButtonBase-root {
+  position: static !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.MuiAvatar-root, button{
- position: absolute !important;
- bottom: 0px;
+/* 立ち絵本体:幅基準でサイズ指定 */
+.MuiAvatar-root.MuiAvatar-square {
+  position: absolute !important;
+  bottom: 0;
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: var(--icon-max-width) !important;
+  height: auto !important;
+}
+
+.MuiAvatar-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
