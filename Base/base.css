@@ -127,7 +127,7 @@ div[class="sc-iuhWPH cpebUA"] >img, div[class="sc-iuhWPH gfjYxJ"] > img{
 }
 
 /*MarkerPanel*/
-div[class="sc-irqcnZ iednIr"] > img, div[class="sc-irqcnZ kIPebW"] > img {
+div[class="sc-ezjsFQ htBLHK"] > img, div[class="sc-ezjsFQ dcffhj"] > img {
   display: var(--markerPanel-display);
 }
 
@@ -147,7 +147,7 @@ figure[tabindex="-1"] >span{
 }
 
 /*Card*/
-div[class="sc-hmvjWG hwbjmY"] > img{
+div[class="sc-iiBnab jcIhOK"] > img{
   display: var(--card-display) !important;
 }
 
