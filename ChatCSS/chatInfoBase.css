@@ -137,12 +137,12 @@ hr {
    z-index: var(--icon-z-index) !important;
  }
 
-  .MuiListItemAvatar-root img{
-    position: var(--icon-img-position) !important;
-    top: var(--icon-img-top) !important;
+.MuiListItemAvatar-root img{
+   position: var(--icon-img-position) !important;
+   top: var(--icon-img-top) !important;
  }
 
-div[data-index="0"] > div {
+div[data-index] > div > div {
   margin: var(--icon-margin-all);
   margin-top: var(--icon-margin-top);
   margin-left: var(--icon-margin-left);
@@ -151,7 +151,7 @@ div[data-index="0"] > div {
 }
 
 /* Image Align */
-.cFdIfH {
+div[data-index] > div > div > div {
 align-items: var(--align-img);
 }
 
@@ -169,7 +169,7 @@ align-items: var(--align-img);
   overflow: hidden;
 }
 
-.MuiList-root > div > div > div > div > div > div {
+div[data-index] > div > div > div {
   background: transparent !important;
   width: 100% !important;
   height: 100% !important;
