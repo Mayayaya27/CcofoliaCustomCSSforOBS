@@ -32,6 +32,15 @@
   --item-top: 0;
   --item-bottom: 0;
   --line-clamp: 20;/*行数*/
+
+  --icon-z-index: 1;
+  --align-img: flex-end;
+    
+  --icon-position: absolute;
+  --icon-img-position: relative;
+  --icon-img-top: 0;
+
+  --text-z-index: 3;
 }
 
 .MuiList-root>div:nth-child(1)>div>div:nth-last-child(-n+1)>div {
