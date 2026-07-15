@@ -169,7 +169,7 @@ align-items: var(--align-img);
   overflow: hidden;
 }
 
-.MuiList-root > div > div > div > div > div {
+.MuiList-root > div > div > div > div > div > div {
   background: transparent !important;
   width: 100% !important;
   height: 100% !important;
