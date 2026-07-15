@@ -147,12 +147,11 @@ div[data-index] > div > div {
   margin-top: var(--icon-margin-top);
   margin-left: var(--icon-margin-left);
   min-width: var(--icon-min-width);
-  display: var(--icon-display);
 }
 
-/* Image Align */
 div[data-index] > div > div > div {
-align-items: var(--align-img);
+  align-items: var(--align-img);
+  display: var(--icon-display);
 }
 
 .MuiListItemAvatar-root .MuiAvatar-root img {
