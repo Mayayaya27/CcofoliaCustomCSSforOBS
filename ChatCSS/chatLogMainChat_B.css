@@ -26,8 +26,6 @@
   --item-top: 0;
   --item-bottom: 0;
 
-  --line-clamp: 29;/*行数*/
-
   --icon-z-index: 1;
   --align-img: flex-end;
     
@@ -36,11 +34,6 @@
   --icon-img-top: 0;
 
   --text-z-index: 3;
-
-  --display-all: none;
-
-  --item-top: auto;
-  --item-bottom: 110px;
 }
 
 .MuiTypography-subtitle2{
