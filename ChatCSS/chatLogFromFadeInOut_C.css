@@ -17,4 +17,13 @@
   --text-overflow: visible;/* using this for drop shadow */
 
   --line-height: 1.6;
+
+  --icon-z-index: 1;
+  --align-img: flex-end;
+    
+  --icon-position: absolute;
+  --icon-img-position: relative;
+  --icon-img-top: 0;
+
+  --text-z-index: 3;
 }
