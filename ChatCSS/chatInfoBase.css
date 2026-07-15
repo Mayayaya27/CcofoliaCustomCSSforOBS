@@ -142,7 +142,7 @@ hr {
     top: var(--icon-img-top) !important;
  }
 
-.MuiListItemAvatar-alignItemsFlexStart {
+div[data-index="0"] > div {
   margin: var(--icon-margin-all);
   margin-top: var(--icon-margin-top);
   margin-left: var(--icon-margin-left);
@@ -169,7 +169,7 @@ align-items: var(--align-img);
   overflow: hidden;
 }
 
-.cFdIfH{
+.MuiList-root > div > div > div > div > div {
   background: transparent !important;
   width: 100% !important;
   height: 100% !important;
