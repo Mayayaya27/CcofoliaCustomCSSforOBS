@@ -20,7 +20,7 @@
 
   --icon-display: flex-end;
   --icon-size: 102px !important; /** 画像の横幅 */
-  --icon-margin-top: 6px;
+  --icon-margin-top: 0px;
   --icon-margin-left: 390px;
   --icon-min-width: 0px;
 
