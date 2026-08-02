@@ -5,6 +5,7 @@
   --background-color: rgba(22, 22, 22, 0.3);
   --font-color-fail: #DF0025;
   --font-color-success: #0095DF;
+  --icon-margin-top: 0px;
 
 /*--font-color-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1), -1px 1px 3px rgba(255, 255, 255, 0.1), -1px -1px 3px rgba(255, 255, 255, 0.1), 1px -1px 3px rgba(255, 255, 255, 0.1);*/
   --font-family: Yu Gothic UI Semibold;
