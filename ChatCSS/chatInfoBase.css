@@ -208,7 +208,7 @@ background: var(--panel-background);
   margin-left: var(--textbox-left-margin);
 }
 
-.MuiList-root>div:nth-child(1)>div>div>div {
+.MuiList-root>div:nth-child(1)>div>div {
   display: var(--display-all);
   height: auto !important;
   min-height: auto !important;
