@@ -22,19 +22,23 @@
   --textbox-left-margin: 30px;
   
   --icon-opacity: 0.8;
-  --icon-display: flex-end;
+  --icon-display: flex;
   --icon-size: 102px !important; /** 画像の横幅 */
-  --icon-margin-top: 6px;
-  --icon-margin-left: 390px;
+  --icon-min-height: 102px !important; /** icon-sizeと同じ値に */
+  --icon-margin-top: 0px;
+  --icon-margin-left: inherit;
   --icon-min-width: 0px;
-
 
   --icon-z-index: 1;
   --align-img: flex-end;
-    
+
+  --icon-top: auto;
+  --icon-bottom: 0;
+  --icon-right: 0;
   --icon-position: absolute;
   --icon-img-position: relative;
   --icon-img-top: 0;
+  --item-position: relative;
 
   --text-z-index: 3;
 
