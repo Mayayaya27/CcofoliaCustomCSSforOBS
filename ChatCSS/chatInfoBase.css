@@ -55,7 +55,10 @@
   --icon-opacity: inherit;
   --icon-z-index: inherit;
   --align-img: inherit;
-    
+
+  --icon-top: inherit;
+  --icon-bottom inherit;
+  --icon-right inherit;
   --icon-position: inherit;
   --icon-img-position: inherit;
   --icon-img-top: inherit;
@@ -132,6 +135,9 @@ hr {
 }
 
  .MuiListItemAvatar-root {
+   top: var(--icon-top) !important;
+   bottom: var(--icon-bottom) !important;
+   right: var(--icon-right) !important;
    position: var(--icon-position) !important;
    opacity: var(--icon-opacity) !important;
    z-index: var(--icon-z-index) !important;
