@@ -217,9 +217,9 @@ background: var(--panel-background);
 .MuiList-root>div:nth-child(1)>div>div>div {
   display: var(--display-all);
   height: auto !important;
-  min-height: auto !important;
+  min-height: var(--icon-min-height, auto) !important;
   width: var(--width) !important;
-  position: static !important;
+  position: var(--item-position, static) !important;
   flex-shrink: 0;
   margin: var(--window-margin);
 }
