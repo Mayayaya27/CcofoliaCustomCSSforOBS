@@ -224,6 +224,10 @@ background: var(--panel-background);
   margin: var(--window-margin);
 }
 
+.MuiList-root>div:nth-child(1)>div>div>div:not(:has(.MuiAvatar-root img)) {
+  min-height: auto !important;
+}
+
 .MuiListItemText-root {
   overflow: var(--text-overflow) !important;
   z-index: var(--text-z-index) !important;
