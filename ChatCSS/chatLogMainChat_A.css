@@ -33,8 +33,11 @@
   --icon-opacity: 0.75;
   --icon-z-index: 1;
   --align-img: flex-end;
-    
-  --icon-position: absolute;
+
+  --icon-top: auto;
+  --icon-bottom 0;
+  --icon-right 0;
+  --icon-position: inherit;
   --icon-img-position: relative;
   --icon-img-top: 0;
 
