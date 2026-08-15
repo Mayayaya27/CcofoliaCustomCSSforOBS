@@ -27,7 +27,7 @@
   --icon-display: flex;
   --icon-size: 126px !important; /** 画像の横幅 */
   --icon-margin-top: 0px;
-  --icon-margin-left: 770px;
+  --icon-margin-left: inherit;
   --icon-min-width: 0px;
 
   --icon-opacity: 0.75;
@@ -37,7 +37,7 @@
   --icon-top: auto;
   --icon-bottom: 0;
   --icon-right: 0;
-  --icon-position: inherit;
+  --icon-position: absolute;
   --icon-img-position: relative;
   --icon-img-top: 0;
 
