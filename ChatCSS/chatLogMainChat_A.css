@@ -24,7 +24,7 @@
   --textbox-right-margin: 40px;
   --textbox-left-margin: 40px;
 
-  --icon-display: flex-end;
+  --icon-display: flex;
   --icon-size: 126px !important; /** 画像の横幅 */
   --icon-margin-top: 0px;
   --icon-margin-left: 770px;
