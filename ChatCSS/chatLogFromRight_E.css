@@ -18,19 +18,24 @@
   --textbox-right-margin: 30px;
   --textbox-left-margin: 30px;
 
-  --icon-display: flex-end;
+  --icon-opacity: 0.45;
+  --icon-display: flex;
   --icon-size: 102px !important; /** 画像の横幅 */
+  --icon-min-height: 102px !important; /** icon-sizeと同じ値に */
   --icon-margin-top: 0px;
-  --icon-margin-left: 390px;
+  --icon-margin-left: inherit;
   --icon-min-width: 0px;
 
-  --icon-opacity: 0.45;
   --icon-z-index: 1;
   --align-img: flex-end;
-    
+
+  --icon-top: auto;
+  --icon-bottom: 0;
+  --icon-right: 0;
   --icon-position: absolute;
   --icon-img-position: relative;
   --icon-img-top: 0;
+  --item-position: relative;
 
   --text-z-index: 3;
 
