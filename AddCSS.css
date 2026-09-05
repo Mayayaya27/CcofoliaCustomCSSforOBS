@@ -8,7 +8,7 @@
 /* marginの調整を行わないと反転前と反転後でmarginが変わってしまう */
 .MuiList-root > div:nth-child(1) > div > div > div {
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .MuiDrawer-paperAnchorDockedRight{
@@ -29,10 +29,13 @@
     font-family: 游明朝 !important;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-right: 30px !important;
 }
 
 .MuiListItemText-primary{
     font-size: 0.85rem;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
 }
 
 .MuiListItemButton-gutters{
