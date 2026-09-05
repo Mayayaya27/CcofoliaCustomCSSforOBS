@@ -11,6 +11,10 @@
   margin-bottom: 0px;
 }
 
+.MuiDrawer-paperAnchorDockedRight{
+    background: black;
+}
+
 .MuiPaper-elevation6{
     background: rgba(80, 80, 80) !important;
 }
