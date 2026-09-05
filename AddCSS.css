@@ -1,3 +1,4 @@
+/*# sourceMappingURL=main.0159923e.css.map*/
 /*ここからカスタムCSS*/
 
 .MuiDrawer-paperAnchorDockedRight{
@@ -15,6 +16,10 @@
 .MuiList-root > div > div > div{
     border: 1px solid;
     border-color: transparent transparent rgba(255,255,255,0.5) transparent !important;
+}
+
+.MuiListItemAvatar-alignItemsFlexStart {
+    margin-left: 50px !important;    
 }
 
 .MuiListItemText-secondary{
