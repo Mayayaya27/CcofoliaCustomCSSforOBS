@@ -1,3 +1,16 @@
-.css-10h2l1d{
-    font-size: 1.1rem !important;
+.MuiPaper-elevation6{
+    background: rgba(80, 80, 80) !important;
+}
+
+.MuiListItemText-secondary{
+    font-size: 1.15rem !important;
+}
+
+.MuiListItemText-primary{
+    font-size: 0.85rem;
+}
+
+.MuiListItemButton-gutters{
+    border: 1px solid;
+    border-color: transparent transparent rgba(255,255,255,0.5) transparent !important;
 }
