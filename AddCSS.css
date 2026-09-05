@@ -19,6 +19,11 @@
     background: rgba(80, 80, 80) !important;
 }
 
+.MuiList-root > div > div > div{
+    border: 1px solid;
+    border-color: transparent transparent rgba(255,255,255,0.5) transparent !important;
+}
+
 .MuiListItemText-secondary{
     font-size: 1.2rem !important;
     font-family: 游明朝 !important;
