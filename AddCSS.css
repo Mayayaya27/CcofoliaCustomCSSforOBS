@@ -1,9 +1,13 @@
+/*ここからカスタムCSS*/
+
 .MuiPaper-elevation6{
     background: rgba(80, 80, 80) !important;
 }
 
 .MuiListItemText-secondary{
     font-size: 1.2rem !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .MuiListItemText-primary{
@@ -14,3 +18,4 @@
     border: 1px solid;
     border-color: transparent transparent rgba(255,255,255,0.5) transparent !important;
 }
+
