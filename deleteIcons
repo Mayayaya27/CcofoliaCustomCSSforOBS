@@ -2,3 +2,9 @@
 div[data-field-object="xOAMByeGP0FualR1TJb3"] figure > img {
   display: none !important;
 }
+
+
+/*特定のスクパネ非表示*/
+div[aria-label^="燐寸"]>img{
+  display: none !important;
+}
