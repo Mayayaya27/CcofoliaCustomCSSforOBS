@@ -1,0 +1,4 @@
+/*特定のキャラ駒非表示*/
+div[data-field-object="xOAMByeGP0FualR1TJb3"] figure > img {
+  display: none !important;
+}
