@@ -24,7 +24,7 @@
   --card-name-display: none;
   
   --f-s-m-c-display: block;
-  --foreground-display: block;
+  --foreground-display: inherit;
   --foreground-grid-display: block;
   --foreground-object-fit: inherit;
   --screenPanel-display: inline-block;
