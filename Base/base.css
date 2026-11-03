@@ -26,6 +26,7 @@
   --f-s-m-c-display: block;
   --foreground-display: block;
   --foreground-grid-display: block;
+  --foreground-object-fit: inherit;
   --screenPanel-display: inline-block;
   --markerPanel-display: block;
   --charaIcon-display: block;
@@ -113,6 +114,7 @@ div[tabindex="0"]>div:nth-child(1) {
 /*only foreground*/
 div[tabindex="0"]>div:nth-child(1)>div>div>div>div>div>div>img {
   display: var(--foreground-display);
+  object-fit: var(--foreground-object-fit) !important;
 }
 
 /* foreground grid */
