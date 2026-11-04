@@ -40,7 +40,18 @@
 
   --display-all: flex;
 
-    /*Use Here for SetPositions*/
+  /*.MuiDrawer-paper > [role="log"] > div:last-child*/
+  --last-child-position: inheirt;
+  --last-child-flex: inheirt;
+
+  /*.MuiDrawer-paper > [role="log"] > div:last-child > div*/
+  --last-child-div-position: inheirt;
+  --last-child-div-transform: inheirt;
+  --last-child-div-height: inheirt;
+  --last-child-div-display: inheirt;
+  --last-child-div-flex-direction: inheirt;
+
+  /*Use Here for SetPositions*/
   --set-position: inherit;
   --set-align-items: inherit;
   --set-display: inherit;
@@ -214,6 +225,18 @@ background: var(--panel-background);
   margin-left: var(--textbox-left-margin);
 }
 
+.MuiDrawer-paper > [role="log"] > div:last-child {
+  position: var(--last-child-position) !important;
+  flex: var(--last-child-flex) !important;
+}
+.MuiDrawer-paper > [role="log"] > div:last-child > div {
+  position: var(--last-child-div-position) !important;
+  transform: var(--last-child-div-transform) !important;
+  height: var(--last-child-div-height) !important;
+  display: var(--last-child-div-display) !important;
+  flex-direction: var(--last-child-div-flex-direction) !important;
+}
+
 .MuiList-root>div:nth-child(1)>div>div>div {
   display: var(--display-all);
   height: auto !important;
@@ -295,3 +318,4 @@ border-style: var(--chat-border) !important;
   bottom: var(--item-bottom);
   top: var(--item-top) !important;
 }
+
