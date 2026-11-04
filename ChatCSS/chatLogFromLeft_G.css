@@ -1,0 +1,14 @@
+
+/*reverse*/
+:root{
+  /*.MuiDrawer-paper > [role="log"] > div:last-child*/
+  --last-child-position: relative;
+  --last-child-flex: none;
+
+  /*.MuiDrawer-paper > [role="log"] > div:last-child > div*/
+  --last-child-div-position: static;
+  --last-child-div-transform: none;
+  --last-child-div-height: auto;
+  --last-child-div-display: flex;
+  --last-child-div-flex-direction: column-reverse;
+}
