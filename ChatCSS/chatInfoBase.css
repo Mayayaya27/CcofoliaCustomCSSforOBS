@@ -230,6 +230,8 @@ background: var(--panel-background);
   flex: var(--last-child-flex) !important;
 }
 .MuiDrawer-paper > [role="log"] > div:last-child > div {
+  top: var(--item-top) !important;
+  bottom: var(--item-bottom);
   position: var(--last-child-div-position) !important;
   transform: var(--last-child-div-transform) !important;
   height: var(--last-child-div-height) !important;
@@ -312,10 +314,5 @@ border-style: var(--chat-border) !important;
 
 .MuiList-root>div:nth-child(1) {
   height: 100% !important;
-}
-
-.MuiList-root>div:nth-child(1)>div {
-  bottom: var(--item-bottom);
-  top: var(--item-top) !important;
 }
 
