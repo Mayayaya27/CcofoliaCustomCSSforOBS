@@ -54,7 +54,7 @@
   --last-child-flex: none;
 
   /*.MuiDrawer-paper > [role="log"] > div:last-child > div*/
-  --last-child-div-position: static;
+  --last-child-div-position: static !important;
   --last-child-div-transform: none;
   --last-child-div-height: auto;
   --last-child-div-display: flex;
