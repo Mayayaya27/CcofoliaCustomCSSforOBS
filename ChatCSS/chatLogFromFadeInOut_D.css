@@ -43,6 +43,8 @@
   --icon-img-top: 0;
 
   --text-z-index: 3;
+
+  --last-child-div-display: flex;
 }
 
 
