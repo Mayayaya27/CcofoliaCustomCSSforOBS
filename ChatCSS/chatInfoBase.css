@@ -25,7 +25,7 @@
   /*Window All*/
   --window-background-color: transparent;
   --window-margin: 5px 5px 5px 5px;
-  
+
 /*Chat*/
   --background-color: rgba(30, 30, 30, 1);
   --background-padding: 10px 10px 10px 10px;
@@ -40,6 +40,7 @@
 
   --display-all: flex;
 
+    /*Use Here for SetPositions*/
   /*.MuiDrawer-paper > [role="log"] > div:last-child*/
   --last-child-position: inheirt;
   --last-child-flex: inheirt;
@@ -56,7 +57,7 @@
   --set-align-items: inherit;
   --set-display: inherit;
   --set-justify-content: inherit;
-    
+
   --icon-display: block;
   --icon-size: 40px;
   --icon-margin-all: inherit;
@@ -229,10 +230,9 @@ background: var(--panel-background);
   position: var(--last-child-position) !important;
   flex: var(--last-child-flex) !important;
 }
+
 .MuiDrawer-paper > [role="log"] > div:last-child > div {
-  top: var(--item-top) !important;
-  bottom: var(--item-bottom);
-  position: var(--last-child-div-position) !important;
+  position: var(--last-child-div-position);
   transform: var(--last-child-div-transform) !important;
   height: var(--last-child-div-height) !important;
   display: var(--last-child-div-display) !important;
@@ -316,3 +316,7 @@ border-style: var(--chat-border) !important;
   height: 100% !important;
 }
 
+.MuiList-root>div:nth-child(1)>div {
+  bottom: var(--item-bottom);
+  top: var(--item-top) !important;
+}
