@@ -227,7 +227,7 @@ background: var(--panel-background);
 }
 
 .MuiDrawer-paper > [role="log"] > div:last-child {
-  position: var(--last-child-position) !important;
+  position: var(--last-child-position);
   flex: var(--last-child-flex) !important;
 }
 
