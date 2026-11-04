@@ -40,3 +40,15 @@
     border: 1px solid;
     border-color: transparent transparent rgba(255,255,255,0.5) transparent !important;
 }
+
+.MuiDrawer-paper > [role="log"] > div:last-child {
+  position: relative !important;
+  flex: none !important;
+}
+.MuiDrawer-paper > [role="log"] > div:last-child > div {
+  position: static !important;
+  transform: none !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
