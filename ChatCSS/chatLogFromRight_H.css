@@ -50,7 +50,7 @@
 
   /*reverse*/
   /*.MuiDrawer-paper > [role="log"] > div:last-child*/
-  --last-child-position: relative;
+  --last-child-position: relative !important;
   --last-child-flex: none;
 
   /*.MuiDrawer-paper > [role="log"] > div:last-child > div*/
