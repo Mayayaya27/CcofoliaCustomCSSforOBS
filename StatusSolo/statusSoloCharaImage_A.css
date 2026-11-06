@@ -1,9 +1,5 @@
 @import url("https://mayayaya27.github.io/CcofoliaCustomCSSforOBS/StatusSolo/statusSoloBase.css");
 
-/**************************
- 設定変更箇所
-**************************/
-
 :root {
   /**************************
    アイコン
@@ -57,7 +53,6 @@
   --left-space-status4: 0px;
   --left-space-status5: 0px;
   --left-space-status6: 0px;
-  /** ステータスの横幅＋位置調整の最大値以上に設定してください */
   --max-width: 450px;
 
   /**************************
@@ -66,7 +61,6 @@
   --height-total: 25px; /** 高さ */
   --top-total: 0px; /** 位置 */
   --color-total: rgb(255, 255, 255); /** 色 */
-  --image-total: url(https://gazounoURL); /** ステータス背景を画像にしたい場合 */
   --opacity-total: 0.6; /** 不透明度 */
   --degree-total: 0deg; /** 角の角度 */
   --radius-total: 3px; /** 角の丸み */
@@ -125,15 +119,8 @@ button.MuiButtonBase-root {
 /* 立ち絵本体:幅基準でサイズ指定 */
 .MuiAvatar-root.MuiAvatar-square {
   position: absolute !important;
-  bottom: 0;
   left: 50% !important;
   transform: translateX(-50%);
   width: var(--icon-max-width) !important;
   height: auto !important;
-}
-
-.MuiAvatar-img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
 }
