@@ -9,7 +9,12 @@ div:not([data-field-object="xOAMByeGP0FualR1TJb3"]) > div > div > figure > img {
 }
 
 
-/*特定のスクパネ非表示*/
+/*ラベルで特定のスクパネ非表示*/
 div[aria-label^="燐寸"]>img{
+  display: none !important;
+}
+
+/*IDで特定のスクパネ非表示*/
+div[data-field-object="lOEtkAjBPuhNZ0GtDyfC"]{
   display: none !important;
 }
